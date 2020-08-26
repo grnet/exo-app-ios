@@ -116,6 +116,27 @@ extension HTTPClient {
 				)
 		}
 
+
+		/// Generate the URL to get the day package with given parameters
+		/// - Parameters:
+		///   - day: The day format should confirms to: yyyy-MM-dd
+		///   - country: The country code
+		/// - Returns: The full URL point to the key package
+		func diagnosisKeysURL(day: String, forCountry country: String) -> URL {
+			endpoints
+					.distribution
+					.appending(
+					"version",
+					apiVersion,
+					"diagnosis-keys",
+					"country",
+					country,
+					"date",
+					day
+			)
+		    
+		}
+
 		var configurationURL: URL {
 			endpoints
 				.distribution
