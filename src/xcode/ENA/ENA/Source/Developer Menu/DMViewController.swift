@@ -132,7 +132,7 @@ final class DMViewController: UITableViewController, RequiresAppDependencies {
 			vc = nil
 			manuallyRequestRisk()
 		case .testEU:
-			vc = DMEUFunctionViewController(client: client, exposureDetector: exposureManager)
+			vc = DMEUFunctionViewController(client: client, exposureManager: exposureManager)
 		}
 		
 		if let vc = vc {

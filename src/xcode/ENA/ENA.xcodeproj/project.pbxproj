@@ -322,7 +322,6 @@
 		B1A89F3B24819CE800DA1CEC /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD87C5C247559E3007CE6CA /* LabelTableViewCell.swift */; };
 		B1AC51D624CED8820087C35B /* DetectionModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AC51D524CED8820087C35B /* DetectionModeTests.swift */; };
 		B1B381432472EF8B0056BEEE /* HTTPClient+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12995E8246C344100854AD0 /* HTTPClient+Configuration.swift */; };
-		B1B5A76024924B3D0029D5D7 /* FMDB in Frameworks */ = {isa = PBXBuildFile; productRef = B1B5A75F24924B3D0029D5D7 /* FMDB */; };
 		B1B9CF1F246ED2E8008F04F5 /* Sap_FilebucketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B9CF1E246ED2E8008F04F5 /* Sap_FilebucketTests.swift */; };
 		B1BD9E7E24898A2300BD3930 /* ExposureDetectionViewController+DynamicTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714CD8662472885900F56450 /* ExposureDetectionViewController+DynamicTableViewModel.swift */; };
 		B1BFE27224BDE1D500C1181D /* HomeViewController+HowRiskDetectionWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BFE27124BDE1D500C1181D /* HomeViewController+HowRiskDetectionWorks.swift */; };
@@ -348,8 +347,6 @@
 		B1E8C99D2479D4E7006DC678 /* DMSubmissionStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E8C99C2479D4E7006DC678 /* DMSubmissionStateViewController.swift */; };
 		B1EAEC8B24711884003BE9A2 /* URLSession+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EAEC8A24711884003BE9A2 /* URLSession+Convenience.swift */; };
 		B1EAEC8F247118D1003BE9A2 /* URLSession+ConvenienceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EAEC8D247118CB003BE9A2 /* URLSession+ConvenienceTests.swift */; };
-		B1EDFD88248E741B00E7EAFF /* SwiftProtobuf in Frameworks */ = {isa = PBXBuildFile; productRef = B10FB02F246036F3004CA11E /* SwiftProtobuf */; };
-		B1EDFD89248E741B00E7EAFF /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = B1E8C9A4247AB869006DC678 /* ZIPFoundation */; };
 		B1EDFD8D248E74D000E7EAFF /* URL+StaticString.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EDFD8C248E74D000E7EAFF /* URL+StaticString.swift */; };
 		B1F82DF224718C7300E2E56A /* DMBackendConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F82DF124718C7300E2E56A /* DMBackendConfigurationViewController.swift */; };
 		B1F8AE482479B4C30093A588 /* api-response-day-2020-05-16 in Resources */ = {isa = PBXBuildFile; fileRef = B1F8AE472479B4C30093A588 /* api-response-day-2020-05-16 */; };
@@ -402,6 +399,7 @@
 		F2DC809224898B1800EDC40A /* DynamicTableViewControllerHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DC809124898B1800EDC40A /* DynamicTableViewControllerHeaderTests.swift */; };
 		F2DC809424898CE600EDC40A /* DynamicTableViewControllerFooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DC809324898CE600EDC40A /* DynamicTableViewControllerFooterTests.swift */; };
 		FEDCE09E9F78ABEB4AA9A484 /* ExposureDetectionExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDCE0116603B6E00FAEE632 /* ExposureDetectionExecutor.swift */; };
+		FEDCE0EDB1DD111C1ED9A34A /* DMEUTestPerformanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDCEF126C5831B0F9779349 /* DMEUTestPerformanceViewController.swift */; };
 		FEDCE29E414945F14E7CE576 /* ENStateHandler+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDCE1B8926528ED74CDE1B2 /* ENStateHandler+State.swift */; };
 		FEDCE50B4AC5E24D4E11AA52 /* RequiresAppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDCE1600374711EC77FF572 /* RequiresAppDependencies.swift */; };
 		FEDCE6E2763B0BABFADF36BA /* ExposureDetectionViewController+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDCE4BE82DC5BFE90575663 /* ExposureDetectionViewController+State.swift */; };
@@ -877,6 +875,7 @@
 		FEDCE4BE82DC5BFE90575663 /* ExposureDetectionViewController+State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExposureDetectionViewController+State.swift"; sourceTree = "<group>"; };
 		FEDCE838D90CB02C55E15237 /* SceneDelegate+State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SceneDelegate+State.swift"; sourceTree = "<group>"; };
 		FEDCEC452596E54A041BBCE9 /* HomeInteractor+State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeInteractor+State.swift"; sourceTree = "<group>"; };
+		FEDCEF126C5831B0F9779349 /* DMEUTestPerformanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DMEUTestPerformanceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -885,10 +884,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				015E8C0824C997D200C0A4B3 /* CWASQLite.framework in Frameworks */,
-				B1B5A76024924B3D0029D5D7 /* FMDB in Frameworks */,
 				858F6F6E245A103C009FFD33 /* ExposureNotification.framework in Frameworks */,
-				B1EDFD88248E741B00E7EAFF /* SwiftProtobuf in Frameworks */,
-				B1EDFD89248E741B00E7EAFF /* ZIPFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1942,6 +1938,7 @@
 				B1F82DF124718C7300E2E56A /* DMBackendConfigurationViewController.swift */,
 				B16457B624DC160B002879EB /* DMLastRiskCalculationViewController.swift */,
 				85196F6F24EBD402008346D1 /* DMEUFunctionViewController.swift */,
+				FEDCEF126C5831B0F9779349 /* DMEUTestPerformanceViewController.swift */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -2308,9 +2305,9 @@
 			);
 			name = ENA;
 			packageProductDependencies = (
-				B10FB02F246036F3004CA11E /* SwiftProtobuf */,
-				B1E8C9A4247AB869006DC678 /* ZIPFoundation */,
-				B1B5A75F24924B3D0029D5D7 /* FMDB */,
+				B10FB02F246036F3004CA11E,
+				B1E8C9A4247AB869006DC678,
+				B1B5A75F24924B3D0029D5D7,
 			);
 			productName = ENA;
 			productReference = 85D7593B2457048F008175F0 /* ENA.app */;
@@ -2413,9 +2410,9 @@
 			);
 			mainGroup = 85D759322457048F008175F0;
 			packageReferences = (
-				B10FB02E246036F3004CA11E /* XCRemoteSwiftPackageReference "swift-protobuf" */,
-				B1E8C9A3247AB869006DC678 /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
-				B1B5A75E24924B3D0029D5D7 /* XCRemoteSwiftPackageReference "fmdb" */,
+				B10FB02E246036F3004CA11E,
+				B1E8C9A3247AB869006DC678,
+				B1B5A75E24924B3D0029D5D7,
 			);
 			productRefGroup = 85D7593C2457048F008175F0 /* Products */;
 			projectDirPath = "";
@@ -2780,6 +2777,7 @@
 				FEDCECC1B2111AB537AEF7E5 /* HomeInteractor+State.swift in Sources */,
 				B1221BE02492ECE800E6C4E4 /* CFDictionary+KeychainQuery.swift in Sources */,
 				FEDCE77AED78E9C25999BB35 /* SceneDelegate+State.swift in Sources */,
+				FEDCE0EDB1DD111C1ED9A34A /* DMEUTestPerformanceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4036,7 +4034,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B10FB02E246036F3004CA11E /* XCRemoteSwiftPackageReference "swift-protobuf" */ = {
+		B10FB02E246036F3004CA11E = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/apple/swift-protobuf.git";
 			requirement = {
@@ -4044,7 +4042,7 @@
 				version = 1.9.0;
 			};
 		};
-		B1B5A75E24924B3D0029D5D7 /* XCRemoteSwiftPackageReference "fmdb" */ = {
+		B1B5A75E24924B3D0029D5D7 = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ccgus/fmdb.git";
 			requirement = {
@@ -4052,7 +4050,7 @@
 				version = 2.7.7;
 			};
 		};
-		B1E8C9A3247AB869006DC678 /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+		B1E8C9A3247AB869006DC678 = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/weichsel/ZIPFoundation.git";
 			requirement = {
@@ -4063,19 +4061,19 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B10FB02F246036F3004CA11E /* SwiftProtobuf */ = {
+		B10FB02F246036F3004CA11E = {
 			isa = XCSwiftPackageProductDependency;
-			package = B10FB02E246036F3004CA11E /* XCRemoteSwiftPackageReference "swift-protobuf" */;
+			package = B10FB02E246036F3004CA11E;
 			productName = SwiftProtobuf;
 		};
-		B1B5A75F24924B3D0029D5D7 /* FMDB */ = {
+		B1B5A75F24924B3D0029D5D7 = {
 			isa = XCSwiftPackageProductDependency;
-			package = B1B5A75E24924B3D0029D5D7 /* XCRemoteSwiftPackageReference "fmdb" */;
+			package = B1B5A75E24924B3D0029D5D7;
 			productName = FMDB;
 		};
-		B1E8C9A4247AB869006DC678 /* ZIPFoundation */ = {
+		B1E8C9A4247AB869006DC678 = {
 			isa = XCSwiftPackageProductDependency;
-			package = B1E8C9A3247AB869006DC678 /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			package = B1E8C9A3247AB869006DC678;
 			productName = ZIPFoundation;
 		};
 /* End XCSwiftPackageProductDependency section */
