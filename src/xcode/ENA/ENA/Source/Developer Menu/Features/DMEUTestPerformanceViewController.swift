@@ -22,19 +22,22 @@ import ExposureNotification
 #if !RELEASE
 class DMEUTestPerformanceViewController: UIViewController {
 
+	private let availableCountries = [
+		"DE", "UK", "FR", "IT", "SP", "PL",
+		"RO", "NL", "BE", "CZ", "EL", "SE",
+		"PT", "HU", "AT", "CH", "BG", "DK",
+		"FI", "SK", "NO", "IE", "HR", "SI",
+		"LT", "LV", "EE", "CY", "LU", "MT", "IS"
+	]
+//	private let availableCountries = [
+//		"DE"
+//	]
+
 	let textView = UITextView()
 	let benchmark = Benchmark()
 	let client: Client
 	let exposureDetector: ExposureDetector
 	let downloadedPackagesStore = DownloadedPackagesSQLLiteStore(fileName: "EU_Test")
-
-	override func viewDidLoad() {
-		super.viewDidLoad()
-		view.backgroundColor = .white
-		createViews()
-		// Do any additional setup after loading the view.
-	}
-
 
 	init(
 			client: Client,
@@ -50,6 +53,12 @@ class DMEUTestPerformanceViewController: UIViewController {
 		fatalError("init(coder:) has not been implemented")
 	}
 
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		view.backgroundColor = .white
+		createViews()
+		// Do any additional setup after loading the view.
+	}
 }
 
 // MARK: Buttons Logic
@@ -57,23 +66,26 @@ extension DMEUTestPerformanceViewController {
 
 	@objc
 	private func resetDidTap(_ sender: UIButton) {
-		let client = HTTPClient(configuration: .backendBaseURLs)
+
+		let okAction = UIAlertAction(title: "YES", style: .destructive) { _ in
+			self.downloadedPackagesStore.reset()
+		}
+
+		let cancelAction = UIAlertAction(title: "NO", style: .cancel, handler: nil)
+		let alertView = UIAlertController(title: "OK", message: "Clear Cache?", preferredStyle: .alert)
+		alertView.addAction(okAction)
+		alertView.addAction(cancelAction)
+		self.present(alertView, animated: true, completion: nil)
 	}
+
 
 	@objc
 	private func downloadBtnDidTap(_ sender: UIButton) {
 		logMessage("Start to download the days.")
-
 		benchmark.start()
-		client.availableDays {[weak self] result in
-			switch result {
-			case let .success(days):
-				self?.downloadKeys(for: days)
-			case .failure:
-				self?.logMessage("Fail to download the text.")
-			}
-		}
+		availableCountries.forEach(downloadKeysForCountry)
 	}
+
 
 	@objc
 	private func calcRiskBtnDidTap(_ sender: UIButton) {
@@ -107,9 +119,21 @@ extension DMEUTestPerformanceViewController {
 		}
 	}
 
-	private func downloadKeys(for days: [String]) {
-		let daysToDownload = days.joined(separator: "\n")
-		logMessage("There are \(days.count) Keys. Days to download: \(daysToDownload)")
+
+	private func downloadKeysForCountry(_ country: String) {
+		logMessage("Downloading keys for country code: \(country)")
+		client.availableDays(forCountry: country) {[weak self] result in
+			switch result {
+			case let .success(days):
+				self?.logMessage("There are \(days.count) Keys. Days to download: \(days.joined(separator: "\n"))")
+				self?.downloadKeysForDays(days)
+			case .failure:
+				self?.logMessage("Fail to download the text.")
+			}
+		}
+	}
+
+	private func downloadKeysForDays(_ days: [String]) {
 		logMessage("Start to download key packages... ")
 		client.fetchDays(days) { daysResult in
 			self.logMessage("✅ Finish download the result. It takes \(self.benchmark.end()) seconds")
