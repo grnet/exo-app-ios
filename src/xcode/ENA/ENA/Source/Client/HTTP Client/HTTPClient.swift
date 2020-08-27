@@ -361,7 +361,7 @@ final class HTTPClient: Client {
 				}
 				log(message: "got hour: \(hourData.count)")
 				guard let package = SAPDownloadedPackage(compressedData: hourData) else {
-					logError(message: "Failed to create signed package.")
+					logError(message: "Failed to create signed package. For URL: \(url)")
 					completeWith(.failure(.invalidResponse))
 					return
 				}
@@ -390,7 +390,7 @@ extension HTTPClient {
 					return
 				}
 				guard let package = SAPDownloadedPackage(compressedData: dayData) else {
-					logError(message: "Failed to create signed package.")
+					logError(message: "Failed to create signed package. For URL: \(url)")
 					completeWith(.failure(.invalidResponse))
 					return
 				}

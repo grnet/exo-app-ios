@@ -176,6 +176,7 @@ struct FetchedDaysAndHours {
 extension Client {
 	typealias FetchHoursCompletionHandler = (HoursResult) -> Void
 
+
 	func fetchDays(
 		_ days: [String],
 		completion completeWith: @escaping (DaysResult) -> Void
@@ -188,6 +189,40 @@ extension Client {
 		for day in days {
 			group.enter()
 			fetchDay(day) { result in
+				switch result {
+				case let .success(bucket):
+					buckets[day] = bucket
+				case let .failure(error):
+					errors.append(error)
+				}
+				group.leave()
+			}
+		}
+
+		group.notify(queue: .main) {
+			completeWith(
+				DaysResult(
+					errors: errors,
+					bucketsByDay: buckets
+				)
+			)
+		}
+	}
+
+	/// Fetch the keys with the given days and country code
+	func fetchDays(
+		_ days: [String],
+		forCountry country: String,
+		completion completeWith: @escaping (DaysResult) -> Void
+	) {
+		var errors = [Client.Failure]()
+		var buckets = [String: SAPDownloadedPackage]()
+
+		let group = DispatchGroup()
+		for day in days {
+			group.enter()
+
+			fetchDay(day, forCountry: country) { result in
 				switch result {
 				case let .success(bucket):
 					buckets[day] = bucket
