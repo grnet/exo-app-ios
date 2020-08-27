@@ -127,34 +127,15 @@ final class HTTPClient: Client {
 		completion completeWith: @escaping AvailableDaysCompletionHandler
 	) {
 		let url = configuration.availableDaysURL
+		availableDays(from: url, completion: completeWith)
+	}
 
-		session.GET(url) { result in
-			switch result {
-			case let .success(response):
-				guard let data = response.body else {
-					completeWith(.failure(.invalidResponse))
-					return
-				}
-				guard response.hasAcceptableStatusCode else {
-					completeWith(.failure(.invalidResponse))
-					return
-				}
-				do {
-					let decoder = JSONDecoder()
-					let days = try decoder
-						.decode(
-							[String].self,
-							from: data
-						)
-					completeWith(.success(days))
-				} catch {
-					completeWith(.failure(.invalidResponse))
-					return
-				}
-			case let .failure(error):
-				completeWith(.failure(error))
-			}
-		}
+	func availableDays(
+			forCountry country: String,
+			completion completeWith: @escaping AvailableDaysCompletionHandler
+	) {
+		let url = configuration.availableDaysURL(forCountry: country)
+		availableDays(from: url, completion: completeWith)
 	}
 
 	func availableHours(
@@ -352,26 +333,17 @@ final class HTTPClient: Client {
 		completion completeWith: @escaping DayCompletionHandler
 	) {
 		let url = configuration.diagnosisKeysURL(day: day)
+		fetchDay(from: url, completion: completeWith)
 
-		session.GET(url) { result in
-			switch result {
-			case let .success(response):
-				guard let dayData = response.body else {
-					completeWith(.failure(.invalidResponse))
-					logError(message: "Failed to download day '\(day)': invalid response")
-					return
-				}
-				guard let package = SAPDownloadedPackage(compressedData: dayData) else {
-					logError(message: "Failed to create signed package.")
-					completeWith(.failure(.invalidResponse))
-					return
-				}
-				completeWith(.success(package))
-			case let .failure(error):
-				completeWith(.failure(error))
-				logError(message: "Failed to download day '\(day)' due to error: \(error).")
-			}
-		}
+	}
+
+	func fetchDay(
+			_ day: String,
+			forCountry country: String,
+			completion completeWith: @escaping DayCompletionHandler
+	) {
+		let url = configuration.diagnosisKeysURL(day: day, forCountry: country)
+		fetchDay(from: url, completion: completeWith)
 	}
 
 	func fetchHour(
@@ -397,6 +369,68 @@ final class HTTPClient: Client {
 			case let .failure(error):
 				completeWith(.failure(error))
 				logError(message: "failed to get day: \(error)")
+			}
+		}
+	}
+}
+
+// MARK: Extensions for private methods
+
+extension HTTPClient {
+	private func fetchDay(
+			from url: URL,
+			completion completeWith: @escaping DayCompletionHandler) {
+
+		session.GET(url) { result in
+			switch result {
+			case let .success(response):
+				guard let dayData = response.body else {
+					completeWith(.failure(.invalidResponse))
+					logError(message: "Failed to download for URL '\(url)': invalid response")
+					return
+				}
+				guard let package = SAPDownloadedPackage(compressedData: dayData) else {
+					logError(message: "Failed to create signed package.")
+					completeWith(.failure(.invalidResponse))
+					return
+				}
+				completeWith(.success(package))
+			case let .failure(error):
+				completeWith(.failure(error))
+				logError(message: "Failed to download for URL '\(url)' due to error: \(error).")
+			}
+		}
+	}
+
+	private func availableDays(
+			from url: URL,
+			completion completeWith: @escaping AvailableDaysCompletionHandler
+	) {
+		session.GET(url) { result in
+			switch result {
+			case let .success(response):
+				guard let data = response.body else {
+					completeWith(.failure(.invalidResponse))
+					return
+				}
+				guard response.hasAcceptableStatusCode else {
+					completeWith(.failure(.invalidResponse))
+					return
+				}
+				do {
+					let decoder = JSONDecoder()
+					let days = try decoder
+							.decode(
+							[String].self,
+							from: data
+					)
+					completeWith(.success(days))
+				} catch {
+					completeWith(.failure(.invalidResponse))
+					return
+				}
+			case let .failure(error):
+				completeWith(.failure(error))
 			}
 		}
 	}
