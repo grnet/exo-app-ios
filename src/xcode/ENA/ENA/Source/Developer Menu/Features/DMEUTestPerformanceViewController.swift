@@ -30,14 +30,14 @@ class DMEUTestPerformanceViewController: UIViewController {
 		"LT", "LV", "EE", "CY", "LU", "MT", "IS"
 	]
 //	private let availableCountries = [
-//		"DE"
+//		"UK"
 //	]
 
 	let textView = UITextView()
-	let benchmark = Benchmark()
 	let client: Client
 	let exposureDetector: ExposureDetector
 	let downloadedPackagesStore = DownloadedPackagesSQLLiteStore(fileName: "EU_Test")
+	let downloadQueue = DispatchQueue(label: "app.cwa.performance.test.download")
 
 	init(
 			client: Client,
@@ -82,8 +82,19 @@ extension DMEUTestPerformanceViewController {
 	@objc
 	private func downloadBtnDidTap(_ sender: UIButton) {
 		logMessage("Start to download the days.")
+		let benchmark = Benchmark()
 		benchmark.start()
-		availableCountries.forEach(downloadKeysForCountry)
+		let group = DispatchGroup()
+		for country in availableCountries {
+			group.enter()
+			downloadKeysForCountry(country) {
+				group.leave()
+			}
+		}
+
+		group.notify(queue: .main) {
+			self.logMessage("Download is finished. It takes \(benchmark.end()) second to download.")
+		}
 	}
 
 
@@ -105,7 +116,6 @@ extension DMEUTestPerformanceViewController {
 				return
 			}
 
-
 			_ = self.exposureDetector.detectExposures(
 					configuration: exposureConfig,
 					diagnosisKeyURLs: urls
@@ -120,28 +130,43 @@ extension DMEUTestPerformanceViewController {
 	}
 
 
-	private func downloadKeysForCountry(_ country: String) {
-		logMessage("Downloading keys for country code: \(country)")
-		client.availableDays(forCountry: country) {[weak self] result in
-			switch result {
-			case let .success(days):
-				self?.logMessage("There are \(days.count) Keys. Days to download: \(days.joined(separator: "\n"))")
-				self?.downloadKeysForDays(days)
-			case .failure:
-				self?.logMessage("Fail to download the text.")
+	/// Download the keys with given country
+private func downloadKeysForCountry(
+		_ country: String,
+		completion completeWith: @escaping () -> Void
+	) {
+
+		downloadQueue.async { [weak self] in
+			self?.logMessage("Downloading keys for country code: \(country)")
+			self?.client.availableDays(forCountry: country) {[weak self] result in
+				switch result {
+				case let .success(days):
+					self?.logMessage("There are \(days.count) days for \(country). Days to download: \n \(days.joined(separator: "\n"))")
+					self?.downloadKeysForDays(days, forCountry: country) { daysAndHours in
+						self?.downloadedPackagesStore.addFetchedDaysAndHours(daysAndHours)
+						self?.logMessage("✅ Persisting is done for \(country)")
+						self?.performCompletionOnMain(completeWith)
+					}
+				case .failure:
+					self?.logMessage("Fail to download the text.")
+					self?.performCompletionOnMain(completeWith)
+				}
 			}
 		}
 	}
 
-	private func downloadKeysForDays(_ days: [String]) {
-		logMessage("Start to download key packages... ")
-		client.fetchDays(days) { daysResult in
-			self.logMessage("✅ Finish download the result. It takes \(self.benchmark.end()) seconds")
+
+	/// Download the keys with given countries and days.
+	/// It is called by the downloadKeysForCountry, so the code also runs on downloadQueue.
+	private func downloadKeysForDays(
+			_ days: [String],
+			forCountry country: String,
+			completion completeWith: @escaping (FetchedDaysAndHours) -> Void) {
+		logMessage("Start to download key packages for \(country)... ")
+		client.fetchDays(days, forCountry: country) { daysResult in
 			let hoursResult = HoursResult(errors: [], bucketsByHour: [:], day: "")
 			let daysAndHours = FetchedDaysAndHours(hours: hoursResult, days: daysResult)
-			self.logMessage("Persisting the packages")
-			self.downloadedPackagesStore.addFetchedDaysAndHours(daysAndHours)
-			self.logMessage("✅ Persisting is done!")
+			completeWith(daysAndHours)
 		}
 	}
 }
@@ -149,13 +174,13 @@ extension DMEUTestPerformanceViewController {
 // MARK: Helper methods
 extension DMEUTestPerformanceViewController {
 	private func logMessage(_ message: String, isError: Bool = false) {
-		DispatchQueue.main.async {
+		//DispatchQueue.main.async {
 			if isError {
 				self.textView.text.append("❌")
 			}
 			self.textView.text.append(message)
 			self.textView.text.append("\n")
-		}
+		//}
 	}
 
 
@@ -171,6 +196,10 @@ extension DMEUTestPerformanceViewController {
 			logMessage("Fail to create WrittenPackages", isError: true)
 			return nil
 		}
+	}
+
+	private func performCompletionOnMain(_ completeWith: () -> Void) {
+		completeWith()
 	}
 }
 
@@ -225,7 +254,7 @@ class Benchmark {
 		startTime = Date().timeIntervalSince1970
 	}
 	func end() -> TimeInterval {
-		Date().timeIntervalSince1970 - startTime
+		(Date().timeIntervalSince1970 - startTime).rounded(to: 2)
 	}
 }
 #endif
