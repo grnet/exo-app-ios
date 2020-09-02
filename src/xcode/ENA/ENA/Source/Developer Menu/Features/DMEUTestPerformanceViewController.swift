@@ -164,9 +164,21 @@ extension DMEUTestPerformanceViewController {
 		let rootDir = fileManager.temporaryDirectory.appendingPathComponent(UUID().uuidString, isDirectory: true)
 		do {
 			try fileManager.createDirectory(at: rootDir, withIntermediateDirectories: true, attributes: nil)
-			let packages = downloadedPackagesStore.allPackages(for: .formattedToday(), onlyHours: false)
-			let writer = AppleFilesWriter(rootDir: rootDir, keyPackages: packages)
-			return writer.writeAllPackages()
+			
+//			let packages = downloadedPackagesStore.allPackages(onlyHours: false)
+//			let writer = AppleFilesWriter(rootDir: rootDir, keyPackages: packages)
+//			return writer.writeAllPackages()
+
+			var writtenPackageURLs = [URL]()
+			for day in downloadedPackagesStore.allDays() {
+				autoreleasepool {
+				let writer = AppleFilesWriter(rootDir: rootDir, keyPackages: [])
+				var keyPackage = downloadedPackagesStore.package(for: day)
+				writtenPackageURLs.append(contentsOf: writer.writePackage(keyPackage!)!)
+				keyPackage = nil
+				}
+			}
+			return WrittenPackages(urls: writtenPackageURLs)
 		} catch {
 			logMessage("Fail to create WrittenPackages", isError: true)
 			return nil

@@ -61,6 +61,23 @@ final class AppleFilesWriter {
 		}
 		return writtenPackages
 	}
+
+	func writePackage(_ keyPackage: SAPDownloadedPackage) -> [URL]? {
+		var keyURL: URL?
+		var signatureURL: URL?
+
+		do {
+			let filename = UUID().uuidString
+			keyURL = try keyPackage.writeKeysEntry(toDirectory: rootDir, filename: filename)
+			signatureURL = try keyPackage.writeSignatureEntry(toDirectory: rootDir, filename: filename)
+		} catch {
+			let fileManager = FileManager()
+			try? fileManager.removeItem(at: keyURL!)
+			try? fileManager.removeItem(at: signatureURL!)
+			return nil
+		}
+		return [keyURL!, signatureURL!]
+	}
 }
 
 private extension SAPDownloadedPackage {
