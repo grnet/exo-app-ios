@@ -174,13 +174,13 @@ private func downloadKeysForCountry(
 // MARK: Helper methods
 extension DMEUTestPerformanceViewController {
 	private func logMessage(_ message: String, isError: Bool = false) {
-		//DispatchQueue.main.async {
+		DispatchQueue.main.async {
 			if isError {
 				self.textView.text.append("❌")
 			}
 			self.textView.text.append(message)
 			self.textView.text.append("\n")
-		//}
+		}
 	}
 
 
