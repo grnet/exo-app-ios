@@ -174,6 +174,16 @@ final class ExposureDetectionExecutor: ExposureDetectionDelegate {
 		client.supportedCountries(completion: completion)
 	}
 
+	func exposureDetection(
+		deleteKeyPackagesFor country: Country.ID
+	) {
+		do {
+			try downloadedPackagesStore.deletePackages(for: country)
+		} catch {
+			logError(message: "Could not delete packages for country \(country) with error \(error).")
+		}
+	}
+
 	#else
 
 	func exposureDetection(

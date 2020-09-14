@@ -63,6 +63,10 @@ protocol ExposureDetectionDelegate: AnyObject {
 
 	func exposureDetection(supportedCountries completion: @escaping (SupportedCountriesResult) -> Void)
 
+	func exposureDetection(
+		deleteKeyPackagesFor country: Country.ID
+	)
+
 	#else
 
 	func exposureDetection(

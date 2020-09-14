@@ -28,19 +28,16 @@ final class ExposureDetection {
 	#if INTEROP
 
 	private let store: Store
-	private let downloadedPackagesStore: DownloadedPackagesStore
 	private let countryKeypackageDownloader: CountryKeypackageDownloaderProtocol
 
 	// MARK: Creating a Transaction
 	init(
 		delegate: ExposureDetectionDelegate,
 		store: Store,
-		downloadedPackagesStore: DownloadedPackagesStore,
 		countryKeypackageDownloader: CountryKeypackageDownloaderProtocol? = nil
 	) {
 		self.delegate = delegate
 		self.store = store
-		self.downloadedPackagesStore = downloadedPackagesStore
 
 		if let countryKeypackageDownloader = countryKeypackageDownloader {
 			self.countryKeypackageDownloader = countryKeypackageDownloader
@@ -97,11 +94,7 @@ final class ExposureDetection {
 		let notEnabledCountryIDs = supportedCountryIDs.subtracting(enabledCountryIDs)
 
 		for notEnabledCountryID in notEnabledCountryIDs {
-			do {
-				try downloadedPackagesStore.deletePackages(for: notEnabledCountryID)
-			} catch {
-				logError(message: "Key package for Country.ID could not be deleted: \(notEnabledCountryID)")
-			}
+			delegate?.exposureDetection(deleteKeyPackagesFor: notEnabledCountryID)
 		}
 	}
 

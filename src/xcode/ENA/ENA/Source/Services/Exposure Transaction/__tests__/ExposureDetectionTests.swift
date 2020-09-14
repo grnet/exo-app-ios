@@ -458,6 +458,10 @@ extension ExposureDetectionDelegateMock: ExposureDetectionDelegate {
 		completion(supportedCountries())
 	}
 
+	func exposureDetection(
+		deleteKeyPackagesFor country: Country.ID
+	) { }
+
 	#else
 
 	func exposureDetection(_ detection: ExposureDetection, determineAvailableData completion: @escaping (DaysAndHours?) -> Void) {
