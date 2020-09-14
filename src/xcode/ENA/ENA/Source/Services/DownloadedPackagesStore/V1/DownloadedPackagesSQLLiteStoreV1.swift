@@ -226,6 +226,22 @@ extension DownloadedPackagesSQLLiteStoreV1: DownloadedPackagesStoreV1 {
 		}
 	}
 
+	func deletePackages(for country: Country.ID) throws {
+		let success: Bool = queue.sync {
+			let sql = """
+			DELETE
+				FROM
+					Z_DOWNLOADED_PACKAGE
+				WHERE
+					Z_COUNTRY == :country;
+			"""
+			return self.database.executeUpdate(sql, withParameterDictionary: ["country": country])
+		}
+		guard success else {
+			throw StoreError(self.database.lastErrorMessage())
+		}
+	}
+
 	func package(for day: String, country: Country.ID) -> SAPDownloadedPackage? {
 		queue.sync {
 			let sql = """

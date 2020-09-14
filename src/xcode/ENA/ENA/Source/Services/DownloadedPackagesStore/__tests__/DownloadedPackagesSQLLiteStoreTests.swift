@@ -186,6 +186,41 @@ final class DownloadedPackagesSQLLiteStoreTests: XCTestCase {
 		XCTAssertEqual(store.allDays(country: "IT").count, 2)
 	}
 
+	func test_When_DeletingCountryPackages_Then_NoCountryPackageExists() {
+		store.open()
+
+		let keysBin = Data("keys".utf8)
+		let signature = Data("sig".utf8)
+
+		let package = SAPDownloadedPackage(
+			keysBin: keysBin,
+			signature: signature
+		)
+
+		// Add key packages.
+		store.set(country: "DE", day: "2020-06-01", package: package)
+		store.set(country: "DE", day: "2020-06-02", package: package)
+		store.set(country: "DE", day: "2020-06-03", package: package)
+		store.set(country: "IT", day: "2020-06-03", package: package)
+		store.set(country: "DE", day: "2020-06-04", package: package)
+		store.set(country: "DE", day: "2020-06-05", package: package)
+		store.set(country: "DE", day: "2020-06-06", package: package)
+		store.set(country: "IT", day: "2020-06-06", package: package)
+		store.set(country: "DE", day: "2020-06-07", package: package)
+
+		// Check if the packages where stored.
+		XCTAssertEqual(store.allDays(country: "DE").count, 7)
+
+		// Delete country packages.
+		XCTAssertNoThrow(try store.deletePackages(for: "DE"))
+
+		// Check if country packages where deleted.
+		XCTAssertTrue(store.allDays(country: "DE").isEmpty)
+
+		// Check if other country packages where not deleted
+		XCTAssertEqual(store.allDays(country: "IT").count, 2)
+	}
+
 	#else
 	private var store: DownloadedPackagesSQLLiteStoreV0 = .inMemory()
 
