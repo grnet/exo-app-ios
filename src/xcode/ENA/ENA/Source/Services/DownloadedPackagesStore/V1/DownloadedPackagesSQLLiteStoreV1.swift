@@ -210,6 +210,26 @@ extension DownloadedPackagesSQLLiteStoreV1: DownloadedPackagesStoreV1 {
 		}
 	}
 
+	func getCountries() -> [Country.ID] {
+		queue.sync {
+			let sql = """
+					SELECT
+						Z_COUNTRY
+					FROM
+						Z_DOWNLOADED_PACKAGE
+					;
+				"""
+
+			guard let result = self.database.execute(query: sql) else {
+				return []
+			}
+			defer { result.close() }
+			return result
+				.map { $0.string(forColumn: "Z_COUNTRY") }
+				.compactMap { $0 }
+		}
+	}
+
 	func deleteOutdatedDays(now: String) throws {
 		let success: Bool = queue.sync {
 			let sql = """

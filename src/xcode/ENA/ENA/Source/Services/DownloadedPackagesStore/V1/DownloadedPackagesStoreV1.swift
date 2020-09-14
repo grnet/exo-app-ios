@@ -30,4 +30,5 @@ protocol DownloadedPackagesStoreV1: AnyObject {
 	func reset()
 	func deleteOutdatedDays(now: String) throws
 	func deletePackages(for country: Country.ID) throws
+	func getCountries() -> [Country.ID]
 }

@@ -28,16 +28,19 @@ final class ExposureDetection {
 	#if INTEROP
 
 	private let store: Store
-	private var countryKeypackageDownloader: CountryKeypackageDownloaderProtocol
+	private let downloadedPackagesStore: DownloadedPackagesStore
+	private let countryKeypackageDownloader: CountryKeypackageDownloaderProtocol
 
 	// MARK: Creating a Transaction
 	init(
 		delegate: ExposureDetectionDelegate,
 		store: Store,
+		downloadedPackagesStore: DownloadedPackagesStore,
 		countryKeypackageDownloader: CountryKeypackageDownloaderProtocol? = nil
 	) {
 		self.delegate = delegate
 		self.store = store
+		self.downloadedPackagesStore = downloadedPackagesStore
 
 		if let countryKeypackageDownloader = countryKeypackageDownloader {
 			self.countryKeypackageDownloader = countryKeypackageDownloader
@@ -74,19 +77,32 @@ final class ExposureDetection {
 		})
 	}
 
-	private func getCountriesToDetect(store: Store, supportedCountries: [Country]) -> [Country.ID] {
-		let supportedCountryIDs = supportedCountries.map { $0.id }
+	private func getCountriesToDetect(store: Store, supportedCountries: [Country.ID]) -> [Country.ID] {
 		let isAllCountriesEnbled = self.store.euTracingSettings?.isAllCountriesEnbled ?? false
 		var countryIDs = [Country.ID]()
 
 		if isAllCountriesEnbled {
-			countryIDs = supportedCountryIDs
+			countryIDs = supportedCountries
 		} else {
 			countryIDs = store.euTracingSettings?.enabledCountries ?? []
 		}
 
 		countryIDs.append(Country.defaultCountry().id)
 		return countryIDs
+	}
+
+	private func cleanupNotEnabledCountries(detectionCountries: [Country.ID], supportedCountries: [Country.ID]) {
+		let enabledCountryIDs = Set(detectionCountries)
+		let supportedCountryIDs = Set(supportedCountries)
+		let notEnabledCountryIDs = supportedCountryIDs.subtracting(enabledCountryIDs)
+
+		for notEnabledCountryID in notEnabledCountryIDs {
+			do {
+				try downloadedPackagesStore.deletePackages(for: notEnabledCountryID)
+			} catch {
+				logError(message: "Key package for Country.ID could not be deleted: \(notEnabledCountryID)")
+			}
+		}
 	}
 
 	private func downloadKeyPackages(for countries: [Country.ID], completion: @escaping () -> Void) {
@@ -214,12 +230,15 @@ final class ExposureDetection {
 		self.getSupportedCountries { [weak self] supportedCountries in
 			guard let self = self else { return }
 
-			let countryIDs = self.getCountriesToDetect(store: self.store, supportedCountries: supportedCountries)
+			let supportedCountryIDs = supportedCountries.map { $0.id }
 
-			self.downloadKeyPackages(for: countryIDs) { [weak self] in
+			let detectionCountryIDs = self.getCountriesToDetect(store: self.store, supportedCountries: supportedCountryIDs)
+			self.cleanupNotEnabledCountries(detectionCountries: detectionCountryIDs, supportedCountries: supportedCountryIDs)
+
+			self.downloadKeyPackages(for: detectionCountryIDs) { [weak self] in
 				guard let self = self else { return }
 
-				guard let writtenPackages = self.writeKeyPackagesToFileSystem(for: countryIDs) else {
+				guard let writtenPackages = self.writeKeyPackagesToFileSystem(for: detectionCountryIDs) else {
 					self.endPrematurely(reason: .unableToWriteDiagnosisKeys)
 					return
 				}
