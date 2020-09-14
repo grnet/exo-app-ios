@@ -74,18 +74,28 @@ final class ExposureDetection {
 		})
 	}
 
+
 	private func getCountriesToDetect(store: Store, supportedCountries: [Country.ID]) -> [Country.ID] {
-		let isAllCountriesEnbled = self.store.euTracingSettings?.isAllCountriesEnbled ?? false
-		var countryIDs = [Country.ID]()
-
-		if isAllCountriesEnbled {
-			countryIDs = supportedCountries
-		} else {
-			countryIDs = store.euTracingSettings?.enabledCountries ?? []
-		}
-
+		
+		// Due to a stakeholder decision, we dont use the user selected countries.
+		// Instead just download all supported countries.
+		// The other logic is left here, because at the time writing this, it was unclear wether the decision will be reverted or not.
+		var countryIDs = supportedCountries.map { $0.id }
 		countryIDs.append(Country.defaultCountry().id)
 		return countryIDs
+
+//		let supportedCountryIDs = supportedCountries.map { $0.id }
+//		let isAllCountriesEnbled = self.store.euTracingSettings?.isAllCountriesEnbled ?? false
+//		var countryIDs = [Country.ID]()
+//
+//		if isAllCountriesEnbled {
+//			countryIDs = supportedCountryIDs
+//		} else {
+//			countryIDs = store.euTracingSettings?.enabledCountries ?? []
+//		}
+//
+//		countryIDs.append(Country.defaultCountry().id)
+//		return countryIDs
 	}
 
 	private func cleanupNotEnabledCountries(detectionCountries: [Country.ID], supportedCountries: [Country.ID]) {
@@ -99,7 +109,6 @@ final class ExposureDetection {
 	}
 
 	private func downloadKeyPackages(for countries: [Country.ID], completion: @escaping () -> Void) {
-
 		let dispatchGroup = DispatchGroup()
 		var errors = [ExposureDetection.DidEndPrematurelyReason]()
 
@@ -140,7 +149,7 @@ final class ExposureDetection {
 	}
 
 	private func detectSummary(writtenPackages: WrittenPackages) {
-		delegate?.exposureDetection(country: "DE", downloadConfiguration: { [weak self] configuration, _ in
+		delegate?.exposureDetection(downloadConfiguration: { [weak self] configuration in
 			guard let self = self else { return }
 
 			guard let configuration = configuration else {
