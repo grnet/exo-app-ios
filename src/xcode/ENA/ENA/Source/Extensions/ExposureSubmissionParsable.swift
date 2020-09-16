@@ -107,6 +107,8 @@ extension URLSession.Response.Failure: ExposureSubmissionErrorTransformable {
 			return .serverError(code)
 		case .fakeResponse:
 			return .fakeResponse
+		case .generalError(let response):
+			return .httpError(response.debugDescription)
 		}
 	}
 }

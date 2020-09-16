@@ -64,16 +64,19 @@ extension URLSession {
 			}
 			guard
 				let data = data,
-				let response = response as? HTTPURLResponse
+				let httpResponse = response as? HTTPURLResponse
 			else {
 				completion(.failure(.noResponse))
 				return
 			}
-			completion(
-				.success(
-					.init(body: data, statusCode: response.statusCode)
-				)
-			)
+
+			switch httpResponse.statusCode {
+			case 200..<300:
+				completion(.success(.init(body: data, statusCode: httpResponse.statusCode)))
+			default:
+				// No more distinguishing here for now!
+				completion(.failure(.generalError(httpResponse)))
+			}
 		}
 		.resume()
 	}
@@ -100,6 +103,8 @@ extension URLSession {
 extension URLSession.Response {
 	/// Raised when `URLSession` was unable to get an actual response.
 	enum Failure: Error {
+		/// General error for invalid responses.
+		case generalError(HTTPURLResponse)
 		/// The session received an `Error`. In that case the body and response is discarded.
 		case httpError(Error)
 		/// The session did not receive an error but nor either an `HTTPURLResponse`/HTTP body.
