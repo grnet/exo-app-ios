@@ -244,6 +244,7 @@
 		85D7596424570491008175F0 /* ENAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D7596324570491008175F0 /* ENAUITests.swift */; };
 		85E33444247EB357006E74EC /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E33443247EB357006E74EC /* CircularProgressView.swift */; };
 		9412FAFE252349EA0086E139 /* DeltaOnboardingViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9412FAF92523499D0086E139 /* DeltaOnboardingViewControllerTests.swift */; };
+		9417BA95252B6B5100AD4053 /* DMNoDiskSpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9417BA94252B6B5100AD4053 /* DMNoDiskSpaceViewController.swift */; };
 		941ADDB02518C2B200E421D9 /* EuTracingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941ADDAF2518C2B200E421D9 /* EuTracingTableViewCell.swift */; };
 		941ADDB22518C3FB00E421D9 /* ENSettingEuTracingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941ADDB12518C3FB00E421D9 /* ENSettingEuTracingViewModel.swift */; };
 		941F5ED02518E82800785F06 /* ENSettingEuTracingViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941F5ECB2518E82100785F06 /* ENSettingEuTracingViewModelTests.swift */; };
@@ -309,11 +310,11 @@
 		A3EE6E5C249BB97500C64B61 /* UITestingParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EE6E5B249BB97500C64B61 /* UITestingParameters.swift */; };
 		A3EE6E5D249BB9B900C64B61 /* UITestingParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EE6E5B249BB97500C64B61 /* UITestingParameters.swift */; };
 		A3FF84EC247BFAF00053E947 /* Hasher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FF84EB247BFAF00053E947 /* Hasher.swift */; };
-		AB1FCBD42521FC47005930BA /* ServerEnvironmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1FCBCC2521FC44005930BA /* ServerEnvironmentTests.swift */; };
-		AB1FCBDC2521FCD5005930BA /* TestServerEnvironments.json in Resources */ = {isa = PBXBuildFile; fileRef = AB1FCBDB2521FCD5005930BA /* TestServerEnvironments.json */; };
 		AB1011592507C15000D392A2 /* TracingStatusHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1011572507C15000D392A2 /* TracingStatusHistory.swift */; };
 		AB10115B250926BB00D392A2 /* CountryKeypackageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB10115A250926BB00D392A2 /* CountryKeypackageDownloader.swift */; };
 		AB1885D825238DD100D39BBE /* OnboardingInfoViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1885D025238DAA00D39BBE /* OnboardingInfoViewControllerTests.swift */; };
+		AB1FCBD42521FC47005930BA /* ServerEnvironmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1FCBCC2521FC44005930BA /* ServerEnvironmentTests.swift */; };
+		AB1FCBDC2521FCD5005930BA /* TestServerEnvironments.json in Resources */ = {isa = PBXBuildFile; fileRef = AB1FCBDB2521FCD5005930BA /* TestServerEnvironments.json */; };
 		AB5F84AD24F8F7A1000400D4 /* SerialMigrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5F84AC24F8F7A1000400D4 /* SerialMigrator.swift */; };
 		AB5F84B024F8F7C3000400D4 /* Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5F84AF24F8F7C3000400D4 /* Migration.swift */; };
 		AB5F84B224F8F7E3000400D4 /* Migration0To1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5F84B124F8F7E3000400D4 /* Migration0To1.swift */; };
@@ -325,12 +326,12 @@
 		AB6289CF251BA01400CF61D2 /* Bundle+Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6289CE251BA01400CF61D2 /* Bundle+Version.swift */; };
 		AB6289D4251BA4EC00CF61D2 /* String+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6289D3251BA4EC00CF61D2 /* String+Compare.swift */; };
 		AB6289D9251C833100CF61D2 /* DMDeltaOnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6289D8251C833100CF61D2 /* DMDeltaOnboardingViewController.swift */; };
+		AB628A1F251CDADE00CF61D2 /* ServerEnvironments.json in Resources */ = {isa = PBXBuildFile; fileRef = AB628A1E251CDADE00CF61D2 /* ServerEnvironments.json */; };
 		AB7420AC251B67A8006666AC /* DeltaOnboardingV15.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7420AB251B67A8006666AC /* DeltaOnboardingV15.swift */; };
 		AB7420B7251B69E2006666AC /* DeltaOnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7420B6251B69E2006666AC /* DeltaOnboardingCoordinator.swift */; };
 		AB7420C2251B7D59006666AC /* DeltaOnboardingProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7420C1251B7D59006666AC /* DeltaOnboardingProtocols.swift */; };
 		AB7420CB251B7D93006666AC /* DeltaOnboardingV15ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7420CA251B7D93006666AC /* DeltaOnboardingV15ViewController.swift */; };
 		AB7420DD251B8101006666AC /* DeltaOnboardingCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7420DC251B8101006666AC /* DeltaOnboardingCoordinatorTests.swift */; };
-		AB628A1F251CDADE00CF61D2 /* ServerEnvironments.json in Resources */ = {isa = PBXBuildFile; fileRef = AB628A1E251CDADE00CF61D2 /* ServerEnvironments.json */; };
 		ABDA2792251CE308006BAE84 /* DMServerEnvironmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA2791251CE308006BAE84 /* DMServerEnvironmentViewController.swift */; };
 		B103193224E18A0A00DD02EF /* DMMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B103193124E18A0A00DD02EF /* DMMenuItem.swift */; };
 		B10EC1F824ED1F8700ED0E48 /* CancellationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10EC1F724ED1F8700ED0E48 /* CancellationToken.swift */; };
@@ -784,6 +785,7 @@
 		85D7596524570491008175F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85E33443247EB357006E74EC /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 		9412FAF92523499D0086E139 /* DeltaOnboardingViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaOnboardingViewControllerTests.swift; sourceTree = "<group>"; };
+		9417BA94252B6B5100AD4053 /* DMNoDiskSpaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMNoDiskSpaceViewController.swift; sourceTree = "<group>"; };
 		941ADDAF2518C2B200E421D9 /* EuTracingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuTracingTableViewCell.swift; sourceTree = "<group>"; };
 		941ADDB12518C3FB00E421D9 /* ENSettingEuTracingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENSettingEuTracingViewModel.swift; sourceTree = "<group>"; };
 		941F5ECB2518E82100785F06 /* ENSettingEuTracingViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENSettingEuTracingViewModelTests.swift; sourceTree = "<group>"; };
@@ -849,11 +851,11 @@
 		A3EE6E59249BB7AF00C64B61 /* ExposureSubmissionServiceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExposureSubmissionServiceFactory.swift; sourceTree = "<group>"; };
 		A3EE6E5B249BB97500C64B61 /* UITestingParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingParameters.swift; sourceTree = "<group>"; };
 		A3FF84EB247BFAF00053E947 /* Hasher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hasher.swift; sourceTree = "<group>"; };
+		AB1011572507C15000D392A2 /* TracingStatusHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TracingStatusHistory.swift; sourceTree = "<group>"; };
+		AB10115A250926BB00D392A2 /* CountryKeypackageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryKeypackageDownloader.swift; sourceTree = "<group>"; };
 		AB1885D025238DAA00D39BBE /* OnboardingInfoViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingInfoViewControllerTests.swift; sourceTree = "<group>"; };
 		AB1FCBCC2521FC44005930BA /* ServerEnvironmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerEnvironmentTests.swift; sourceTree = "<group>"; };
 		AB1FCBDB2521FCD5005930BA /* TestServerEnvironments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestServerEnvironments.json; sourceTree = "<group>"; };
-		AB1011572507C15000D392A2 /* TracingStatusHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TracingStatusHistory.swift; sourceTree = "<group>"; };
-		AB10115A250926BB00D392A2 /* CountryKeypackageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryKeypackageDownloader.swift; sourceTree = "<group>"; };
 		AB5F84AC24F8F7A1000400D4 /* SerialMigrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialMigrator.swift; sourceTree = "<group>"; };
 		AB5F84AF24F8F7C3000400D4 /* Migration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Migration.swift; sourceTree = "<group>"; };
 		AB5F84B124F8F7E3000400D4 /* Migration0To1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Migration0To1.swift; sourceTree = "<group>"; };
@@ -865,12 +867,12 @@
 		AB6289CE251BA01400CF61D2 /* Bundle+Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Version.swift"; sourceTree = "<group>"; };
 		AB6289D3251BA4EC00CF61D2 /* String+Compare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Compare.swift"; sourceTree = "<group>"; };
 		AB6289D8251C833100CF61D2 /* DMDeltaOnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMDeltaOnboardingViewController.swift; sourceTree = "<group>"; };
+		AB628A1E251CDADE00CF61D2 /* ServerEnvironments.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ServerEnvironments.json; sourceTree = "<group>"; };
 		AB7420AB251B67A8006666AC /* DeltaOnboardingV15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaOnboardingV15.swift; sourceTree = "<group>"; };
 		AB7420B6251B69E2006666AC /* DeltaOnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaOnboardingCoordinator.swift; sourceTree = "<group>"; };
 		AB7420C1251B7D59006666AC /* DeltaOnboardingProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaOnboardingProtocols.swift; sourceTree = "<group>"; };
 		AB7420CA251B7D93006666AC /* DeltaOnboardingV15ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaOnboardingV15ViewController.swift; sourceTree = "<group>"; };
 		AB7420DC251B8101006666AC /* DeltaOnboardingCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaOnboardingCoordinatorTests.swift; sourceTree = "<group>"; };
-		AB628A1E251CDADE00CF61D2 /* ServerEnvironments.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ServerEnvironments.json; sourceTree = "<group>"; };
 		ABDA2791251CE308006BAE84 /* DMServerEnvironmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMServerEnvironmentViewController.swift; sourceTree = "<group>"; };
 		B102BDC22460410600CD55A2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B103193124E18A0A00DD02EF /* DMMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMMenuItem.swift; sourceTree = "<group>"; };
@@ -1982,6 +1984,14 @@
 			path = __tests__;
 			sourceTree = "<group>";
 		};
+		AB1011552507C14F00D392A2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB1011572507C15000D392A2 /* TracingStatusHistory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		AB1885CF25238D9B00D39BBE /* __tests__ */ = {
 			isa = PBXGroup;
 			children = (
@@ -2006,14 +2016,6 @@
 				AB1FCBCC2521FC44005930BA /* ServerEnvironmentTests.swift */,
 			);
 			path = __tests__;
-			sourceTree = "<group>";
-		};
-		AB1011552507C14F00D392A2 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				AB1011572507C15000D392A2 /* TracingStatusHistory.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		AB5F84A924F8F6C7000400D4 /* Migration */ = {
@@ -2068,6 +2070,14 @@
 			path = V1;
 			sourceTree = "<group>";
 		};
+		AB628A1D251CDAA700CF61D2 /* ServerEnvironment */ = {
+			isa = PBXGroup;
+			children = (
+				AB628A1E251CDADE00CF61D2 /* ServerEnvironments.json */,
+			);
+			path = ServerEnvironment;
+			sourceTree = "<group>";
+		};
 		AB7420AA251B678E006666AC /* DeltaOnboarding */ = {
 			isa = PBXGroup;
 			children = (
@@ -2097,14 +2107,6 @@
 				9412FAF92523499D0086E139 /* DeltaOnboardingViewControllerTests.swift */,
 			);
 			path = __tests__;
-			sourceTree = "<group>";
-		};
-		AB628A1D251CDAA700CF61D2 /* ServerEnvironment */ = {
-			isa = PBXGroup;
-			children = (
-				AB628A1E251CDADE00CF61D2 /* ServerEnvironments.json */,
-			);
-			path = ServerEnvironment;
 			sourceTree = "<group>";
 		};
 		B102BDC12460405F00CD55A2 /* Backend */ = {
@@ -2360,6 +2362,7 @@
 				B16457B624DC160B002879EB /* DMLastRiskCalculationViewController.swift */,
 				AB6289D8251C833100CF61D2 /* DMDeltaOnboardingViewController.swift */,
 				ABDA2791251CE308006BAE84 /* DMServerEnvironmentViewController.swift */,
+				9417BA94252B6B5100AD4053 /* DMNoDiskSpaceViewController.swift */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -3137,6 +3140,7 @@
 				51CE1B4C246016D1002CF42A /* UICollectionReusableView+Identifier.swift in Sources */,
 				01B7232D24F8E0260064C0EB /* MultipleChoiceChoiceView.swift in Sources */,
 				710224EA248FA67F000C5DEF /* HomeTestResultCollectionViewCell.swift in Sources */,
+				9417BA95252B6B5100AD4053 /* DMNoDiskSpaceViewController.swift in Sources */,
 				013DC102245DAC4E00EE58B0 /* Store.swift in Sources */,
 				B1FE13EF24891D0C00D012E5 /* RiskProvidingConfiguration.swift in Sources */,
 				51CE1B89246078B6002CF42A /* RiskLevelCollectionViewCell.swift in Sources */,
