@@ -51,7 +51,7 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate, RequiresAppDepend
 
 		#if UITESTING
 		if let isOnboarded = UserDefaults.standard.value(forKey: "isOnboarded") as? String {
-			store.isOnboarded = (isOnboarded != "NO")
+			keyValueStore.isOnboarded = (isOnboarded != "NO")
 		}
 		#endif
 
