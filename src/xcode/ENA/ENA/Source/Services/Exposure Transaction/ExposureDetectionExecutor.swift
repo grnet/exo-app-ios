@@ -20,7 +20,6 @@ final class ExposureDetectionExecutor: ExposureDetectionDelegate {
 		store: Store,
 		exposureDetector: ExposureDetector
 	) {
-
 		self.client = client
 		self.downloadedPackagesStore = downloadedPackagesStore
 		self.store = store
@@ -161,18 +160,6 @@ final class ExposureDetectionExecutor: ExposureDetectionDelegate {
 		} catch {
 			return nil
 		}
-	}
-
-	func exposureDetection(
-		supportedCountries completion: @escaping (SupportedCountriesResult) -> Void
-	) {
-		client.supportedCountries(completion: completion)
-	}
-
-	func exposureDetection(
-		downloadConfiguration completion: @escaping (ENExposureConfiguration?) -> Void
-	) {
-		client.exposureConfiguration(completion: completion)
 	}
 
 	func exposureDetection(
