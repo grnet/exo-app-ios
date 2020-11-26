@@ -9,11 +9,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Corona-Warn</string>
+	<string>Exo</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>de.rki.coronawarnapp-dev</string>
+	<string>gr.gov.exo</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -43,10 +43,17 @@
 	<string>TEST_DE_0</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
+	<key>LSApplicationCategoryType</key>
+	<string>//:configuration = AdHoc
+PRODUCT_BUNDLE_IDENTIFIER = gr.gov.exo
+
+//:completeSettings = none
+</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>Erlaube der App QR-Codes mit Hilfe der Kamera zu scannen</string>
+	<string>Allow the app to scan QR codes using the camera
+Allow the app to scan QR codes using the camera</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>de.rki.coronawarnapp-dev</string>
+				<string>gr.gov.exo</string>
 				<key>bundle-version</key>
 				<string>$(CURRENT_PROJECT_VERSION)</string>
 				<key>kind</key>
