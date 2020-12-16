@@ -61,17 +61,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>u</string>
 			<key>zero</key>
-			<string>Καμία έκθεση μέχρι τώρα</string>
+			<string>No exposure up to now</string>
 			<key>one</key>
-			<string>Μία επαφή με χαμηλό κίνδυνο</string>
+			<string>One exposure with low risk</string>
 			<key>few</key>
-			<string>%u επαφές με χαμηλό κίνδυνο</string>
+			<string>%u exposures with low risk</string>
 			<key>many</key>
-			<string>%u επαφές με χαμηλό κίνδυνο</string>
+			<string>%u exposures with low risk</string>
 			<key>two</key>
-			<string>%u επαφές με χαμηλό κίνδυνο</string>
+			<string>%u exposures with low risk</string>
 			<key>other</key>
-			<string>%u επαφές με χαμηλό κίνδυνο</string>
+			<string>%u exposures with low risk</string>
 		</dict>
 	</dict>
 	<key>Home_Risk_High_Number_Contacts_Item_Title</key>
