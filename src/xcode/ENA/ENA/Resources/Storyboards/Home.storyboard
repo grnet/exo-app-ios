@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nDx-eK-JR9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nDx-eK-JR9">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,7 +20,7 @@
                         <cells/>
                     </collectionView>
                     <navigationItem key="navigationItem" id="Dij-1A-sIJ">
-                        <barButtonItem key="leftBarButtonItem" enabled="NO" image="Corona-Warn-App" id="ths-kN-SxR"/>
+                        <barButtonItem key="leftBarButtonItem" enabled="NO" image="EXO" id="ths-kN-SxR"/>
                         <barButtonItem key="rightBarButtonItem" id="3Np-ca-45C">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" lineBreakMode="middleTruncation" id="Y0j-bH-Esc">
                                 <rect key="frame" x="369.66666666666669" y="10.333333333333334" width="24.333333333333314" height="23.666666666666664"/>
@@ -38,7 +39,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Corona-Warn-App" width="121" height="40"/>
+        <image name="EXO" width="2048" height="2048"/>
         <namedColor name="ENA Background Color">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

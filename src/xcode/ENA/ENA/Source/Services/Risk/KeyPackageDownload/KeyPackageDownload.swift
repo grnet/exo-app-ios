@@ -64,7 +64,7 @@ class KeyPackageDownload: KeyPackageDownloadProtocol {
 		client: Client,
 		wifiClient: ClientWifiOnly,
 		store: Store & AppConfigCaching,
-		countryIds: [Country.ID] = ["EUR"]
+		countryIds: [Country.ID] = ["GR"]
 	) {
 		self.downloadedPackagesStore = downloadedPackagesStore
 		self.client = client

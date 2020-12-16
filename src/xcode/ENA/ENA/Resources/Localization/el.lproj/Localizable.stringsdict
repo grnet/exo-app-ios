@@ -37,17 +37,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>u</string>
 			<key>zero</key>
-			<string>%u days since last exposure</string>
+			<string>%u ημέρες από την τελευταία έκθεση</string>
 			<key>one</key>
-			<string>%u day since last exposure</string>
+			<string>%u ημέρα από την τελευταία έκθεση</string>
 			<key>few</key>
-			<string>%u days since last exposure</string>
+			<string>%u ημέρες από την τελευταία έκθεση</string>
 			<key>many</key>
-			<string>%u days since last exposure</string>
+			<string>%u ημέρες από την τελευταία έκθεση</string>
 			<key>two</key>
-			<string>%u days since last exposure</string>
+			<string>%u ημέρες από την τελευταία έκθεση</string>
 			<key>other</key>
-			<string>%u days since last exposure</string>
+			<string>%u ημέρες από την τελευταία έκθεση</string>
 		</dict>
 	</dict>
 	<key>Home_Risk_Low_Number_Contacts_Item_Title</key>
@@ -63,15 +63,15 @@
 			<key>zero</key>
 			<string>Καμία έκθεση μέχρι τώρα</string>
 			<key>one</key>
-			<string>Μία επαφή με χαμηλό κίνδυνο</string>
+			<string>Μία έκθεση με χαμηλό κίνδυνο</string>
 			<key>few</key>
-			<string>%u επαφές με χαμηλό κίνδυνο</string>
+			<string>%u εκθέσεις με χαμηλό κίνδυνο</string>
 			<key>many</key>
-			<string>%u επαφές με χαμηλό κίνδυνο</string>
+			<string>%u εκθέσεις με χαμηλό κίνδυνο</string>
 			<key>two</key>
-			<string>%u επαφές με χαμηλό κίνδυνο</string>
+			<string>%u εκθέσεις με χαμηλό κίνδυνο</string>
 			<key>other</key>
-			<string>%u επαφές με χαμηλό κίνδυνο</string>
+			<string>%u εκθέσεις με χαμηλό κίνδυνο</string>
 		</dict>
 	</dict>
 	<key>Home_Risk_High_Number_Contacts_Item_Title</key>
@@ -85,17 +85,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>u</string>
 			<key>zero</key>
-			<string>No exposure up to now</string>
+			<string>Καμία έκθεση μέχρι τώρα</string>
 			<key>one</key>
-			<string>One exposure</string>
+			<string>Μία έκθεση</string>
 			<key>few</key>
-			<string>%u exposures</string>
+			<string>%u εκθέσεις</string>
 			<key>many</key>
-			<string>%u exposures</string>
+			<string>%u εκθέσεις</string>
 			<key>two</key>
-			<string>%u exposures</string>
+			<string>%u εκθέσεις</string>
 			<key>other</key>
-			<string>%u exposures</string>
+			<string>%u εκθέσεις</string>
 		</dict>
 	</dict>
 	<key>Home_Risk_Last_Contact_Item_Title</key>
@@ -133,17 +133,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>u</string>
 			<key>zero</key>
-			<string>Update in %02u:%2$#@seconds@ seconds</string>
+			<string>Ενημέρωση σε %02u:%2$#@seconds@ δευτερόλεπτα</string>
 			<key>one</key>
-			<string>Update in %02u:%2$#@seconds@ minute</string>
+			<string>Ενημέρωση σε in %02u:%2$#@seconds@ λεπτό</string>
 			<key>few</key>
-			<string>Update in %02u:%2$#@seconds@ minutes</string>
+			<string>Ενημέρωση σε %02u:%2$#@seconds@ λεπτά</string>
 			<key>many</key>
-			<string>Update in %02u:%2$#@seconds@ minutes</string>
+			<string>Ενημέρωση σε %02u:%2$#@seconds@ λεπτά</string>
 			<key>two</key>
-			<string>Update in %02u:%2$#@seconds@ minutes</string>
+			<string>Ενημέρωση σε %02u:%2$#@seconds@ λεπτά</string>
 			<key>other</key>
-			<string>Update in %02u:%2$#@seconds@ minutes</string>
+			<string>Ενημέρωση σε %02u:%2$#@seconds@ λεπτά</string>
 		</dict>
 		<key>seconds</key>
 		<dict>

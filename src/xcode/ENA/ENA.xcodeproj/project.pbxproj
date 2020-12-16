@@ -664,6 +664,12 @@
 		138910C4247A909000D739F6 /* ENATaskScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENATaskScheduler.swift; sourceTree = "<group>"; };
 		13BAE9B02472FB1E00CEE58A /* CellConfiguratorIndexPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellConfiguratorIndexPosition.swift; sourceTree = "<group>"; };
 		13E50468248E3CD20086641C /* ENAUITestsAppInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENAUITestsAppInformation.swift; sourceTree = "<group>"; };
+		1DDAE0C2258A30F000713853 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		1DDAE0C3258A30F000713853 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1DDAE0C4258A30F100713853 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.legal.strings; sourceTree = "<group>"; };
+		1DDAE0C5258A30F100713853 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = el; path = el.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		1DDAE0C6258A30F100713853 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1DDAE0C7258A30F100713853 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.links.strings; sourceTree = "<group>"; };
 		2F26CE2D248B9C4F00BE30EE /* UIViewController+BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+BackButton.swift"; sourceTree = "<group>"; };
 		2F3218CF248063E300A7AC0A /* UIView+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Convenience.swift"; sourceTree = "<group>"; };
 		2F3D95362518BCD1002B2C81 /* EUSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EUSettingsViewController.swift; sourceTree = "<group>"; };
@@ -3110,7 +3116,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1200;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Hellenic Republic";
 				TargetAttributes = {
 					85D7593A2457048F008175F0 = {
@@ -3143,6 +3149,7 @@
 				pl,
 				ro,
 				bg,
+				el,
 			);
 			mainGroup = 85D759322457048F008175F0;
 			packageReferences = (
@@ -3806,6 +3813,7 @@
 				01E4298F251DCDC90057FCBE /* en */,
 				01E42994251DCDCE0057FCBE /* de */,
 				01E42995251DCDD10057FCBE /* tr */,
+				1DDAE0C4258A30F100713853 /* el */,
 			);
 			name = Localizable.legal.strings;
 			sourceTree = "<group>";
@@ -3841,6 +3849,7 @@
 			children = (
 				85D7594D24570491008175F0 /* Base */,
 				EEDD6DF724A4885D00BC30D0 /* tr */,
+				1DDAE0C2258A30F000713853 /* el */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -3854,6 +3863,7 @@
 				AB8B0D3F253053DF009C067B /* pl */,
 				AB8B0D40253053E2009C067B /* ro */,
 				AB8B0D41253053E5009C067B /* bg */,
+				1DDAE0C7258A30F100713853 /* el */,
 			);
 			name = Localizable.links.strings;
 			sourceTree = "<group>";
@@ -3867,6 +3877,7 @@
 				EECF5E5924BDCC3C00332B8F /* pl */,
 				EECF5E5E24BDCC4D00332B8F /* ro */,
 				EECF5E6324BDCC5A00332B8F /* bg */,
+				1DDAE0C6258A30F100713853 /* el */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -3880,6 +3891,7 @@
 				EECF5E5724BDCC3C00332B8F /* pl */,
 				EECF5E5C24BDCC4D00332B8F /* ro */,
 				EECF5E6124BDCC5A00332B8F /* bg */,
+				1DDAE0C3258A30F000713853 /* el */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -3893,6 +3905,7 @@
 				EECF5E5824BDCC3C00332B8F /* pl */,
 				EECF5E5D24BDCC4D00332B8F /* ro */,
 				EECF5E6224BDCC5A00332B8F /* bg */,
+				1DDAE0C5258A30F100713853 /* el */,
 			);
 			name = Localizable.stringsdict;
 			sourceTree = "<group>";
@@ -4128,7 +4141,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "${PROJECT}/Resources/ENA.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = FU8V9G22SC;
@@ -4136,7 +4149,7 @@
 				INFOPLIST_FILE = ENA/Resources/Info_Testflight.plist;
 				IPHONE_APP_CODE_SIGN_IDENTITY = "Apple Distribution";
 				IPHONE_APP_DEV_TEAM = FU8V9G22SC;
-				IPHONE_APP_DIST_PROF_SPECIFIER = "match AppStore de.rki.coronawarnapp-dev";
+				IPHONE_APP_DIST_PROF_SPECIFIER = "match AppStore gr.gov.exo-dev";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -4150,7 +4163,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = gr.gov.exo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Exo App Development";
+				PROVISIONING_PROFILE_SPECIFIER = "Exo App Distribution";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = USE_DEV_PK_FOR_SIG_VERIFICATION;
 				SWIFT_OBJC_BRIDGING_HEADER = "ENA-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -4215,8 +4228,10 @@
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREPROCESSOR_DEFINITIONS = "SQLITE_HAS_CODEC=1";
 				INFOPLIST_FILE = CWASQLite/Info.plist;
@@ -4231,7 +4246,7 @@
 					"-DNDEBUG",
 					"-DSQLITE_HAS_CODEC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.rki.coronawarnapp.sqlite;
+				PRODUCT_BUNDLE_IDENTIFIER = gr.gov.exo.sqlite;
 				PRODUCT_NAME = CWASQLite;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -4305,7 +4320,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "${PROJECT}/Resources/ENA.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = FU8V9G22SC;
@@ -4327,7 +4342,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = gr.gov.exo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Exo App Development";
+				PROVISIONING_PROFILE_SPECIFIER = "Exo Ad Hoc Distribution";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "APP_STORE USE_DEV_PK_FOR_SIG_VERIFICATION";
 				SWIFT_OBJC_BRIDGING_HEADER = "ENA-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -4408,7 +4423,7 @@
 					"-DNDEBUG",
 					"-DSQLITE_HAS_CODEC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.rki.coronawarnapp.sqlite;
+				PRODUCT_BUNDLE_IDENTIFIER = gr.gov.exo.sqlite;
 				PRODUCT_NAME = CWASQLite;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -4587,7 +4602,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = "${PROJECT}/Resources/ENA.entitlements";
-				CODE_SIGN_IDENTITY = $IPHONE_APP_CODE_SIGN_IDENTITY;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = FU8V9G22SC;
@@ -4609,7 +4624,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = gr.gov.exo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Exo App Development";
+				PROVISIONING_PROFILE_SPECIFIER = "Exo App Distribution";
 				SWIFT_OBJC_BRIDGING_HEADER = "ENA-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -4758,7 +4773,7 @@
 					"-DNDEBUG",
 					"-DSQLITE_HAS_CODEC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.rki.coronawarnapp.sqlite;
+				PRODUCT_BUNDLE_IDENTIFIER = gr.gov.exo.sqlite;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
@@ -4801,7 +4816,7 @@
 					"-DNDEBUG",
 					"-DSQLITE_HAS_CODEC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = de.rki.coronawarnapp.sqlite;
+				PRODUCT_BUNDLE_IDENTIFIER = gr.gov.exo.sqlite;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
@@ -4819,6 +4834,7 @@
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 0;
 				DEFINES_MODULE = YES;
@@ -4840,7 +4856,7 @@
 					"-DNDEBUG",
 					"-DSQLITE_HAS_CODEC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "de.rki.coronawarnapp-dev.sqlite";
+				PRODUCT_BUNDLE_IDENTIFIER = "gr.gov.exo-dev.sqlite";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
