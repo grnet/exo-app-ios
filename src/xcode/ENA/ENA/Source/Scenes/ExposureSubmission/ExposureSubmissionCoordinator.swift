@@ -148,7 +148,7 @@ extension ExposureSubmissionCoordinator {
 
 	func showOverviewScreen() {
 		let vc = ExposureSubmissionOverviewViewController(
-			onQRCodeButtonTap: { [weak self] in self?.showQRInfoScreen() },
+			// PL onQRCodeButtonTap: { [weak self] in self?.showQRInfoScreen() },
 			onTANButtonTap: { [weak self] in self?.showTanScreen() },
 			onHotlineButtonTap: { [weak self] in self?.showHotlineScreen() }
 		)

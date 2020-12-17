@@ -11,11 +11,11 @@ class ExposureSubmissionOverviewViewController: DynamicTableViewController {
 	// MARK: - Init
 
 	required init(
-		onQRCodeButtonTap: @escaping () -> Void,
+		// PL onQRCodeButtonTap: @escaping () -> Void,
 		onTANButtonTap: @escaping () -> Void,
 		onHotlineButtonTap: @escaping () -> Void
 	) {
-		self.onQRCodeButtonTap = onQRCodeButtonTap
+		// PL self.onQRCodeButtonTap = onQRCodeButtonTap
 		self.onTANButtonTap = onTANButtonTap
 		self.onHotlineButtonTap = onHotlineButtonTap
 
@@ -41,7 +41,7 @@ class ExposureSubmissionOverviewViewController: DynamicTableViewController {
 
 	// MARK: - Private
 
-	private let onQRCodeButtonTap: () -> Void
+	// PL private let onQRCodeButtonTap: () -> Void
 	private let onTANButtonTap: () -> Void
 	private let onHotlineButtonTap: () -> Void
 
@@ -125,13 +125,13 @@ private extension ExposureSubmissionOverviewViewController {
 		)
 
 		data.add(DynamicSection.section(cells: [
-			.imageCard(
+			/* PL .imageCard(
 				title: AppStrings.ExposureSubmissionDispatch.qrCodeButtonTitle,
 				description: AppStrings.ExposureSubmissionDispatch.qrCodeButtonDescription,
 				image: UIImage(named: "Illu_Submission_QRCode"),
 				action: .execute { [weak self] _ in self?.onQRCodeButtonTap() },
 				accessibilityIdentifier: AccessibilityIdentifiers.ExposureSubmissionDispatch.qrCodeButtonDescription
-			),
+			),*/
 			.imageCard(
 				title: AppStrings.ExposureSubmissionDispatch.tanButtonTitle,
 				description: AppStrings.ExposureSubmissionDispatch.tanButtonDescription,
