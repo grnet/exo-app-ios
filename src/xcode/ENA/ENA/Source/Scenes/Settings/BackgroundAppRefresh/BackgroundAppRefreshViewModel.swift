@@ -144,7 +144,7 @@ class BackgroundAppRefreshViewModel {
 				title: AppStrings.BackgroundAppRefreshSettings.InfoBox.AppBackgroundRefreshInstruction.title,
 				steps: [
 					.init(icon: UIImage(named: "Icons_iOS_Settings"), text: AppStrings.BackgroundAppRefreshSettings.InfoBox.AppBackgroundRefreshInstruction.step1),
-					.init(icon: UIImage(named: "Icons_CWAAppIcon"), text: AppStrings.BackgroundAppRefreshSettings.InfoBox.AppBackgroundRefreshInstruction.step2),
+					.init(icon: UIImage(named: "Icons_ExoAppIcon"), text: AppStrings.BackgroundAppRefreshSettings.InfoBox.AppBackgroundRefreshInstruction.step2),
 					.init(icon: UIImage(named: "Icons_iOS_Einstellungen"), text: AppStrings.BackgroundAppRefreshSettings.InfoBox.AppBackgroundRefreshInstruction.step3)
 				]
 			)
