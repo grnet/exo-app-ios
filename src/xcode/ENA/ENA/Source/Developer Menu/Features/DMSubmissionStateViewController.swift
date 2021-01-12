@@ -196,7 +196,7 @@ private extension Client {
 		var daysAndHours: DaysAndHours = .none
 
 		group.enter()
-		availableDays(forCountry: "DE") { result in
+		availableDays(forCountry: "GR") { result in
 			if case let .success(days) = result {
 				daysAndHours.days = days
 			}
@@ -204,7 +204,7 @@ private extension Client {
 		}
 
 		group.enter()
-		availableHours(day: .formattedToday(), country: "DE") { result in
+		availableHours(day: .formattedToday(), country: "GR") { result in
 			if case let .success(hours) = result {
 				daysAndHours.hours = hours
 			}
@@ -221,8 +221,8 @@ private extension Client {
 		completion completeWith: @escaping (FetchedDaysAndHours) -> Void
 	) {
 		availableDaysAndHours { daysAndHours in
-			self.fetchDays(daysAndHours.days, forCountry: "DE") { daysResult in
-				wifiClient.fetchHours(daysAndHours.hours, day: .formattedToday(), country: "DE") { hoursResult in
+			self.fetchDays(daysAndHours.days, forCountry: "GR") { daysResult in
+				wifiClient.fetchHours(daysAndHours.hours, day: .formattedToday(), country: "GR") { hoursResult in
 					completeWith(FetchedDaysAndHours(hours: hoursResult, days: daysResult))
 				}
 			}

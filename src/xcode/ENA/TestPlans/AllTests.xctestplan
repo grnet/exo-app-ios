@@ -16,33 +16,6 @@
         "language" : "en",
         "region" : "GB"
       }
-    },
-    {
-      "enabled" : false,
-      "id" : "923744F6-0D40-4591-9147-70780A54A89E",
-      "name" : "RO",
-      "options" : {
-        "language" : "ro",
-        "region" : "RO"
-      }
-    },
-    {
-      "enabled" : false,
-      "id" : "76F58801-D234-473B-92BB-F77A906BC887",
-      "name" : "PL",
-      "options" : {
-        "language" : "pl",
-        "region" : "PL"
-      }
-    },
-    {
-      "enabled" : false,
-      "id" : "1C2ECF54-A91A-4614-823F-9F010BCC63ED",
-      "name" : "TR",
-      "options" : {
-        "language" : "tr",
-        "region" : "TR"
-      }
     }
   ],
   "defaultOptions" : {
@@ -71,6 +44,7 @@
     {
       "skippedTests" : [
         "ENAUITests",
+        "ENAUITests_04_ExposureSubmissionUITests",
         "ENAUITests_06_DeltaOnboarding\/testDeltaOnboardingV15View()",
         "ENAUITests_06_DeltaOnboarding\/test_screenshotDeltaOnboardingV15View()"
       ],

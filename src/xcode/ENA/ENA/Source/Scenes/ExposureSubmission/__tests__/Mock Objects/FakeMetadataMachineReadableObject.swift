@@ -6,7 +6,7 @@ import AVFoundation
 import Foundation
 @testable import ENA
 
-class FakeMetadataMachineReadableCodeObject: NSObject, MetadataMachineReadableCodeObject {
+class FakeMetadataMachineReadableCodeObject: NSObject {
 
 	init(
 		stringValue: String? = nil,

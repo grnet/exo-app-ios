@@ -23,7 +23,7 @@ class CountryTests: XCTestCase {
 	func testDefaultCountry() throws {
 		XCTAssertNoThrow(Country.defaultCountry(), "")
 		let country = Country.defaultCountry()
-		XCTAssertEqual(country.id, "DE", "assuming Germany/DE to be default")
+		XCTAssertEqual(country.id, "GR", "assuming Greece/GR to be default")
 	}
 
 	func testInvalidCountryCodes() throws {

@@ -85,8 +85,7 @@ private extension DynamicTableViewModel {
 					  accessibilityIdentifier: AccessibilityIdentifiers.ExposureSubmissionIntroduction.usage02),
 				.bulletPoint(text: AppStrings.ExposureSubmissionIntroduction.listItem1, spacing: .large),
 				.bulletPoint(text: AppStrings.ExposureSubmissionIntroduction.listItem2, spacing: .large),
-				.bulletPoint(text: AppStrings.ExposureSubmissionIntroduction.listItem3, spacing: .large),
-				.bulletPoint(text: AppStrings.ExposureSubmissionIntroduction.listItem4, spacing: .large)
+				.bulletPoint(text: AppStrings.ExposureSubmissionIntroduction.listItem3, spacing: .large)
 			]
 		)
 	])

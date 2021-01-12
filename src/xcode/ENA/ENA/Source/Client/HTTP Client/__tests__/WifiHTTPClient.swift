@@ -80,7 +80,7 @@ class WifiHTTPClientTest: XCTestCase {
 		wifiOnlyHTTPClient.disableHourlyDownload = true
 
 		// THEN
-		wifiOnlyHTTPClient.fetchHour(12, day: .formattedToday(), country: "DE") { result in
+		wifiOnlyHTTPClient.fetchHour(12, day: .formattedToday(), country: "GR") { result in
 			defer { successExpectation.fulfill() }
 			switch result {
 			case .success:

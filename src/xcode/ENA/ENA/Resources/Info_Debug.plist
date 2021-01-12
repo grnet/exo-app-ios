@@ -51,9 +51,6 @@ PRODUCT_BUNDLE_IDENTIFIER = gr.gov.exo
 </string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSCameraUsageDescription</key>
-	<string>Allow the app to scan QR codes using the camera
-Allow the app to scan QR codes using the camera</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

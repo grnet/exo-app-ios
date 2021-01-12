@@ -21,8 +21,6 @@
         "ENAUITests_01_Home\/test_0010_HomeFlow_medium()",
         "ENAUITests_01_Home\/test_0011_HomeFlow_extrasmall()",
         "ENAUITests_01_Home\/test_0013_HomeFlow_extralarge()",
-        "ENAUITests_02_AppInformation",
-        "ENAUITests_03_Settings",
         "ENAUITests_04_ExposureSubmissionUITests\/test_NavigateToHotlineVC()",
         "ENAUITests_04_ExposureSubmissionUITests\/test_NavigateToIntroVC()",
         "ENAUITests_04_ExposureSubmissionUITests\/test_QRCodeScanOpened()",

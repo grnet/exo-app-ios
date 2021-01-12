@@ -224,7 +224,6 @@ extension ExposureSubmissionCoordinator {
 			style: .default,
 			handler: { [weak self] _ in
 				self?.model.exposureSubmissionService.acceptPairing()
-				self?.showQRScreen(isLoading: isLoading)
 			}
 		)
 
@@ -242,52 +241,6 @@ extension ExposureSubmissionCoordinator {
 		alert.preferredAction = acceptAction
 
 		navigationController?.present(alert, animated: true)
-	}
-
-	private func showQRScreen(isLoading: @escaping (Bool) -> Void) {
-		let scannerViewController = ExposureSubmissionQRScannerViewController(
-			onSuccess: { [weak self] deviceRegistrationKey in
-				self?.presentedViewController?.dismiss(animated: true) {
-					self?.getTestResults(for: deviceRegistrationKey, isLoading: isLoading)
-				}
-			},
-			onError: { [weak self] error, reactivateScanning in
-				switch error {
-				case .cameraPermissionDenied:
-					DispatchQueue.main.async {
-						let alert = UIAlertController.errorAlert(message: error.localizedDescription, completion: {
-							self?.presentedViewController?.dismiss(animated: true)
-						})
-						self?.presentedViewController?.present(alert, animated: true)
-					}
-				case .codeNotFound:
-					DispatchQueue.main.async {
-						let alert = UIAlertController.errorAlert(
-							title: AppStrings.ExposureSubmissionError.qrAlreadyUsedTitle,
-							message: AppStrings.ExposureSubmissionError.qrAlreadyUsed,
-							okTitle: AppStrings.Common.alertActionCancel,
-							secondaryActionTitle: AppStrings.Common.alertActionRetry,
-							completion: { [weak self] in
-								self?.presentedViewController?.dismiss(animated: true)
-							},
-							secondaryActionCompletion: { reactivateScanning() }
-						)
-						self?.presentedViewController?.present(alert, animated: true)
-					}
-				default:
-					Log.error("QRScannerError.other occurred.", log: .ui)
-				}
-			},
-			onCancel: { [weak self] in
-				self?.presentedViewController?.dismiss(animated: true)
-			}
-		)
-
-		let qrScannerNavigationController = UINavigationController(rootViewController: scannerViewController)
-		qrScannerNavigationController.modalPresentationStyle = .fullScreen
-
-		navigationController?.present(qrScannerNavigationController, animated: true)
-		presentedViewController = qrScannerNavigationController
 	}
 
 	func showSymptomsScreen() {

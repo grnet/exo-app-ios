@@ -79,7 +79,6 @@ enum AppStrings {
 		static let listItem1 = NSLocalizedString("ExposureSubmissionIntroduction_ListItem1", comment: "")
 		static let listItem2 = NSLocalizedString("ExposureSubmissionIntroduction_ListItem2", comment: "")
 		static let listItem3 = NSLocalizedString("ExposureSubmissionIntroduction_ListItem3", comment: "")
-		static let listItem4 = NSLocalizedString("ExposureSubmissionIntroduction_ListItem4", comment: "")
 	}
 
 	enum ExposureSubmissionResult {
@@ -144,18 +143,6 @@ enum AppStrings {
 		static let instruction3HighlightedPhrase = NSLocalizedString("ExposureSubmissionQRInfo_instruction3_highlightedPhrase", comment: "")
 		static let instruction4 = NSLocalizedString("ExposureSubmissionQRInfo_instruction4", comment: "")
 		static let primaryButtonTitle = NSLocalizedString("ExposureSubmissionQRInfo_primaryButtonTitle", comment: "")
-	}
-
-	enum ExposureSubmissionQRScanner {
-		static let title = NSLocalizedString("ExposureSubmissionQRScanner_title", comment: "")
-		static let instruction = NSLocalizedString("ExposureSubmissionQRScanner_instruction", comment: "")
-		static let otherError = NSLocalizedString("ExposureSubmissionQRScanner_otherError", comment: "")
-		static let cameraPermissionDenied = NSLocalizedString("ExposureSubmissionQRScanner_cameraPermissionDenied", comment: "")
-		static let flashButtonAccessibilityLabel = NSLocalizedString("ExposureSubmissionQRScanner_CameraFlash", comment: "")
-		static let flashButtonAccessibilityOnValue = NSLocalizedString("ExposureSubmissionQRScanner_CameraFlash_On", comment: "")
-		static let flashButtonAccessibilityOffValue = NSLocalizedString("ExposureSubmissionQRScanner_CameraFlash_Off", comment: "")
-		static let flashButtonAccessibilityEnableAction = NSLocalizedString("ExposureSubmissionQRScanner_CameraFlash_Enable", comment: "")
-		static let flashButtonAccessibilityDisableAction = NSLocalizedString("ExposureSubmissionQRScanner_CameraFlash_Disable", comment: "")
 	}
 
 	enum ExposureSubmissionHotline {

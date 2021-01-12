@@ -27,7 +27,7 @@ extension HTTPClient {
 
 			return Configuration(
 				apiVersion: "v1",
-				country: "DE",
+				country: "GR",
 				endpoints: endpoints
 			)
 		}

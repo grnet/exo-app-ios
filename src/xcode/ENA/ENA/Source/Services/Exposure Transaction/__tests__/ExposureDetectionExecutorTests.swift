@@ -144,7 +144,7 @@ final class ExposureDetectionExecutorTests: XCTestCase {
 		)
 		let packageStore = DownloadedPackagesSQLLiteStore.inMemory()
 		packageStore.open()
-		try packageStore.set(country: "DE", day: "SomeDay", etag: nil, package: package)
+		try packageStore.set(country: "GR", day: "SomeDay", etag: nil, package: package)
 
 		let store = MockTestStore()
 		store.appConfigMetadata = dummyAppConfigMetadata
@@ -160,7 +160,7 @@ final class ExposureDetectionExecutorTests: XCTestCase {
 			deviceTimeCheck: DeviceTimeCheck(store: store)
 		)
 
-		XCTAssertNotEqual(packageStore.allDays(country: "DE").count, 0)
+		XCTAssertNotEqual(packageStore.allDays(country: "GR").count, 0)
 		XCTAssertNotNil(store.appConfigMetadata)
 
 		_ = sut.exposureDetection(
@@ -169,7 +169,7 @@ final class ExposureDetectionExecutorTests: XCTestCase {
 			writtenPackages: WrittenPackages(urls: []),
 			completion: { _ in
 
-				XCTAssertEqual(packageStore.allDays(country: "DE").count, 0)
+				XCTAssertEqual(packageStore.allDays(country: "GR").count, 0)
 				XCTAssertNil(store.appConfigMetadata)
 
 				completionExpectation.fulfill()

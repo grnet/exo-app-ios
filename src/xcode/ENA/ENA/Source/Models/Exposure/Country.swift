@@ -33,7 +33,7 @@ struct Country: Equatable {
 
 	static func defaultCountry() -> Country {
 		// swiftlint:disable:next force_unwrapping
-		return Country(countryCode: "DE")!
+		return Country(countryCode: "GR")!
 	}
 }
 

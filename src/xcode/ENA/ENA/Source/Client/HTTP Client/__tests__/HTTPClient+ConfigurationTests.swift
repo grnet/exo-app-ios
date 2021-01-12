@@ -33,14 +33,14 @@ final class BackendConfigurationTests: XCTestCase {
 
 		let config = Configuration(
 			apiVersion: "v1",
-			country: "DE",
+			country: "GR",
 			endpoints: endpoints
 		)
 
 		// Check Configuration URL
 		XCTAssertEqual(
 			config.configurationURL.absoluteString,
-			"http://localhost/dist/version/v1/configuration/country/DE/app_config/"
+			"http://localhost/dist/version/v1/configuration/country/GR/app_config/"
 		)
 
 		// Submission URL
