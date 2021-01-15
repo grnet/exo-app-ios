@@ -38,9 +38,9 @@ enum PublicKeyEnv {
 	var stringRepresentation: StaticString {
 		switch self {
 		case .production: return
-			"c7DEstcUIRcyk35OYDJ95/hTg3UVhsaDXKT0zK7NhHPXoyzipEnOp3GyNXDVpaPi3cAfQmxeuFMZAIX2+6A5Xg=="
+			"errtUx7t4g9VQ5huiRCLP14N+QadrIYS9/P0Fcd2NwAJDHkWSuhrhvZQV01F0sGshJ+qnvjf9n8Pxe6/wgaD9A=="
 		case .development: return
-			"3BYTxr2HuJYQG+d7Ezu6KS8GEbFkiEvyJFg0j+C839gTjT6j7Ho0EXXZ/a07ZfvKcC2cmc1SunsrqU9Jov1J5Q=="
+			"errtUx7t4g9VQ5huiRCLP14N+QadrIYS9/P0Fcd2NwAJDHkWSuhrhvZQV01F0sGshJ+qnvjf9n8Pxe6/wgaD9A=="
 		}
 	}
 }
