@@ -20,7 +20,7 @@ protocol CoronaWarnAppDelegate: AnyObject {
 	var exposureManager: ExposureManager { get }
 	var taskScheduler: ENATaskScheduler { get }
 	var serverEnvironment: ServerEnvironment { get }
-	var contactDiaryStore: ContactDiaryStore { get }
+	var contactDiaryStore: DiaryStoringProviding { get }
 
 	func requestUpdatedExposureState()
 }
@@ -42,9 +42,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CoronaWarnAppDelegate, Re
 		self.downloadedPackagesStore.keyValueStore = self.store
 
 		super.init()
+
+		// Make the analytics working. Should not be called later than at this moment of app initialisation.
+		Analytics.setup(store: store, submitter: self.analyticsSubmitter)
 	}
 
 	deinit {
+		// We are (intentionally) keeping strong references for delegates. Let's clean them ups.
 		self.taskExecutionDelegate = nil
 	}
 
@@ -54,8 +58,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CoronaWarnAppDelegate, Re
 
 	func application(
 		_: UIApplication,
-		didFinishLaunchingWithOptions _: [UIApplication.LaunchOptionsKey: Any]? = nil
+		didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
 	) -> Bool {
+
+
 		#if DEBUG
 		setupOnboardingForTesting()
 		setupDatadonationForTesting()
@@ -68,6 +74,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CoronaWarnAppDelegate, Re
 		}
 
 		setupUI()
+		setupQuickActions()
 
 		UIDevice.current.isBatteryMonitoringEnabled = true
 
@@ -85,12 +92,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CoronaWarnAppDelegate, Re
 
 		exposureManager.observeExposureNotificationStatus(observer: self)
 
-		store.analyticsSubmitter = self.analyticsSubmitter
-
 		NotificationCenter.default.addObserver(self, selector: #selector(isOnboardedDidChange(_:)), name: .isOnboardedDidChange, object: nil)
 		NotificationCenter.default.addObserver(self, selector: #selector(backgroundRefreshStatusDidChange), name: UIApplication.backgroundRefreshStatusDidChangeNotification, object: nil)
-
-		return true
+		return handleQuickActions(with: launchOptions)
 	}
 
 	func applicationWillEnterForeground(_ application: UIApplication) {
@@ -99,7 +103,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CoronaWarnAppDelegate, Re
 		riskProvider.requestRisk(userInitiated: false)
 		let state = exposureManager.exposureManagerState
 		updateExposureState(state)
-		analyticsSubmitter.triggerSubmitData()
+		Analytics.triggerAnalyticsSubmission()
 		appUpdateChecker.checkAppVersionDialog(for: window?.rootViewController)
 	}
 
@@ -128,7 +132,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CoronaWarnAppDelegate, Re
 	let wifiClient: WifiOnlyHTTPClient
 	let downloadedPackagesStore: DownloadedPackagesStore = DownloadedPackagesSQLLiteStore(fileName: "packages")
 	let taskScheduler: ENATaskScheduler = ENATaskScheduler.shared
-    let contactDiaryStore = ContactDiaryStore.make()
+	let contactDiaryStore: DiaryStoringProviding = ContactDiaryStore.make()
     let serverEnvironment: ServerEnvironment
 	var store: Store
 
@@ -242,9 +246,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CoronaWarnAppDelegate, Re
 			plausibleDeniabilityService: self.plausibleDeniabilityService,
 			contactDiaryStore: self.contactDiaryStore,
 			store: self.store,
-			exposureSubmissionDependencies: self.exposureSubmissionServiceDependencies,
-			analyticsSubmitter: self.analyticsSubmitter
-			)
+			exposureSubmissionDependencies: self.exposureSubmissionServiceDependencies
+		)
 	}()
 
 	var notificationManager: NotificationManager! = NotificationManager()
@@ -277,22 +280,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CoronaWarnAppDelegate, Re
 		exposureSubmissionService.reset()
 
 		// Reset key value store. Preserve environment settings.
-		let environment = store.selectedServerEnvironment
+
 		do {
 			/// ppac API Token is excluded from the reset
 			/// read value from the current store
 			let ppacAPIToken = store.ppacApiToken
+			let environment = store.selectedServerEnvironment
 
 			let newKey = try KeychainHelper().generateDatabaseKey()
 			store.clearAll(key: newKey)
 
 			/// write excluded value back to the 'new' store
 			store.ppacApiToken = ppacAPIToken
-			store.lastAppReset = Date()
+			store.selectedServerEnvironment = environment
+            Analytics.collect(.submissionMetadata(.lastAppReset(Date())))
 		} catch {
 			fatalError("Creating new database key failed")
 		}
-		store.selectedServerEnvironment = environment
 
 		// Reset packages store
 		downloadedPackagesStore.reset()
@@ -540,6 +544,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CoronaWarnAppDelegate, Re
 	@objc
 	private func isOnboardedDidChange(_: NSNotification) {
 		store.isOnboarded ? showHome() : showOnboarding()
+		updateQuickActions()
 	}
 
 	@objc
@@ -572,6 +577,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, CoronaWarnAppDelegate, Re
 		}
 	}
 
+
+	/// Is the app able to function with the current iOS version?
+	///
+	/// Due to the backport of the Exposure Notification Framework to iOS 12.5 the app has a certain range of iOS versions that aren't supported.
+	///
+	/// - Returns: Returns `true` if the app is in the *disabled* state and requires the user to upgrade the os.
 	private static func isAppDisabled() -> Bool {
 		#if DEBUG
 		if isUITesting && UserDefaults.standard.bool(forKey: "showUpdateOS") == true {
