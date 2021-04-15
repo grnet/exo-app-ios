@@ -1,0 +1,1566 @@
+/* General */
+"Alert_TitleGeneral" = "Παρουσιάστηκε σφάλμα.";
+
+"Alert_ActionOk" = "ΟΚ";
+
+"Alert_ActionYes" = "Ναι";
+
+"Alert_ActionNo" = "Όχι";
+
+"Alert_ActionRetry" = "Επανάληψη";
+
+"Alert_ActionCancel" = "Ακύρωση";
+
+"Alert_ActionRemove" = "Κατάργηση";
+
+"Alert_BluetoothOff_Title" = "Ενεργοποίηση Bluetooth";
+
+"Alert_BluetoothOff_Description" = "Ενεργοποιήστε το Bluetooth στις ρυθμίσεις του συστήματός σας για να χρησιμοποιήσετε αυτήν την εφαρμογή.";
+
+"Alert_CancelAction_Later" = "Αργότερα";
+
+"Alert_DefaultAction_OpenSettings" = "Άνοιγμα ρυθμίσεων";
+
+"General_BackButtonTitle" = "Πίσω";
+
+"Common_ENError5_Description" = "Σφάλμα 5: Κάτι πήγε στραβά. Δεν είναι δυνατό να προσδιοριστεί το επίπεδο κινδύνου σας. Εργαζόμαστε για μια λύση του προβλήματος.";
+
+"Common_ENError11_Description" = "Σφάλμα 11: Κάτι πήγε στραβά. Δεν είναι δυνατό να προσδιοριστεί το επίπεδο κινδύνου σας. Επανεκκινήστε τη συσκευή σας και δοκιμάστε ξανά αύριο.";
+
+"Common_ENError13_Description" = "Σφάλμα 13: Η καταγραφή έκθεσης για σήμερα έχει ήδη πραγματοποιηθεί. Δοκιμάστε ξανά σε 24 ώρες.";
+
+"Common_Alert_Action_moreInfo" = "Μάθετε περισσότερα";
+
+"Common_BackgroundFetch_AlertMessage" = "Έχετε απενεργοποιήσει την ανανέωση της εφαρμογής φόντου για την εφαρμογή Exo. Ενεργοποιήστε την ανανέωση της εφαρμογής φόντου για να χρησιμοποιήσετε την αυτόματη καταγραφή έκθεσης. Εάν δεν ενεργοποιήσετε την ανανέωση της εφαρμογής φόντου, μπορείτε να ξεκινήσετε την καταγραφή έκθεσης μόνο χειροκίνητα στην εφαρμογή. \n\nΜπορείτε να ενεργοποιήσετε την ανανέωση εφαρμογής φόντου για την εφαρμογή στις ρυθμίσεις της συσκευής σας.";
+
+"Common_BackgroundFetch_SettingsTitle" = "Άνοιγμα ρυθμίσεων συσκευής";
+
+"Common_BackgroundFetch_OKTitle" = "Έναρξη μη αυτόματης καταγραφής έκθεσης";
+
+"Common_BackgroundFetch_AlertTitle" = "Απενεργοποίηση ανανέωσης εφαρμογής παρασκηνίου";
+
+"Common_Deadman_AlertTitle" = "Έλεγχος έκθεσης";
+
+"Common_Deadman_AlertBody" = "Μην ξεχνάτε να ανοίγετε τακτικά την εφαρμογή Exo για να ελέγχετε την κατάσταση κινδύνου.";
+
+"Common_Tess_Relay_Description" = "";
+
+/* Accessibility */
+"AccessibilityLabel_Close" = "Κλείσιμο";
+
+"AccessibilityLabel_PhoneNumber" = "Αριθμός τηλεφώνου";
+/* Exposure Detection */
+"ExposureDetection_Off" = "Η καταγραφή έκθεσης σταμάτησε";
+
+"ExposureDetection_Unknown" = "Άγνωστος κίνδυνος";
+
+"ExposureDetection_Low" = "Χαμηλός κίνδυνος";
+
+"ExposureDetection_Low_Green_Color" = "Πράσινο";
+
+"ExposureDetection_High" = "Αυξημένος κίνδυνος";
+
+"ExposureDetection_High_Red_Color" = "Κόκκινο";
+
+"ExposureDetection_LastExposure" = "Πιο πρόσφατα στο %@";
+
+"ExposureDetection_Refreshed" = "Ενημερώθηκε: %@";
+
+"ExposureDetection_Refreshed_Never" = "Άγνωστο";
+
+"ExposureDetection_RefreshingIn" = "Ενημέρωση σε %02d: %02d\U00A0minutes";
+
+"ExposureDetection_RefreshIn" = "Ενημέρωση σε %@";
+
+"ExposureDetection_LastRiskLevel" = "Τελευταίος έλεγχος έκθεσης: %@";
+
+"ExposureDetection_OffText" = "Ενεργοποιήστε την καταγραφή έκθεσης για να αξιολογήσετε την κατάσταση κινδύνου σας σήμερα.";
+
+"ExposureDetection_OutdatedText" = "Η καταγραφή υπολογισμού κινδύνου δεν έχει ενημερωθεί για περισσότερες από 48 ώρες. Ενημερώστε τον υπολογισμό.";
+
+"ExposureDetection_UnknownText" = "Επειδή δεν έχετε ενεργοποιήσει την καταγραφή έκθεσης για αρκετό καιρό, δεν μπορούσαμε να υπολογίσουμε τον κίνδυνο μόλυνσης.";
+
+"ExposureDetection_LoadingText" = "Λήψη και έλεγχος των τρεχόντων δεδομένων. Αυτό μπορεί να διαρκέσει αρκετά λεπτά.";
+
+"ExposureDetection_Behavior_Title" = "Κατευθηντήριες Οδηγίες";
+
+"ExposureDetection_Behavior_Subtitle" = "Χρήσιμες Οδηγίες:";
+
+"ExposureDetection_Guide_Hands" = "Πλένουμε συχνά και σχολαστικά τα χέρια μας.";
+
+"ExposureDetection_Guide_Mask" = "Φοράμε τη μάσκα μας.";
+
+"ExposureDetection_Guide_Distance" = "Αποφεύγουμε τις κοντινές επαφές.";
+
+"ExposureDetection_Guide_Sneeze" = "Σε περίπτωση ανάγκης επικοινωνούμε με τον γιατρό μας ή με τον ΕΟΔΥ (τηλ 1135)";
+
+"ExposureDetection_Guide_Home" = "Εάν είναι δυνατόν, επιστρέψτε στο σπίτι και μείνετε στο σπίτι.";
+
+"ExposureDetection_Guide_Hotline1" = "Εάν έχετε απορίες σχετικά με συμπτώματα, διαθεσιμότητα τεστ ή την καραντίνα, επικοινωνήστε με ένα από τα ακόλουθα:";
+
+"ExposureDetection_Guide_Hotline2" = "Τον γιατρό σας";
+
+"ExposureDetection_Guide_Hotline3" = "Στην γραμμή 1135 του ΕΟΔΥ";
+
+"ExposureDetection_Guide_Hotline4" = "Στην αρχή δημόσιας υγείας σας";
+
+"ExposureDetection_Explanation_Title" = "Κίνδυνος μόλυνσης";
+
+"ExposureDetection_Explanation_Subtitle" = "Έτσι υπολογίζεται ο κίνδυνος.";
+
+"ExposureDetection_Explanation_Text_Off" = "Ο κίνδυνος μόλυνσης υπολογίζεται από τα δεδομένα καταγραφής έκθεσης (διάρκεια και εγγύτητα) τοπικά στη συσκευή σας. Ο κίνδυνος μόλυνσης δεν είναι ορατός ή μεταβιβάζεται σε οποιονδήποτε άλλο.";
+
+"ExposureDetection_Explanation_Text_Outdated" = "Ο έλεγχος έκθεσης δεν έχει ενημερωθεί για περισσότερες από 48 ώρες. Ενημερώστε τον υπολογισμό.";
+
+"ExposureDetection_Explanation_Text_Unknown" = "Εφόσον δεν έχετε ενεργοποιήσει την καταγραφή έκθεσης για αρκετό καιρό, δεν μπορούμε να υπολογίσουμε τον κίνδυνο μόλυνσης. \ N \ nΟ κίνδυνος μόλυνσης υπολογίζεται από τα δεδομένα καταγραφής έκθεσης (διάρκεια και εγγύτητα) τοπικά στο smartphone σας. της μόλυνσης δεν μπορεί να δει ή να μεταδοθεί σε κανέναν άλλο. ";
+
+"ExposureDetection_Explanation_Text_Low_No_Encounter" = "Έχετε χαμηλό κίνδυνο μόλυνσης επειδή δεν καταγράφηκε έκθεση σε άτομα που διαγνώστηκαν αργότερα με COVID-19 ή επειδή οι συναντήσεις σας ήταν μόνο για μικρό χρονικό διάστημα και σε μεγαλύτερη απόσταση.";
+
+"ExposureDetection_Explanation_Text_Low_With_Encounter" = "Ο κίνδυνος μόλυνσης υπολογίζεται τοπικά στο smartphone σας, χρησιμοποιώντας δεδομένα καταγραφής έκθεσης. Ο υπολογισμός λαμβάνει επίσης υπόψη την απόσταση και τη διάρκεια κάθε έκθεσης σε άτομα που έχουν διαγνωστεί με COVID-19, καθώς και την πιθανή μολυσματικότητά τους. της μόλυνσης δεν μπορεί να δει ή να μεταδοθεί σε κανέναν άλλο. ";
+
+"ExposureDetection_Explanation_Text_High_DateOfLastExposure" = "Έχετε αυξημένο κίνδυνο μόλυνσης, επειδή τελευταία εκτεθήκατε στο% @ για μεγαλύτερο χρονικό διάστημα και σε μικρή απόσταση από τουλάχιστον ένα άτομο που έχει διαγνωστεί με COVID-19.";
+
+"ExposureDetection_Explanation_Text_High" = "Επομένως, ο κίνδυνος μόλυνσης έχει ταξινομηθεί ως αυξημένος. \ NΟ κίνδυνος μόλυνσης υπολογίζεται από τα δεδομένα καταγραφής έκθεσης (διάρκεια και εγγύτητα) τοπικά στη συσκευή σας. Ο κίνδυνος μόλυνσης δεν είναι ορατός ή μεταβιβασμένος. σε οποιονδήποτε άλλον. \ nΌταν φτάσετε στο σπίτι, αποφύγετε επίσης τη στενή επαφή με μέλη της οικογένειας ή του νοικοκυριού σας. ";
+
+"ExposureDetection_Explanation_FAQ_Link_Text" = "Για περισσότερες πληροφορίες, ανατρέξτε στη σελίδα Συχνές ερωτήσεις.";
+
+"ExposureDetection_LowRiskExposure_Title" = "Ανοίγματα με χαμηλό κίνδυνο";
+
+"ExposureDetection_LowRiskExposure_Subtitle" = "Γιατί ο κίνδυνος μόλυνσης είναι χαμηλός";
+
+"ExposureDetection_LowRiskExposure_Body" = "Αντιμετωπίσατε ένα άτομο που αργότερα διαγνώστηκε με COVID-19. Ωστόσο, με βάση τα δεδομένα καταγραφής έκθεσης, ο κίνδυνος μόλυνσης είναι χαμηλός. Ο κίνδυνος είναι χαμηλός εάν η συνάντησή σας ήταν σύντομη ή συνέβη σε απόσταση. Εσείς δεν χρειάζεται να ανησυχείτε και δεν υπάρχει συγκεκριμένη ανάγκη για δράση. Σας συνιστούμε να τηρείτε τους ισχύοντες κανόνες σχετικά με την απόσταση και την υγιεινή. ";
+
+"ExposureDetection_Risk_Status_Downloading_Title" = "Γίνεται λήψη δεδομένων ...";
+
+"ExposureDetection_Risk_Status_Detecting_Title" = "Ο έλεγχος εκτελείται…";
+
+"ExposureDetection_Risk_Status_Downloading_Body" = "Αυτό μπορεί να διαρκέσει αρκετά λεπτά. Σας ευχαριστούμε για την υπομονή σας.";
+
+"ExposureDetection_Risk_Status_Detecting_Body" = "Τα δεδομένα έκθεσής σας ελέγχονται. Αυτό μπορεί να διαρκέσει αρκετά λεπτά. Σας ευχαριστούμε για την υπομονή σας.";
+
+"ExposureDetection_Risk_Failed_Title" = "Ο έλεγχος έκθεσης απέτυχε";
+
+"ExposureDetection_Risk_Failed_Body" = "Ο συγχρονισμός τυχαίων αναγνωριστικών με το διακομιστή απέτυχε. Μπορείτε να επανεκκινήσετε το συγχρονισμό με μη αυτόματο τρόπο.";
+
+"ExposureDetection_Risk_Restart_Button_Title" = "Επανεκκίνηση";
+
+/* Exposure detection wrong device time */
+"ExposureDetection_WrongTime_Notification_Title" = "Δεν είναι δυνατός ο έλεγχος έκθεσης";
+
+"ExposureDetection_WrongTime_Notification_Body" = "Ο χρόνος που έχει οριστεί στη συσκευή σας δεν ταιριάζει με την τρέχουσα ώρα. Ως αποτέλεσμα, ο κίνδυνος δεν μπορεί να ελεγχθεί αυτήν τη στιγμή. Ορίστε τη σωστή ώρα στις ρυθμίσεις της συσκευής σας.";
+
+"ExposureDetection_WrongTime_Notification_Popover_Title" = "Δεν είναι δυνατός ο έλεγχος έκθεσης";
+
+"ExposureDetection_WrongTime_Notification_Popover_Body" = "Ο χρόνος που έχει οριστεί στη συσκευή σας δεν ταιριάζει με την τρέχουσα ώρα. Ως αποτέλεσμα, ο κίνδυνος δεν μπορεί να ελεγχθεί αυτήν τη στιγμή. Ορίστε τη σωστή ώρα στις ρυθμίσεις της συσκευής σας.";
+
+/* Active Tracing Section */
+"ExposureDetection_ActiveTracingSection_Title" = "Η περίοδος καταγράφηκε";
+
+"ExposureDetection_ActiveTracingSection_Subtitle" = "Αυτή η περίοδος περιλαμβάνεται στον υπολογισμό.";
+
+/* There are two paragraphs in this section. The first one just contains text… */
+"ExposureDetection_ActiveTracingSection_Text_Paragraph0" = "Ο κίνδυνος μόλυνσης μπορεί να υπολογιστεί μόνο για περιόδους κατά τις οποίες ήταν ενεργή η καταγραφή έκθεσης. Επομένως, η δυνατότητα καταγραφής θα πρέπει να παραμείνει ενεργή μόνιμα.";
+
+/* … the second paragraph contains two columns. On the left there is our active\n tracing indicator. On the right column there is just text that explains what\n the indicator shows.\n\n Parameters:\n - first: total number of relevant days (usually 14).\n - second: the actual number of days with active tracing. */
+
+"ExposureDetection_ActiveTracingSection_Text_Paragraph1" = "Η καταγραφή έκθεσης καλύπτει τις προηγούμενες %1$u ημέρες. Κατά τη διάρκεια αυτής της περιόδου, η λειτουργία καταγραφής στη συσκευή σας ήταν ενεργή για %2$u ημέρες. Η εφαρμογή διαγράφει αυτόματα παλαιότερα αρχεία καταγραφής, καθώς αυτά δεν είναι πλέον σχετικά με τη μόλυνση πρόληψη.";
+
+/* Exposure Detection Errors */
+"ExposureDetectionError_Alert_Message" = "Παρουσιάστηκε σφάλμα κατά την καταγραφή έκθεσης.";
+
+"ExposureDetectionError_Alert_FullDiskSpace_Message" = "Δεν υπάρχει αρκετή ελεύθερη μνήμη για τα τρέχοντα δεδομένα. \ NΕλευθερώστε τη μνήμη στο smartphone σας για να επιτρέψετε την ενημέρωση της κατάστασης κινδύνου.";
+
+/* How Risk Detection Works Alert.\n First introduced due to EXPOSUREAPP-1738.\n The alert only displays a single OK-button. We re-use the localized string\n `Alert_ActionOk` for that. */
+"How_Risk_Detection_Works_Alert_Title" = "Πληροφορίες σχετικά με τη λειτουργία καταγραφής έκθεσης";
+
+"How_Risk_Detection_Works_Alert_Message" = "Ο κίνδυνος μόλυνσης μπορεί να υπολογιστεί μόνο για περιόδους κατά τις οποίες ήταν ενεργή η καταγραφή έκθεσης. Επομένως, η δυνατότητα καταγραφής θα πρέπει να παραμείνει ενεργή μόνιμα. \ NΗ καταγραφή έκθεσης καλύπτει τις προηγούμενες %1$u ημέρες. \ NΗ εφαρμογή διαγράφει αυτόματα παλαιότερα αρχεία καταγραφής , καθώς δεν είναι πλέον σχετικά με την πρόληψη λοιμώξεων. \ n \ nΓια περισσότερες πληροφορίες, ανατρέξτε στη σελίδα Συχνές ερωτήσεις. ";
+/* Settings */
+"Settings_Notification_StatusActive" = "Ενεργό";
+
+"Settings_Notification_StatusInactive" = "Απενεργοποίηση";
+
+"Settings_BackgroundAppRefresh_StatusActive" = "Ενεργό";
+
+"Settings_BackgroundAppRefresh_StatusInactive" = "Απενεργοποίηση";
+
+"Settings_StatusEnable" = "Ενεργοποίηση";
+
+"Settings_StatusDisable" = "Απενεργοποίηση";
+
+"Settings_KontaktProtokollStatusActive" = "Ενεργό";
+
+"Settings_KontaktProtokollStatusInactive" = "Διακοπή";
+
+"Settings_Tracing_Label" = "Καταγραφή έκθεσης";
+
+"Settings_Notification_Label" = "Ειδοποιήσεις";
+
+"Settings_BackgroundAppRefresh_Label" = "Ανανέωση εφαρμογής στο παρασκήνιο";
+
+"Settings_Reset_Label" = "Επαναφορά εφαρμογής";
+
+"Settings_Tracing_Description" = "Να επιτρέπεται η δημιουργία και κοινή χρήση τυχαίων αναγνωριστικών COVID-19.";
+
+"Settings_Notification_Description" = "Να επιτρέπονται οι αυτόματες ειδοποιήσεις για την κατάσταση κινδύνου COVID-19.";
+
+"Settings_BackgroundAppRefresh_Description" = "Να επιτρέπονται αυτόματες ενημερώσεις για την κατάσταση κινδύνου.";
+
+"Settings_Reset_Description" = "Διαγράψτε όλα τα δεδομένα σας στην εφαρμογή.";
+
+"Settings_NavTitle" = "Ρυθμίσεις";
+
+/* Noticiation Settings */
+"NotificationSettings_On_Title" = "Θέλετε να ενεργοποιήσετε τις ειδοποιήσεις για την κατάσταση κινδύνου COVID-19;";
+
+"NotificationSettings_On_SectionTitle" = "Ρύθμιση";
+
+"NotificationSettings_On_RiskChanges" = "Ο κίνδυνος μόλυνσης άλλαξε";
+
+"NotificationSettings_On_TestsStatus" = "Κατάσταση της εξέτασης COVID-19";
+
+"NotificationSettings_Off_SectionTitle" = "Ρύθμιση";
+
+"NotificationSettings_Off_EnableNotifications" = "Ειδοποιήσεις";
+
+"NotificationSettings_Off_StatusInactive" = "Απενεργοποίηση";
+
+"NotificationSettings_Off_InfoTitle" = "Ενεργοποίηση ειδοποιήσεων";
+
+"NotificationSettings_Off_InfoDescription" = "Για να ενεργοποιήσετε τις ειδοποιήσεις, πρέπει να επιτρέψετε ειδοποιήσεις για την εφαρμογή Exo στις ρυθμίσεις της συσκευής σας.";
+
+"NotificationSettings_Off_OpenSettings" = "Άνοιγμα ρυθμίσεων";
+
+"NotificationSettings_NavTitle" = "Ειδοποιήσεις";
+
+"NotificationSettings_onImageDescription" = "Μια γυναίκα λαμβάνει μια ειδοποίηση από την εφαρμογή ΕΧΟ";
+
+"NotificationSettings_offImageDescription" = "Μια γυναίκα δεν μπορεί να λάβει ειδοποιήσεις από την εφαρμογή ΕΧΟ";
+
+/* Background App Referesh Settings */
+"BackgroundAppRefreshSettings_Title" = "Ανανέωση δραστηριότητας παρασκηνίου";
+
+"BackgroundAppRefreshSettings_Image_Description_On" = "Ένα άτομο κρατά ένα smartphone στο οποίο είναι ενεργοποιημένη η ανανέωση της εφαρμογής στο παρασκήνιο.";
+
+"BackgroundAppRefreshSettings_Image_Description_Off" = "Ένα άτομο κρατά ένα smartphone στο οποίο απενεργοποιείται η ανανέωση της εφαρμογής στο παρασκήνιο.";
+
+"BackgroundAppRefreshSettings_Subtitle" = "Ενημέρωση κατάστασης κινδύνου στο παρασκήνιο";
+
+"BackgroundAppRefreshSettings_Description" = "Μόλις ενεργοποιηθεί η ανανέωση της εφαρμογής στο παρασκήνιο, η εφαρμογή Exo καθορίζει αυτόματα την κατάσταση κινδύνου σας. \nΔεν θα υπάρξουν πρόσθετα κόστη για τη μεταφορά δεδομένων μέσω του δικτύου κινητής τηλεφωνίας.\nΑν απενεργοποιηθεί η ανανέωση της εφαρμογής στο παρασκήνιο, θα πρέπει να ανοίγετε την εφαρμογή χειροκίνητα καθημερινά για να ενημερώνετε την κατάσταση κινδύνου.";
+
+"BackgroundAppRefreshSettings_Status_Header" = "Ρύθμιση";
+
+"BackgroundAppRefreshSettings_Status_Title" = "Δραστηριότητα στο παρασκήνιο";
+
+"BackgroundAppRefreshSettings_Status_On" = "Ενεργό";
+
+"BackgroundAppRefreshSettings_Status_Off" = "Απενεργοποίηση";
+
+"BackgroundAppRefreshSettings_InfoBox_Title" = "Ενεργοποίηση ανανέωσης εφαρμογής φόντου";
+
+"BackgroundAppRefreshSettings_InfoBox_Description" = "Πρέπει να ενεργοποιήσετε την ανανέωση εφαρμογής φόντου τόσο στις γενικές ρυθμίσεις του iPhone σας όσο και στις ρυθμίσεις της εφαρμογής Exo.";
+
+"BackgroundAppRefreshSettings_InfoBox_LowPowerMode_Description" = "Λάβετε υπόψη ότι η λειτουργία χαμηλής ισχύος πρέπει να απενεργοποιηθεί για να ενεργοποιήσετε την ανανέωση της εφαρμογής στο παρασκήνιο.";
+
+"BackgroundAppRefreshSettings_InfoBox_LowPowerModeInstruction_Title" = "Απενεργοποίηση λειτουργίας χαμηλής ισχύος";
+
+"BackgroundAppRefreshSettings_InfoBox_LowPowerModeInstruction_Step1" = "Άνοιγμα ρυθμίσεων";
+
+"BackgroundAppRefreshSettings_InfoBox_LowPowerModeInstruction_Step2" = "Άνοιγμα μπαταρίας";
+
+"BackgroundAppRefreshSettings_InfoBox_LowPowerModeInstruction_Step3" = "Απενεργοποίηση λειτουργίας χαμηλής ισχύος";
+
+"BackgroundAppRefreshSettings_InfoBox_SystemBackgroundRefreshInstruction_Title" = "Ενεργοποίηση γενικής ανανέωσης εφαρμογής φόντου";
+
+"BackgroundAppRefreshSettings_InfoBox_SystemBackgroundRefreshInstruction_Step1" = "Άνοιγμα ρυθμίσεων";
+
+"BackgroundAppRefreshSettings_InfoBox_SystemBackgroundRefreshInstruction_Step2" = "Άνοιγμα Γενικά";
+
+"BackgroundAppRefreshSettings_InfoBox_SystemBackgroundRefreshInstruction_Step3" = "Άνοιγμα ανανέωσης εφαρμογής φόντου";
+
+"BackgroundAppRefreshSettings_InfoBox_SystemBackgroundRefreshInstruction_Step4" = "Επιλέξτε είτε Wi-Fi είτε Wi-Fi και δεδομένα κινητής τηλεφωνίας";
+
+"BackgroundAppRefreshSettings_InfoBox_AppBackgroundRefreshInstruction_Title" = "Ενεργοποίηση ανανέωσης εφαρμογής φόντου για την εφαρμογή Exo";
+
+"BackgroundAppRefreshSettings_InfoBox_AppBackgroundRefreshInstruction_Step1" = "Άνοιγμα ρυθμίσεων";
+
+"BackgroundAppRefreshSettings_InfoBox_AppBackgroundRefreshInstruction_Step2" = "Ανοίξτε τις ρυθμίσεις για το Exo";
+
+"BackgroundAppRefreshSettings_InfoBox_AppBackgroundRefreshInstruction_Step3" = "Ενεργοποίηση ανανέωσης εφαρμογής φόντου";
+
+"BackgroundAppRefreshSettings_OpenSettingsButton_Title" = "Άνοιγμα ρυθμίσεων";
+
+"BackgroundAppRefreshSettings_ShareButton_Title" = "Κοινοποίηση οδηγιών";
+
+/* Onboarding */
+"Onboarding_LetsGo_actionText" = "Ας ξεκινήσουμε";
+
+"Onboarding_Continue_actionText" = "Επόμενο";
+
+"Onboarding_EnableLogging_actionText" = "Ενεργοποίηση καταγραφής έκθεσης";
+
+"Onboarding_Continue_actionTextHint" = "Μπορείτε να παραλείψετε αυτήν την οθόνη";
+
+"Onboarding_doNotAllow_actionText" = "Να μην επιτρέπεται";
+
+"Onboarding_DoNotActivate_actionText" = "Να μην ενεργοποιηθεί";
+
+"Onboarding_DeactivateExposureConfirmation_title" = "Αυτό σημαίνει ότι η εφαρμογή Exo δεν μπορεί να στείλει ή να λάβει ειδοποιήσεις σχετικά με την κατάσταση κινδύνου COVID-19.";
+
+"Onboarding_DeactivateExposureConfirmation_message" = "Μπορείτε να απενεργοποιήσετε αυτήν τη λειτουργία ανά πάσα στιγμή.";
+
+"OnboardingInfo_togetherAgainstCoronaPage_imageDescription" = "Μια ομάδα ατόμων χρησιμοποιεί τις συσκευές τους γύρω από την πόλη.";
+
+"OnboardingInfo_togetherAgainstCoronaPage_title" = "Μαζί μπορούμε να περιορίσουμε την εξάπλωση του Covid-19";
+
+"OnboardingInfo_togetherAgainstCoronaPage_boldText" = "Περισσότερη προστασία για εσάς και για όλους μας. Χρησιμοποιώντας την εφαρμογή Exo, μπορούμε να σπάσουμε τις αλυσίδες μόλυνσης πολύ πιο γρήγορα.";
+
+"OnboardingInfo_togetherAgainstCoronaPage_normalText" = "Tο ΕΧΟ είναι η επίσημη εφαρμογή της Ελληνικής Κυβέρνησης η οποία δημιουργήθηκε για την ανίχνευση επαφών με βάση την τεχνολογία Bluetooth του τηλεφώνου σας.Η εφαρμογή στοχεύει να υποστηρίξει τις προσπάθειες της Ελληνικής Κυβέρνησης για περιορισμό της εξάπλωσης του COVID-19 στην Ελληνική κοινότητα.\n\nΗ εφαρμογή είναι σε καθαρά εθελοντική βάση, και μπορεί να εντοπίσει πιθανή επαφή του χρήστη με επιβεβαιωμένο κρούσμα COVID-19 μετά από αξιολόγηση ημερομηνίας, χρονικού διαστήματος και εγγύτητας της επαφής του χρήστη με επιβεβαιωμένο κρούσμα.\n\nΧρησιμοποιήστε αυτήν την εφαρμογή ώστε να συμβάλετε σημαντικά στην καταπολέμηση του κορωνοϊού. Προστατέψτε τον εαυτό σας, την οικογένειά σας, την κοινότητά σας και τους ευάλωτους πολίτες. Ενθαρρύνετε όλους όσους γνωρίζετε να κάνουν λήψη και χρήση της εφαρμογής ΕΧΟ όπου είναι δυνατόν. Η βασική μας φιλοσοφία είναι ότι μπορούμε να καταπολεμήσουμε τον COVID 19 συνεργαζόμενοι, ενδυναμώνοντας την Ελληνική κοινωνία με εργαλεία και τεχνολογίες που μπορούν να χρησιμοποιηθούν αποτελεσματικά με την προστασία όμως της ιδιωτικής σας ζωής.";
+
+"OnboardingInfo_togetherAgainstCoronaPage_linkText" = "Πληροφορίες εφαρμογής σε απλοποιημένη γλώσσα και νοηματική γλώσσα";
+
+"OnboardingInfo_privacyPage_imageDescription" = "Μια γυναίκα χρησιμοποιεί την εφαρμογή Exo στο smartphone της. Ένα εικονίδιο που δείχνει ένα λουκέτο στο φόντο μιας ασπίδας συμβολίζει κρυπτογραφημένα δεδομένα.";
+
+"OnboardingInfo_privacyPage_title" = "Απόρρητο δεδομένων";
+
+"OnboardingInfo_privacyPage_boldText" = "";
+
+"OnboardingInfo_privacyPage_normalText" = "Θα παραμείνετε ανώνυμοι. \nΤα δεδομένα σας είναι πλήρως κρυπτογραφημένα και μεταδίδονται με ψευδώνυμο. \n\nΑνθρώπινος οργανισμός: GDPR, άρθρο 4, παράγραφος 7: \n\nRobert Koch-Institute \nNordufer 20 \n13353 Βερολίνο \nΔιαβάστε τους κανονισμούς απορρήτου δεδομένων μας. \n\nΠροστασία απορρήτου δεδομένων: ";
+
+"OnboardingInfo_enableLoggingOfContactsPage_imageDescription" = "Τρία άτομα έχουν ενεργοποιήσει την καταγραφή έκθεσης στις συσκευές τους, οι οποίες θα καταγράφουν τις συναντήσεις τους μεταξύ τους.";
+
+"OnboardingInfo_enableLoggingOfContactsPage_title" = "Πώς να ενεργοποιήσετε την καταγραφή έκθεσης";
+
+"OnboardingInfo_enableLoggingOfContactsPage_boldText" = "Για να προσδιορίσετε τυχόν πιθανή έκθεση, πρέπει να ενεργοποιήσετε την καταγραφή έκθεσης.";
+
+"OnboardingInfo_enableLoggingOfContactsPage_normalText" = "Πώς δουλεύει?\n\nΕάν τα κινητά τηλέφωνα έχουν εγκατεστημένη και ενεργοποιημένη την εφαρμογή, έχουν ενεργοποιημένο το Bluetooth της συσκευής και βρίσκονται σε κοντινή απόσταση το ένα στο άλλο για ένα χρονικό διάστημα, καταχωρείται στη συσκευή σας μια συνάντηση.\n\nΕίναι τα δεδομένα μου ασφαλή?\n\nΣε περίπτωση συνάντησης, τα δεδομένα και οι πληροφορίες παραμένουν ανώνυμα. Έτσι εφαρμογή δεν αποθηκεύει προσωπικά δεδομένα καθώς ανατάλλοσονται μόνο τυχαία αναγνωριστικά. Αυτά διαγράφονται εντός 14  ημερών.\n\nΑυτή η εφαρμογή δεν σας προστατεύει από τη λοίμωξη του COVID 19";
+
+"OnboardingInfo_enableLoggingOfContactsPage_consentUnderagesTitle" = "Όριο ηλικίας: 16 και άνω";
+
+"OnboardingInfo_enableLoggingOfContactsPage_consentUnderagesText" = "Η χρήση αυτής της εφαρμογής προορίζεται για άτομα ηλικίας τουλάχιστον 16 ετών και που διαμένουν στη Ελλάδα.";
+
+"OnboardingInfo_enableLoggingOfContactsPage_stateHeader" = "Κατάσταση";
+
+"OnboardingInfo_enableLoggingOfContactsPage_stateTitle" = "Καταγραφή έκθεσης";
+
+"OnboardingInfo_enableLoggingOfContactsPage_stateActive" = "Ενεργό";
+
+"OnboardingInfo_enableLoggingOfContactsPage_stateStopped" = "Διακοπή";
+
+"OnboardingInfo_howDoesDataExchangeWorkPage_imageDescription" = "Μια κρυπτογραφημένη θετική διάγνωση τεστ μεταδίδεται στο σύστημα, το οποίο θα προειδοποιήσει τώρα άλλους χρήστες.";
+
+"OnboardingInfo_howDoesDataExchangeWorkPage_title" = "Εάν έχετε διαγνωστεί με COVID-19…";
+
+"OnboardingInfo_howDoesDataExchangeWorkPage_boldText" = "Αν ο χρήστης διαγνωστεί με κορονοϊό, τότε έχει την επιλογή να εισάγει έναν κωδικό στην εφαρμογή του ώστε να στείλει αυτή την πληροφορία στις εφαρμογές άλλων χρηστών με τους οποίους είχε έρθει σε επαφή.";
+
+"OnboardingInfo_howDoesDataExchangeWorkPage_normalText" = "Τελικά, συνεισφέρει ώστε να ειδοποιηθούν τα άτομα με τα οποία συναντήθηκε σε περίπτωση που ήρθαν σε επαφή, ακόμα και κατά τη διάρκεια του ταξιδιού του σε άλλη Ευρωπαϊκή χώρα. Η ιδιωτικότητά του είναι πλήρως διασφαλισμένη καθώς δεν ανταλλάσσονται ούτε αποκαλύπτονται προσωπικά δεδομένα του χρήστη ή των υπόλοιπων χρηστών, όπως ονόματα, τοποθεσίες, προφίλ, κτλ.";
+
+"OnboardingInfo_alwaysStayInformedPage_imageDescription" = "Μια γυναίκα λαμβάνει μια ειδοποίηση από την εφαρμογή EXO.";
+
+"OnboardingInfo_alwaysStayInformedPage_title" = "Λάβετε προειδοποιήσεις και εντοπίστε πιθανούς κινδύνους";
+
+"OnboardingInfo_alwaysStayInformedPage_boldText" = "Η εφαρμογή μπορεί να σας ειδοποιεί αυτόματα για την κατάσταση κινδύνου και να σας προειδοποιεί για νέες μολύνσεις ατόμων που έχετε εκτεθεί. Επιτρέψτε στην εφαρμογή να σας ειδοποιεί τώρα.";
+
+"OnboardingInfo_alwaysStayInformedPage_normalText" = "Στη συνέχεια, μπορείτε να απομονωθείτε για να προστατεύσετε τους άλλους και να μάθετε πού μπορείτε να δοκιμάσετε.";
+
+/* Onboarding EU Keys */
+"onboardingInfo_enableLoggingOfContactsPage_euTitle" = "Διακρατική καταγραφή έκθεσης";
+
+"onboardingInfo_enableLoggingOfContactsPage_euDescription" = "Αρκετές χώρες συνεργάστηκαν για να ενεργοποιήσουν διεθνικές προειδοποιήσεις. Με άλλα λόγια, η πιθανή έκθεσή σας σε χρήστες των επίσημων εφαρμογών κοραναϊού σε όλες τις συμμετέχουσες χώρες μπορεί πλέον να ληφθεί υπόψη. \n\nΌταν ένας χρήστης υποβάλει το θετικό τεστ αποτέλεσμα (πιο συγκεκριμένα: τα τυχαία αναγνωριστικά τους) για να προειδοποιήσει άλλους μέσω του διακομιστή ανταλλαγής που λειτουργεί από κοινού από τις συμμετέχουσες χώρες, όλοι οι χρήστες των επίσημων εφαρμογών coronavirus σε όλες αυτές τις χώρες μπορούν να ειδοποιηθούν για την πιθανή έκθεσή τους. \n\nΟι καθημερινές λήψεις λιστών τυχαίων αναγνωριστικών από χρήστες που έχουν κοινοποιήσει θετικά αποτελέσματα δοκιμών συνήθως είναι δωρεάν για εσάς. Συγκεκριμένα, αυτό σημαίνει ότι οι πάροχοι δικτύου κινητής τηλεφωνίας δεν σας χρεώνουν για τα δεδομένα που χρησιμοποιεί η εφαρμογή σε αυτό το πλαίσιο, ούτε εφαρμόζουν χρεώσεις περιαγωγής για αυτό σε άλλες χώρες της ΕΕ. Επικοινωνήστε με τον πάροχο του δικτύου κινητής τηλεφωνίας σας για περισσότερες πληροφορίες. ";
+
+"onboardingInfo_enableLoggingOfContactsPage_participatingCountriesTitle" = "Συμμετέχουν οι ακόλουθες χώρες:";
+
+"onboardingInfo_enableLoggingOfContactsPage_emptyEuTitle" = "Συμμετέχουσες χώρες";
+
+"onboardingInfo_enableLoggingOfContactsPage_emptyEuDescription" = "Μπορείτε να δείτε τις συμμετέχουσες χώρες στις λεπτομέρειες καταγραφής έκθεσης.";
+
+/* Exposure Submission */
+"ExposureSubmission_Hotline_Number" = "+30 215 215 7865";
+
+"ExposureSubmission_DataPrivacyTitle" = "Συγκατάθεση";
+
+"ExposureSubmission_Continue_actionText" = "Επόμενο";
+
+"ExposureSubmission_ConfirmDismissPopUpTitle" = "Θέλετε να ακυρώσετε;";
+
+"ExposureSubmission_ConfirmDismissPopUpText" = "Οι καταχωρίσεις σας δεν θα αποθηκευτούν.";
+
+"ExposureSubmission_DataPrivacyDescription" = "Πατώντας 'Αποδοχή', συναινείτε στην εφαρμογή που υποβάλλει ερώτημα σχετικά με την κατάσταση της εξέτασης κορανοϊού και την εμφάνισή της στην εφαρμογή. Αυτή η λειτουργία είναι διαθέσιμη σε εσάς εάν έχετε λάβει έναν κωδικό QR και έχετε συναινέσει στο αποτέλεσμα της εξέτασης σας μεταδίδεται στο σύστημα διακομιστή της εφαρμογής. Μόλις το εργαστήριο δοκιμών αποθηκεύσει το αποτέλεσμα της εξέτασης σας στο διακομιστή, θα μπορείτε να δείτε το αποτέλεσμα στην εφαρμογή. Εάν έχετε ενεργοποιήσει τις ειδοποιήσεις, θα λάβετε επίσης μια ειδοποίηση εκτός της εφαρμογής σας λένε ότι το αποτέλεσμα της εξέτασης σας έχει ληφθεί. Ωστόσο, για λόγους απορρήτου, το ίδιο το αποτέλεσμα της εξέτασης θα εμφανίζεται μόνο στην εφαρμογή. Μπορείτε να ανακαλέσετε αυτήν τη συγκατάθεση ανά πάσα στιγμή διαγράφοντας τη δοκιμαστική εγγραφή σας στην εφαρμογή. Η ανάκληση της συγκατάθεσής σας δεν θα να επηρεάσει τη νομιμότητα της επεξεργασίας πριν από την απόσυρσή της. Περισσότερες πληροφορίες μπορείτε να βρείτε στο μενού στην ενότητα 'Απόρρητο δεδομένων'. ";
+
+"ExposureSubmissionDataPrivacy_AcceptTitle" = "Να επιτρέπεται";
+
+"ExposureSubmissionDataPrivacy_DontAcceptTitle" = "Να μην επιτρέπεται";
+
+"ExposureSubmission_Submit" = "Εισαγάγετε Kωδικό";
+
+"ExposureSubmissionTanEntry_Title" = "Εισαγωγή Κωδικού";
+
+"ExposureSubmissionTanEntry_EntryField" = "Πεδίο εισαγωγής Κωδικού";
+
+"ExposureSubmissionTanEntry_Info" = "Εισαγάγετε τον κωδικό που σας δόθηκε:";
+
+"ExposureSubmissionTanEntry_Description" = "Εισάγετε το 10ψήφιο κωδικό που σας έχει αποσταλεί με SMS.";
+
+"ExposureSubmissionTanEntry_Submit" = "Επόμενο";
+
+"ExposureSubmissionTanEntry_InvalidCharacterError" = "Η καταχώρισή σας περιέχει μη έγκυρους χαρακτήρες. Ελέγξτε την καταχώρισή σας.";
+
+"ExposureSubmissionTanEntry_InvalidError" = "Μη έγκυρος κωδικός. Ελέγξτε την καταχώρισή σας.";
+
+"ExposureSubmission_NavTitle" = "Αποστολή κλειδιού διάγνωσης";
+
+"ExposureSubmissionConfirmation_Title" = "Θετική διάγνωση";
+
+"ExposureSubmission_GeneralErrorTitle" = "Σφάλμα";
+
+/* Exposure Submission Dispatch */
+"ExposureSubmission_DispatchTitle" = "Ανάκτηση αποτελέσματος εξέτασης";
+
+"ExposureSubmissionIntroduction_AccImageDescription" = "Μια συσκευή μεταδίδει κρυπτογραφημένη θετική δοκιμαστική διάγνωση στο σύστημα.";
+
+"ExposureSubmission_DispatchDescription" = "Εάν έχετε ενημερωθεί από το Υπουργείο Υγείας ότι είστε επιβεβαιωμένο κρούσμα της νόσους και σας στάλθηκε με sms κωδικός επαλήθευσης, μπορείτε να υποβάλετε τον κωδικό παρακάτω.Εάν δεν λάβετε κωδικό δεν μπορείτε να προχωρήσετε";
+
+"ExposureSubmission_DispatchSectionHeadline" = "Έχετε τον κωδικό επαλήθευσής σας;";
+
+"ExposureSubmission_DispatchSectionHeadline2" = "Είχατε θετικό αποτέλεσμα για coronavirus;";
+
+"ExposureSubmissionDispatch_QRCodeButtonTitle" = "Δοκιμή με κωδικό QR";
+
+"ExposureSubmissionDispatch_QRCodeButtonDescription" = "Καταχωρήστε τη δοκιμή σας σαρώνοντας τον κωδικό QR του εγγράφου εξέτασης σας.";
+
+"ExposureSubmissionDispatch_TANButtonTitle" = "Εισαγωγή Κωδικού";
+
+"ExposureSubmissionDispatch_TANButtonDescription" = "Εάν έχετε τον κωδικό επαλήθευσης, πατήστε εδώ για να συνεχίσετε.";
+
+"ExposureSubmissionDispatch_HotlineButtonTitle" = "Δεν υπάρχει ακόμη TAN;";
+
+"ExposureSubmissionDispatch_HotlineButtonDescription" = "Καλέστε μας και λάβετε TAN.";
+
+/* Exposure Submission Hotline */
+"ExposureSubmissionHotline_Title" = "Αίτημα TAN";
+
+"ExposureSubmissionHotline_Description" = "Διατηρήστε το αποτέλεσμα της εξέτασης σας (εάν υπάρχει) και τον αριθμό τηλεφώνου σας έτοιμος να ζητήσει TAN.";
+
+"ExposureSubmissionHotline_SectionTitle" = "Πώς λειτουργεί:";
+
+"ExposureSubmissionHotline_SectionDescription1" = "Καλέστε την ανοιχτή γραμμή και ζητήστε ένα TAN:";
+
+"ExposureSubmissionHotline_iconAccessibilityLabel1" = "Βήμα 1 από 2";
+
+"ExposureSubmissionHotline_iconAccessibilityLabel2" = "Βήμα 2 από 2";
+
+"ExposureSubmission_PhoneNumber" = "+30 215 215 7865";
+
+"ExposureSubmission_PhoneDetailDescription" = "Γλώσσες: \nΕλληνικά, Αγγλικά \n\nΥπηρεσίες ώρες: \nΔευτέρα έως Κυριακή: 24 ώρες \n\nΗ κλήση είναι δωρεάν. \n\nΑν έχετε ερωτήσεις σχετικά με την υγεία, επικοινωνήστε με ο γενικός ιατρός σας ή η ανοιχτή γραμμή ιατρικής υπηρεσίας έκτακτης ανάγκης · τηλέφωνο: 116 117. ";
+
+"ExposureSubmission_SectionDescription2" = "Καταχωρήστε τη δοκιμή εισάγοντας το TAN στην εφαρμογή.";
+
+"ExposureSubmission_CallButtonTitle" = "Κλήση";
+
+"ExposureSubmission_TANInputButtonTitle" = "Εισαγωγή TAN";
+
+"ExposureSubmissionHotline_imageDescription" = "Η ανοιχτή γραμμή επικοινωνεί ένα TAN.";
+
+/* Exposure Submission QR Code Info */
+"ExposureSubmissionQRInfo_title" = "Η συγκατάθεσή σας";
+
+"ExposureSubmissionQRInfo_imageDescription" = "Ένα άτομο κρατάει smartphone. Ένας κωδικός QR σε μια δοκιμή συμβολίζει τον κώδικα που θα σαρωθεί.";
+
+"ExposureSubmissionQRInfo_title_description" = "Η συγκατάθεσή σας απαιτείται για να μπορείτε να ανακτήσετε το αποτέλεσμα της εξέτασης σας και να προειδοποιήσετε άλλους.";
+
+"ExposureSubmissionQRInfo_header_section_1" = "Ανάκτηση αποτελέσματος εξέτασης";
+
+"ExposureSubmissionQRInfo_body_section_1" = "Στο επόμενο βήμα, σαρώστε τον κωδικό QR στη δοκιμή σας και ανακτήστε το αποτέλεσμα της εξέτασης σας.";
+
+"ExposureSubmissionQRInfo_instruction1" = "Σαρώστε μόνο τη δική σας δοκιμή.";
+
+"ExposureSubmissionQRInfo_instruction2" = "Η δοκιμή σας μπορεί να σαρωθεί μόνο μία φορά. Η εφαρμογή δεν μπορεί να διαχειριστεί πολλές δοκιμές ταυτόχρονα.";
+
+"ExposureSubmissionQRInfo_instruction3" = "Η εφαρμογή μπορεί να% @ διαχειριστεί πολλές δοκιμές ταυτόχρονα.";
+
+"ExposureSubmissionQRInfo_instruction3_highlightedPhrase" = "όχι";
+
+"ExposureSubmissionQRInfo_header_section_2" = "Βοηθήστε τους άλλους που έχετε αντιμετωπίσει προειδοποιώντας τους!";
+
+"ExposureSubmissionQRInfo_body_section_2" = "Εάν έχετε διαγνωστεί με coronavirus, μπορείτε να προειδοποιήσετε άλλους μέσω της εφαρμογής. Η λειτουργία προειδοποίησης λειτουργεί σε πολλές χώρες. Οι ακόλουθες χώρες συμμετέχουν προς το παρόν:";
+
+"ExposureSubmissionQRInfo_acknowledgement_3" = "Η συγκατάθεσή σας είναι εθελοντική.";
+
+"ExposureSubmissionQRInfo_acknowledgement_4" = "Μπορείτε να ανακτήσετε το αποτέλεσμα της εξέτασης σας, ακόμη και αν δεν επιλέξετε να το κοινοποιήσετε. Αλλά αν μοιραστείτε το αποτέλεσμα της εξέτασης σας, θα βοηθήσετε στην προστασία άλλων από τη μόλυνση.";
+
+"ExposureSubmissionQRInfo_acknowledgement_5" = "Η ταυτότητά σας θα παραμείνει μυστική. Άλλοι χρήστες δεν θα μάθουν ποιος έχει μοιραστεί ένα αποτέλεσμα εξέτασης.";
+
+"ExposureSubmissionQRInfo_acknowledgement_6" = "Πρέπει να είστε τουλάχιστον 16 ετών για να εκχωρήσετε τη συγκατάθεσή σας.";
+
+"ExposureSubmissionQRInfo_primaryButtonTitle" = "Αποδοχή";
+
+"ExposureSubmissionQRInfo_QRCodeExpired_Alert_Title" = "Ο κωδικός QR δεν ισχύει πλέον";
+
+"ExposureSubmissionQRInfo_QRCodeExpired_Alert_Text" = "Η δοκιμή σας είναι άνω των 21 ημερών και δεν μπορεί πλέον να εγγραφεί στην εφαρμογή. Εάν δοκιμάσετε ξανά στο μέλλον, φροντίστε να σαρώσετε τον κωδικό QR μόλις λάβετε.";
+
+/* Exposure Submission QR Code Scanner */
+"ExposureSubmissionQRScanner_title" = "Σάρωση κώδικα QR";
+
+"ExposureSubmissionQRScanner_instruction" = "Τοποθετήστε το πλαίσιο πάνω από τον κωδικό QR του εγγράφου σας.";
+
+"ExposureSubmissionQRScanner_otherError" = "Παρουσιάστηκε άγνωστο σφάλμα.";
+
+"ExposureSubmissionQRScanner_cameraPermissionDenied" = "Επιτρέψτε στην εφαρμογή να χρησιμοποιεί την κάμερα για τη σάρωση του κωδικού QR.";
+
+"ExposureSubmissionQRScanner_CameraFlash" = "Φλας κάμερας";
+
+"ExposureSubmissionQRScanner_CameraFlash_On" = "Ενεργοποιημένο";
+
+"ExposureSubmissionQRScanner_CameraFlash_Off" = "Απενεργοποιημένο";
+
+"ExposureSubmissionQRScanner_CameraFlash_Enable" = "Ενεργοποίηση φλας κάμερας";
+
+"ExposureSubmissionQRScanner_CameraFlash_Disable" = "Απενεργοποίηση φλας κάμερας";
+
+/* Exposure Submission Success */
+"ExposureSubmissionSuccess_Title" = "Ευχαριστώ";
+
+"ExposureSubmissionSuccess_AccImageDescription" = "Όλοι στην ομάδα πανηγυρίζουν επειδή κάποιος έχει μοιραστεί το αποτέλεσμα της εξέτασης του.";
+
+"ExposureSubmissionSuccess_Button" = "Αυτό είναι!";
+
+"ExposureSubmissionSuccess_Description" = "Χάρη στην υποστήριξή σας, άλλα άτομα μπορούν τώρα να προειδοποιηθούν και να ανταποκριθούν κατάλληλα.";
+
+"ExposureSubmissionSuccess_subTitle" = "Άλλες πληροφορίες:";
+
+"ExposureSubmissionSuccess_listTitle" = "Παρακαλώ σημειώστε:";
+
+"ExposureSubmissionSuccess_listItem1" = "Για πληροφορίες σχετικά με τον COVID-19, καλέστε στη γραμμή 24ης λειτουργίες του ΕΟΔΥ 1135";
+
+"ExposureSubmissionSuccess_listItem2" = "Είστε μολυσματικοί. Απομονώστε τον εαυτό σας από άλλα άτομα.";
+
+"ExposureSubmissionSuccess_listItem2_1" = "Η περίοδος καραντίνας σας είναι συνήθως 14 ημέρες. Παρατηρήστε τα συμπτώματά σας και παρακολουθήστε πώς αναπτύσσονται.";
+
+"ExposureSubmissionSuccess_listItem2_2" = "Θα σας ζητηθεί από την αρχή δημόσιας υγείας να δημιουργήσετε μια λίστα ατόμων με τα οποία είχατε επαφή. Αυτό θα πρέπει να περιλαμβάνει όλα τα άτομα με τα οποία έχετε στενή επαφή (λιγότερο από 2 μέτρα, πρόσωπο με πρόσωπο) συνομιλία) για πάνω από 15 λεπτά τις δύο ημέρες πριν από την εμφάνιση συμπτωμάτων. Μπορείτε να χρησιμοποιήσετε το ημερολόγιο επαφών σας για αυτό: απλώς εξαγάγετε τις καταχωρήσεις και στη συνέχεια εκτυπώστε τις ή στείλτε τις μέσω e-mail.";
+
+"ExposureSubmissionSuccess_listItem2_3" = "Λάβετε υπόψη ιδιαίτερα τα άτομα που δεν θα ειδοποιηθούν απευθείας από την εφαρμογή, επειδή δεν διαθέτουν smartphone ή δεν έχουν εγκαταστήσει την εφαρμογή.";
+
+"ExposureSubmissionSuccess_listItem2_4" = "Ακόμα και όταν δεν έχετε πλέον συμπτώματα και αισθάνεστε καλά ξανά, θα μπορούσατε να είστε λοιμώδης.";
+
+/* Exposure Submission Testresult available */
+"ExposureSubmissionTestresultAvailable_Title" = "Το αποτέλεσμα της εξέτασης σας είναι διαθέσιμο";
+
+"ExposureSubmissionTestresultAvailable_AccImageDescription" = "Μια γυναίκα κρατά το smartphone της στο χέρι της. Στέλνει ένα σήμα σε άλλο smartphone.";
+
+"ExposureSubmissionTestresultAvailable_Consent_granted" = "Συγκατάθεση \n 'Προειδοποίηση άλλων 'χορηγηθεί";
+
+"ExposureSubmissionTestresultAvailable_Consent_not_given" = "Η συγκατάθεση \n'Προειδοποίηση άλλων' δεν παραχωρήθηκε";
+
+"ExposureSubmissionTestresultAvailable_ListItem1WithConsent" = "Σας ευχαριστούμε που συμφωνήσατε να μοιραστείτε το αποτέλεσμα της εξέτασης σας και συμβάλλετε στην προειδοποίηση άλλων.";
+
+"ExposureSubmissionTestresultAvailable_ListItem2WithConsent" = "Στο επόμενο βήμα, μοιραστείτε το αποτέλεσμα της εξέτασης σας πατώντας 'Κοινή χρήση'.";
+
+"ExposureSubmissionTestresultAvailable_ListItem1WithoutConsent" = "Έχετε επιλέξει να μην κοινοποιήσετε το αποτέλεσμα της εξέτασης σας. Άλλοι δεν θα ειδοποιηθούν.";
+
+"ExposureSubmissionTestresultAvailable_ListItem2WithoutConsent" = "Στο επόμενο βήμα, έχετε την ευκαιρία να αλλάξετε γνώμη και να μοιραστείτε τελικά το αποτέλεσμα της εξέτασης σας, για να σταματήσετε την εξάπλωση του coronavirus και να προστατεύσετε άλλους.";
+
+"ExposureSubmissionTestresultAvailable_primaryButtonTitle" = "Επόμενο";
+
+"ExposureSubmissionTestresultAvailable_CloseAlertTitle" = "Σημαντικό: \ n Πρόκειται να ακυρώσετε αυτήν τη διαδικασία. Δεν έχετε προειδοποιήσει ακόμη άλλους. Ολοκληρώστε τη διαδικασία και βοηθήστε στην προστασία άλλων.";
+
+"ExposureSubmissionTestresultAvailable_CloseAlertMessage" = "Θέλετε πραγματικά να ακυρώσετε τη διαδικασία;";
+
+"ExposureSubmissionTestresultAvailable_NoConsentCloseAlertTitle" = "Θέλετε να ακυρώσετε;";
+
+"ExposureSubmissionTestresultAvailable_NoConsentCloseAlertMessage" = "Οι καταχωρίσεις σας δεν θα αποθηκευτούν.";
+
+"ExposureSubmissionTestresultAvailable_CloseAlertButtonCancel" = "Ακύρωση";
+
+"ExposureSubmissionTestresultAvailable_CloseAlertButtonContinue" = "Συνέχεια";
+
+/* Exposure Submission Result */
+"ExposureSubmissionResult_Title" = "Το αποτέλεσμα της εξέτασης σας";
+
+"ExposureSubmissionResult_CardSubTitle" = "Η διάγνωσή σας";
+
+"ExposureSubmissionResult_CardTitle" = "SARS-CoV-2";
+
+"ExposureSubmissionResult_CardPositive" = "Θετικό";
+
+"ExposureSubmissionResult_CardNegative" = "Αρνητικό";
+
+"ExposureSubmissionResult_CardInvalid" = "Η αξιολόγηση δεν είναι δυνατή";
+
+"ExposureSubmissionResult_CardPending" = "Το αποτέλεσμα δεν είναι ακόμη διαθέσιμο";
+
+"ExposureSubmissionResult_Procedure" = "Πώς λειτουργεί:";
+
+"ExposureSubmissionResult_testAdded" = "Η δοκιμή σας έχει προστεθεί.";
+
+"ExposureSubmissionResult_warnOthers" = "Προειδοποιήστε τους άλλους";
+
+"ExposureSubmissionResult_warnOthersDesc" = "Μοιραστείτε τα τυχαία αναγνωριστικά σας και προειδοποιήστε τους άλλους. \nΒοηθήστε να προσδιορίσετε τον κίνδυνο μόλυνσης για άλλους με μεγαλύτερη ακρίβεια, υποδεικνύοντας επίσης πότε παρατηρήσατε για πρώτη φορά οποιαδήποτε συμπτώματα κορονοϊού.";
+
+"ExposureSubmissionResult_testNegative" = "Αρνητική διάγνωση";
+
+"ExposureSubmissionResult_testNegativeDesc" = "Το εργαστηριακό αποτέλεσμα δεν δείχνει επαλήθευση ότι έχετε coronavirus SARS-CoV-2.";
+
+"ExposureSubmissionResult_testNegative_f περαιτέρωInfos_title" = "Άλλες πληροφορίες:";
+
+"ExposureSubmissionResult_testNegative_f περαιτέρωInfos_listItem1" = "Ακόμα αισθάνεστε αδιαθεσία; Εάν αισθάνεστε πολύ άσχημα και / ή τα συμπτώματά σας έχουν επιδεινωθεί, επικοινωνήστε με τον ιατρό σας.";
+
+"ExposureSubmissionResult_testNegative_f περαιτέρωInfos_listItem2" = "Παραμείνετε στο σπίτι μέχρι να αισθανθείτε ξανά καλά. Εάν επρόκειτο να μολυνθείτε με κορονοϊό (SARS-CoV-2) ενώ αποδυναμώσατε από άλλη λοίμωξη, αυτό θα μπορούσε να οδηγήσει σε σοβαρή ασθένεια.";
+
+"ExposureSubmissionResult_testNegative_f περαιτέρωInfos_listItem3" = "Μην πηγαίνετε στη δουλειά εάν αισθάνεστε αδιαθεσία για να βεβαιωθείτε ότι δεν θέτετε σε κίνδυνο άλλους ανθρώπους.";
+
+"ExposureSubmissionResult_f اڳتيInfos_hint_testAgain" = "Εάν τα συμπτώματά σας επιδεινωθούν, μπορεί να χρειαστείτε άλλη δοκιμή SARS-CoV-2.";
+
+"ExposureSubmissionResult_testInvalid" = "Η δοκιμή έχει σφάλματα";
+
+"ExposureSubmissionResult_testInvalidDesc" = "Παρουσιάστηκε πρόβλημα κατά την αξιολόγηση της εξέτασης σας. Επικοινωνήστε με το εξεταστικό κέντρο ή το εργαστήριο που συμμετέχει για να μάθετε πώς να προχωρήσετε.";
+
+"ExposureSubmissionResult_testExpired" = "Η δοκιμή έχει σφάλματα";
+
+"ExposureSubmissionResult_testExpiredDesc" = "Παρουσιάστηκε πρόβλημα κατά την αξιολόγηση της εξέτασης σας. Ο κωδικός QR σας έχει ήδη λήξει.";
+
+"ExposureSubmissionResult_testPending" = "Το αποτέλεσμα της εξέτασης σας δεν είναι ακόμη διαθέσιμο.";
+
+"ExposureSubmissionResult_testPendingDesc" = "Μόλις το αποτέλεσμα της εξέτασης σας είναι διαθέσιμο, θα εμφανίζεται στην εφαρμογή. \n\nΘα λάβετε επίσης το αποτέλεσμα της εξέτασης σας εκτός της εφαρμογής. Οι αρχές δημόσιας υγείας θα σας ειδοποιήσουν, εάν η δοκιμή σας είναι θετική . \n\nΕάν ειδοποιηθείτε για ένα θετικό αποτέλεσμα εξέτασης εκτός της εφαρμογής, καταργήστε τη δοκιμή που είναι ήδη καταχωρημένη στην εφαρμογή. Καλέστε τον αριθμό που εμφανίζεται στην ενότητα 'Αίτημα TAN' για λήψη TAN. Στη συνέχεια, μπορείτε να χρησιμοποιήσετε αυτό το TAN για να καταχωρίσετε καταλήγουν στην εφαρμογή και προειδοποιούν τους άλλους.";
+
+"ExposureSubmissionResult_WarnOthersConsentGiven" = "Η συγκατάθεση 'Προειδοποίηση για άλλους' χορηγήθηκε";
+
+"ExposureSubmissionResult_WarnOthersConsentNotGiven" = "Δεν επιτρέπεται η συγκατάθεση 'Προειδοποίηση άλλων'";
+
+"ExposureSubmissionResult_testRemove" = "Διαγραφή εξέτασης";
+
+"ExposureSubmissionResult_testRemoveDesc" = "Διαγράψτε τη δοκιμή από την εφαρμογή Exo, ώστε να μπορείτε να αποθηκεύσετε έναν νέο κωδικό εξέτασης εδώ εάν είναι απαραίτητο.";
+
+"ExposureSubmissionResult_primaryButtonTitle" = "Εισαγωγή συμπτωμάτων";
+
+"ExposureSubmissionResult_secondaryButtonTitle" = "Μην εισαγάγετε συμπτώματα";
+
+"ExposureSubmissionResult_deleteButton" = "Διαγραφή εξέτασης";
+
+"ExposureSubmissionResult_refreshButton" = "Ενημέρωση";
+
+/* ExposureSubmissionSymptoms */
+"ExposureSubmissionSymptoms_Title" = "Συμπτώματα";
+
+"ExposureSubmissionSymptoms_Introduction" = "Εάν δεν θέλετε να μοιραστείτε αυτές τις πληροφορίες, απλώς επιλέξτε 'Χωρίς απάντηση'. ";
+
+"ExposureSubmissionSymptoms_Description" = "Έχετε αντιμετωπίσει ένα ή περισσότερα από τα ακόλουθα συμπτώματα τις τελευταίες ημέρες;";
+
+"ExposureSubmissionSymptoms_Symptom0" = "Αυξημένη θερμοκρασία ή πυρετός";
+
+"ExposureSubmissionSymptoms_Symptom1" = "Δύσπνοια";
+
+"ExposureSubmissionSymptoms_Symptom2" = "Απώλεια αίσθησης οσμής / γεύσης";
+
+"ExposureSubmissionSymptoms_Symptom3" = "Βήχας";
+
+"ExposureSubmissionSymptoms_Symptom4" = "Καταρροή";
+
+"ExposureSubmissionSymptoms_Symptom5" = "Πονόλαιμος";
+
+"ExposureSubmissionSymptoms_Symptom6" = "Πονοκέφαλος και πόνος στα άκρα";
+
+"ExposureSubmissionSymptoms_Symptom7" = "Γενική αδυναμία και εξάντληση";
+
+"ExposureSubmissionSymptoms_AnswerOptionYes" = "Ναι";
+
+"ExposureSubmissionSymptoms_AnswerOptionNo" = "Όχι";
+
+"ExposureSubmissionSymptoms_AnswerOptionPreferNotToSay" = "Χωρίς απάντηση";
+
+"ExposureSubmissionSymptoms_ContinueButton" = "Επόμενο";
+
+/* ExposureSubmissionSymptomsOnset */
+"ExposureSubmissionSymptomsOnset_Title" = "Έναρξη συμπτωμάτων";
+
+"ExposureSubmissionSymptomsOnset_Subtitle" = "Πότε παρατηρήσατε για πρώτη φορά τα συμπτώματα;";
+
+"ExposureSubmissionSymptomsOnset_Description" = "Επιλέξτε την ακριβή ημερομηνία στο ημερολόγιο ή, εάν δεν μπορείτε να θυμηθείτε την ακριβή ημερομηνία, ορίστε μία από τις άλλες επιλογές.";
+
+"ExposureSubmissionSymptomsOnset_DatePickerTitle" = "Ημερομηνία";
+
+"ExposureSubmissionSymptomsOnset_AnswerOptionLastSevenDays" = "Τις τελευταίες 7 ημέρες";
+
+"ExposureSubmissionSymptomsOnset_AnswerOptionOneToTwoWeeksAgo" = "1-2 εβδομάδες πριν";
+
+"ExposureSubmissionSymptomsOnset_AnswerOptionMoreThanTwoWeeksAgo" = "Πάνω από 2 εβδομάδες πριν";
+
+"ExposureSubmissionSymptomsOnset_AnswerOptionPreferNotToSay" = "Χωρίς απάντηση";
+
+"ExposureSubmissionSymptomsOnset_ContinueButton" = "Αυτό είναι!";
+
+
+/* ExposureSubmissionSymptoms - Cancel alert */
+"ExposureSubmissionSymptoms_CancelAlertTitle" = "Θέλετε να ακυρώσετε την εισαγωγή των συμπτωμάτων σας;";
+
+"ExposureSubmissionSymptoms_CancelAlertMessage" = "Εάν παρέχετε πληροφορίες σχετικά με τα συμπτώματά σας, μπορείτε να προειδοποιήσετε τους άλλους πιο συγκεκριμένα.";
+
+"ExposureSubmissionSymptoms_CancelAlertButtonCancel" = "Ναι";
+
+"ExposureSubmissionSymptoms_CancelAlertButtonContinue" = "Όχι";
+
+/* ExposureSubmissionWarnOthers */
+"ExposureSubmissionWarnOthers_title" = "Προειδοποιήστε τους άλλους";
+
+"ExposureSubmissionWarnOthers_AccImageDescription" = "Μια συσκευή μεταδίδει κρυπτογραφημένη θετική δοκιμαστική διάγνωση στο σύστημα.";
+
+"ExposureSubmissionWarnOthers_sectionTitle" = "Μπορείτε να βοηθήσετε!";
+
+"ExposureSubmissionWarnOthers_description" = "Εφόσον έχετε διαγνωστεί ως θετικός(ή), έχετε την δυνατότητα να ειδοποιήσετε τους άλλους χρήστες της εφαρμογής";
+
+"ExposureSubmissionWarnOthers_supportedCountriesTitle" = "Η λειτουργία προειδοποίησης λειτουργεί σε πολλές χώρες. Οι ακόλουθες χώρες συμμετέχουν επί του παρόντος:";
+
+"ExposureSubmissionWarnOthers_continueButton" = "Αποδοχή";
+
+/* Exposure Submission Result */
+"ExposureSubmissionResult_RemoveAlert_Title" = "Η δοκιμή μπορεί να σαρωθεί μόνο μία φορά.";
+
+"ExposureSubmissionResult_RemoveAlert_Text" = "Εάν καταργήσετε το τεστ, δεν μπορείτε πλέον να ανακτήσετε το αποτέλεσμα της εξέτασης σας. Θα λάβετε το αποτέλεσμα της εξέτασης σας από το κέντρο δοκιμών ή το εργαστήριο ανεξάρτητα από την εγκυρότητα του κωδικού QR. Εάν διαγνωστεί με COVID-19, η αρχή δημόσιας υγείας θα ειδοποιηθεί μέσω του νομικά καθορισμένου καναλιού και θα επικοινωνήσει μαζί σας. ";
+
+"ExposureSubmissionResult_RegistrationDateUnknown" = "Άγνωστη ημερομηνία εγγραφής";
+
+"ExposureSubmissionResult_RegistrationDate" = "Εισαγωγή διάγνωσης";
+
+/* Exposure Submission */
+"ExposureSubmissionError_ErrorPrefix" = "Παρουσιάστηκε τεχνικό σφάλμα κατά την αποστολή των δεδομένων σας. Επικοινωνήστε με την τεχνική γραμμή επικοινωνίας. Θα βρείτε τον αριθμό τηλεφώνου στην ενότητα Πληροφορίες εφαρμογής.";
+
+"ExposureSubmissionError_NoKeys" = "Δεν υπάρχει διαθέσιμο κλειδί διάγνωσης. Δοκιμάστε ξανά αύριο.";
+
+"ExposureSubmissionError_InvalidTan" = "Το παραγόμενο TAN δεν είναι έγκυρο για υποβολή. Επικοινωνήστε με την τεχνική γραμμή επικοινωνίας μέσω πληροφοριών εφαρμογής -> Τεχνική γραμμή επικοινωνίας.";
+
+"ExposureSubmissionError_EnNotEnabled" = "Η καταγραφή έκθεσης δεν είναι ενεργή.";
+
+"ExposureSubmissionError_NoRegistrationToken" = "Δεν βρέθηκε διακριτικό εγγραφής στο smartphone.";
+
+"ExposureSubmissionError_InvalidResponse" = "Δεν είναι δυνατή η επεξεργασία της απόκρισης.";
+
+"ExposureSubmissionError_NoResponse" = "Η απάντηση δεν έχει περιεχόμενο.";
+
+"ExposureSubmissionError_QRAlreadyUsed" = "Ο κωδικός QR δεν είναι έγκυρος ή έχει ήδη καταχωριστεί σε άλλο smartphone. Θα λάβετε το αποτέλεσμα της εξέτασης σας από το κέντρο δοκιμών ή το εργαστήριο ανεξάρτητα από την εγκυρότητα του κωδικού QR. Εάν διαγνωστεί με COVID-19, το η αρχή δημόσιας υγείας θα ειδοποιηθεί μέσω του νομικά καθορισμένου καναλιού και θα επικοινωνήσει μαζί σας. ";
+
+"ExposureSubmissionError_QRAlreadyUsed_Title" = "Ο κωδικός QR δεν είναι έγκυρος";
+
+"ExposureSubmissionError_TeleTanAlreadyUsed" = "Το TAN δεν είναι έγκυρο ή έχει ήδη χρησιμοποιηθεί. Για περισσότερες πληροφορίες, καλέστε τον αριθμό που αναφέρεται στην ενότητα \'Request TAN \'.";
+
+"ExposureSubmissionError_QRNotExist_Title" = "Ο κωδικός QR έχει λήξει";
+
+"ExposureSubmissionError_QRNotExist" = "Καταργήστε τη δοκιμή από την εφαρμογή. \ N Στη συνέχεια, μπορείτε να προσθέσετε μια νέα δοκιμή στην εφαρμογή.";
+
+"ExposureSubmissionError_RegTokenNotExist" = "Δεν είναι δυνατή η δημιουργία TAN για υποβολή. Επικοινωνήστε με την τεχνική γραμμή επικοινωνίας μέσω πληροφοριών εφαρμογής -> Τεχνική γραμμή επικοινωνίας.";
+
+"ExposureSubmissionError_other" = "Παρουσιάστηκε σφάλμα σύνδεσης. Κωδικός σφάλματος για τεχνική υποστήριξη:";
+
+"ExposureSubmissionError_otherend" = "Δοκιμάστε ξανά.";
+
+"ExposureSubmissionError_httpError" = "Δεν είναι δυνατή η δημιουργία της σύνδεσης.";
+
+"ExposureSubmissionError_declined" = "Απελευθερώστε τα τυχαία αναγνωριστικά σας για να προειδοποιήσετε άλλα άτομα.";
+
+"ExposureSubmissionError_unknown" = "Άγνωστο σφάλμα";
+
+"ExposureSubmissionError_defaultError" = "Σφάλμα κατά τη μετάδοση κλειδιού";
+
+"ExposureSubmissionError_noAppConfiguration" = "Η σύνδεσή σας στο Διαδίκτυο χάθηκε. Ελέγξτε τη σύνδεση και, στη συνέχεια, ανοίξτε ξανά την εφαρμογή.";
+
+/* Tracing Enable/Disable Settings */
+"ExposureNotificationSetting_TracingSettingTitle" = "Καταγραφή έκθεσης";
+
+"ExposureNotificationSetting_EnableTracing" = "Καταγραφή έκθεσης";
+
+"ExposureNotificationSetting_Tracing_Limited" = "Περιορισμένη";
+
+"ExposureNotificationSetting_Tracing_Deactivated" = "Απενεργοποιημένη";
+
+"ExposureNotificationSetting_ActionCell_Header" = "Ρύθμιση";
+
+"ExposureNotificationSetting_DescriptionTitle_Inactive" = "Ενεργοποίηση καταγραφής έκθεσης";
+
+"ExposureNotificationSetting_DescriptionTitle" = "Πως λειτουργεί η καταγραφή έκθεσης";
+
+"ExposureNotificationSetting_DescriptionText1" = "Η βασική λειτουργία της εφαρμογής είναι η καταγραφή της έκθεσης στη νόσο. Αυτό χρησιμεύει για την παρακολούθηση πιθανών επαφών με άλλους χρήστες της εφαρμογής που έχουν μολυνθεί από τον κορωνοϊό, για την αξιολόγηση του κινδύνου μόλυνσης σας και — με βάση τον εντοπισθέντα κίνδυνο — για την παροχή συμβουλών υγείας και συστάσεων σχετικά με το τι πρέπει να κάνετε στη συνέχεια.";
+
+"ExposureNotificationSetting_DescriptionText2" = "Εάν ενεργοποιήσετε τη λειτουργία καταγραφής έκθεσης, τότε αρκετές φορές την ημέρα ενώ η εφαρμογή θα ανακτά από τον εξυπηρετητή της εφαρμογής κατάλογο τυχαίων αναγνωριστικών κωδικών από χρήστες που έχουν βρεθεί θετικοί και μοιράζονται τους δικούς τους τυχαίους αναγνωριστικούς κωδικούς.\n\nΗ εφαρμογή μοιράζεται αυτούς τους τυχαίους αναγνωριστικούς κωδικούς με τη λειτουργία καταγραφής περιστατικού έκθεσης του smartphone σας, η οποία στη συνέχεια τους συγκρίνει με τους τυχαίους αναγνωριστικούς κωδικούς που είναι αποθηκευμένοι στο αρχείο έκθεσης του smartphone σας. Εάν η λειτουργία καταγραφής έκθεσης του smartphone σας εντοπίσει αντιστοιχία, διαβιβάζει τα στοιχεία επαφής (ημερομηνία, διάρκεια, ισχύς σήματος) στην εφαρμογή, αλλά όχι το τυχαίο αναγνωριστικό της εν λόγω επαφής.\n\nΣε περίπτωση επαφής, η εφαρμογή αναλύει τα στοιχεία επαφής που παρέχονται από τη λειτουργία καταγραφής περιστατικού έκθεσης, προκειμένου να προσδιορίσει τον ατομικό σας κίνδυνο μόλυνσης. Ο αλγόριθμος αξιολόγησης που καθορίζει τον τρόπο με τον οποίο ερμηνεύονται τα στοιχεία επαφής (για παράδειγμα, πως η διάρκεια μιας επαφής επηρεάζει τον κίνδυνο μόλυνσης) βασίζεται στα τρέχοντα επιστημονικά ευρήματα και στις κατευθυντήριες γραμμές που παρέχονται από τη Μονάδα Επιδημιολογικής Επιτήρησης.\n\n Για να λαμβάνονται υπόψη τα νέα ευρήματα όταν προκύπτουν, μπορεί να αναβαθμίσουμε τον αλγόριθμο αξιολόγησης προσαρμόζοντας τις ρυθμίσεις του. Οι ρυθμίσεις για τον αλγόριθμο αξιολόγησης αποστέλλονται στην εφαρμογή μαζί με τον κατάλογο των τυχαίων ταυτοτήτων των θετικών χρηστών. Ο εντοπισμός του κινδύνου μόλυνσης πραγματοποιείται μόνο τοπικά στο smartphone σας, πράγμα που σημαίνει ότι τα δεδομένα υποβάλλονται σε επεξεργασία εκτός διαδικτύου. Μόλις εντοπιστεί, ο κίνδυνος μόλυνσης αποθηκεύεται επίσης μόνο στην εφαρμογή και δεν μεταδίδεται σε άλλους αποδέκτες.";
+
+"ExposureNotificationSetting_DescriptionText3" = "Μπορείτε να απενεργοποιήσετε την καταγραφή έκθεσης ανά πάσα στιγμή.";
+
+"ExposureNotificationSetting_DescriptionText4" = "Η εφαρμογή δεν συλλέγει ποτέ προσωπικά δεδομένα, όπως το όνομα, τη διεύθυνση ή την τοποθεσία σας, ούτε αυτές οι πληροφορίες διαβιβάζονται σε άλλους χρήστες. Δεν είναι δυνατή η χρήση τυχαίων αναγνωριστικών για την εξαγωγή συμπερασμάτων σχετικά με μεμονωμένα άτομα.";
+
+"ExposureNotificationSetting_Activate_Bluetooth" = "Ενεργοποίηση Bluetooth";
+
+"ExposureNotificationSetting_Bluetooth_Description" = "Το Bluetooth πρέπει να είναι ενεργοποιημένο για καταγραφή έκθεσης για να καταγράφετε συναντήσεις. Ενεργοποιήστε το Bluetooth στις ρυθμίσεις της συσκευής σας.";
+
+"ExposureNotificationSetting_Activate_Internet" = "Άνοιγμα σύνδεσης στο Διαδίκτυο";
+
+"ExposureNotificationSetting_Internet_Description" = "Η καταγραφή έκθεσης απαιτεί σύνδεση στο Διαδίκτυο για τον υπολογισμό των εκθέσεων. Ενεργοποιήστε τα δεδομένα WIFI ή κινητής τηλεφωνίας στις ρυθμίσεις της συσκευής σας.";
+
+"ExposureNotificationSetting_Detail_Action_Button" = "Άνοιγμα ρυθμίσεων συσκευής";
+
+"ExposureNotificationSetting_Activate_OSENSetting" = "Ενεργοποίηση ειδοποιήσεων έκθεσης";
+
+"ExposureNotificationSetting_Activate_OSENSetting_Description" = "Η καταγραφή έκθεσης απαιτεί την ενεργοποίηση των ειδοποιήσεων έκθεσης στις ρυθμίσεις συστήματος, ώστε να μπορούν να καταγραφούν οι συναντήσεις. Επιλέξτε \" Άνοιγμα ρυθμίσεων συσκευής \"-> \" Ειδοποιήσεις έκθεσης \"-> \" Κοινή χρήση πληροφοριών έκθεσης \" Στη συνέχεια, ορίστε την εφαρμογή ως ενεργή εφαρμογή για ειδοποιήσεις έκθεσης επιλέγοντας \"Καθορισμός ως ενεργής περιοχής \". ";
+
+"ExposureNotificationSetting_Activate_OSENSetting_Pre13.7" = "Ενεργοποίηση COVID-19 Ειδοποιήσεις έκθεσης";
+
+"ExposureNotificationSetting_Activate_OSENSetting_Description_Pre13.7" = "Η καταγραφή έκθεσης απαιτεί την ενεργοποίηση των ειδοποιήσεων έκθεσης COVID-19 στις ρυθμίσεις συστήματος, ώστε να μπορούν να καταγραφούν οι συναντήσεις. Επιλέξτε \" Άνοιγμα ρυθμίσεων συσκευής \"και ενεργοποιήστε \" Ειδοποιήσεις έκθεσης COVID-19 \"στο τις ρυθμίσεις.";
+
+"ExposureNotificationSetting_SetActiveApp_OSENSetting" = "Καθορισμός ενεργής περιοχής";
+
+"ExposureNotificationSetting_SetActiveApp_OSENSetting_Description_Pre13.7" = "Η καταγραφή έκθεσης απαιτεί το Exo να οριστεί ως ενεργή εφαρμογή στις ρυθμίσεις του συστήματος, έτσι ώστε οι συναντήσεις να μπορούν να καταγραφούν. Επιλέξτε \" Άνοιγμα ρυθμίσεων συσκευής \"-> \" Ρυθμίσεις για COVID- 19 Exposure Logging \"και μετά επιλέξτε την εφαρμογή EXO ως ενεργή εφαρμογή.";
+
+"ExposureNotificationSetting_SetActiveApp_OSENSetting_Description" = "Η καταγραφή έκθεσης απαιτεί το Exo να οριστεί ως ενεργή εφαρμογή στις ρυθμίσεις συστήματος, ώστε να μπορούν να καταγραφούν οι συναντήσεις. Επιλέξτε \" Άνοιγμα ρυθμίσεων συσκευής \"-> \" Ειδοποιήσεις έκθεσης \"-> \"Καθορίστε ως ενεργή περιοχή \". ";
+
+"ExposureNotificationSetting_ParentalControls_OSENSetting" = "Ενεργοποίηση COVID-19 Καταγραφή έκθεσης και ειδοποιήσεις";
+
+"ExposureNotificationSetting_ParentalControls_OSENSetting_Description" = "Για καταγραφή έκθεσης, η καταγραφή έκθεσης COVID-19 και οι ειδοποιήσεις πρέπει να ενεργοποιηθούν στις ρυθμίσεις συστήματος, ώστε να μπορούν να καταγραφούν οι συναντήσεις. Ενεργοποιήστε το 'COVID-19 Exposure Logging and Notifications' στις ρυθμίσεις του συστήματός σας.";
+
+"ExposureNotificationSetting_AuthorizationRequired_OSENSetting" = "Απαιτείται εξουσιοδότηση";
+
+"ExposureNotificationSetting_AuthorizationRequired_OSENSetting_Description" = "Επιβεβαιώστε τη χρήση της καταγραφής έκθεσης COVID-19.";
+
+"ExposureNotificationSetting_AuthorizationRequired_ActionTitle" = "Εξουσιοδότηση";
+
+"ExposureNotificationSetting_AccLabel_Enabled" = "Τρία άτομα έχουν ενεργοποιήσει την καταγραφή έκθεσης στα smartphone τους, τα οποία θα καταγράφουν τις συναντήσεις τους μεταξύ τους.";
+
+"ExposureNotificationSetting_AccLabel_Disabled" = "Ένα άτομο έχει απενεργοποιήσει την καταγραφή έκθεσης στο smartphone του, επομένως δεν έχει καταγραφεί μια συνάντηση με δύο άλλα άτομα.";
+
+"ExposureNotificationSetting_AccLabel_BluetoothOff" = "Ένα άτομο απενεργοποίησε το Bluetooth στο smartphone του, επομένως δεν έχει καταγραφεί μια συνάντηση με δύο άλλα άτομα.";
+
+"ExposureNotificationSetting_AccLabel_InternetOff" = "Ένα άτομο έχει απενεργοποιήσει τη σύνδεση Διαδικτύου στο smartphone του, επομένως δεν είναι δυνατό να εντοπιστούν οι τελευταίες συναντήσεις του.";
+
+"ExposureNotificationSetting_Activate_Action" = "Αποδοχή";
+
+"ExposureNotificationSetting_Dismiss_Action" = "Ακύρωση";
+
+"ExposureNotificationSetting_GeneralError_Title" = "Σφάλμα";
+
+"ExposureNotificationSetting_GeneralError_LearnMore_Action" = "Μάθετε περισσότερα";
+
+"ExposureNotificationSetting_AuthenticationError" = "Παρουσιάστηκε σφάλμα κατά την ενεργοποίηση της λειτουργίας καταγραφής έκθεσης. Ελέγξτε εάν έχετε ενεργοποιήσει το αρχείο καταγραφής έκθεσης COVID-19 στις ρυθμίσεις σας.";
+
+"ExposureNotificationSetting_exposureNotification_Required" = "Παρουσιάστηκε σφάλμα κατά την ενεργοποίηση της λειτουργίας καταγραφής έκθεσης. Ελέγξτε εάν η λειτουργία ειδοποίησης έκθεσης COVID-19 στις ρυθμίσεις σας είναι ενεργοποιημένη για την εφαρμογή.";
+
+"ExposureNotificationSetting_exposureNotification_unavailable" = "Παρουσιάστηκε σφάλμα κατά την ενεργοποίηση της λειτουργίας καταγραφής έκθεσης. Ελέγξτε εάν αυτή η εφαρμογή έχει επιλεγεί ως ενεργή εφαρμογή για καταγραφή έκθεσης COVID-19 στις ρυθμίσεις σας. Για περισσότερες πληροφορίες, επισκεφθείτε τη σελίδα Συχνές ερωτήσεις.";
+
+"ExposureNotificationSetting_unknownError" = "Παρουσιάστηκε άγνωστο σφάλμα. Για περισσότερες πληροφορίες, επισκεφθείτε τη σελίδα Συχνές ερωτήσεις.";
+
+"ExposureNotificationSetting_apiMisuse" = "Παρουσιάστηκε εσωτερικό σφάλμα κατά την ενεργοποίηση της λειτουργίας καταγραφής έκθεσης. Για περισσότερες πληροφορίες, επισκεφθείτε τη σελίδα Συχνές ερωτήσεις και δοκιμάστε ξανά αργότερα.";
+
+/* EU Settings */
+"ExposureNotificationSetting_EU_Title" = "Διακρατική καταγραφή έκθεσης";
+
+"ExposureNotificationSetting_EU_Desc_1" = "Αρκετές χώρες συνεργάζονται για να επιτρέψουν διακρατικές ειδοποιήσεις μέσω ενός κοινού διακομιστή ανταλλαγής. Για παράδειγμα, οι επαφές με χρήστες μιας επίσημης εφαρμογής coronavirus από άλλες συμμετέχουσες χώρες μπορούν επίσης να ληφθούν υπόψη για καταγραφή έκθεσης.";
+
+"ExposureNotificationSetting_EU_Desc_2" = "Για να γίνει αυτό, η εφαρμογή πραγματοποιεί λήψη λιστών, οι οποίες ενημερώνονται καθημερινά, των τυχαίων αναγνωριστικών όλων των χρηστών που έχουν κοινοποιήσει τα αποτελέσματα των δοκιμών τους για να προειδοποιήσουν άλλους μέσω της δικής τους εφαρμογής. Στη συνέχεια, αυτή η λίστα συγκρίνεται με τα τυχαία αναγνωριστικά που καταγράφηκαν από το iPhone σας. \n\nΟι λήψεις των λιστών είναι συνήθως δωρεάν για εσάς. Συγκεκριμένα, αυτό σημαίνει ότι οι πάροχοι δικτύου κινητής τηλεφωνίας δεν σας χρεώνουν για τα δεδομένα που χρησιμοποιεί η εφαρμογή σε αυτό το πλαίσιο, ούτε εφαρμόζουν χρεώσεις περιαγωγής για αυτό σε άλλες χώρες της ΕΕ. Επικοινωνήστε με τον πάροχο του δικτύου κινητής τηλεφωνίας σας για περισσότερες πληροφορίες. ";
+
+"ExposureNotificationSetting_EU_Desc_3" = "Οι ακόλουθες χώρες συμμετέχουν επί του παρόντος στη διακρατική καταγραφή έκθεσης:";
+
+"ExposureNotificationSetting_EU_Desc_4" = "Η ειδοποίηση απορρήτου της εφαρμογής (συμπεριλαμβανομένων πληροφοριών σχετικά με την επεξεργασία δεδομένων που πραγματοποιείται για τη δυνατότητα διακρατικής καταγραφής έκθεσης) βρίσκεται στο μενού στην ενότητα 'Πληροφορίες εφαρμογής' > ' Απόρρητο δεδομένων'.";
+
+/* EU Tracing Risk decription */
+"ExposureNotificationSetting_euTracingRiskDeterminationTitle" = "Transnational Exposure Logging";
+
+"ExposureNotificationSetting_euTracingAllCountriesTitle" = "Participating Countries";
+
+"ExposureNotificationSetting_EU_Empty_Error_Title" = "Countries cannot be displayed now.";
+
+"ExposureNotificationSetting_EU_Empty_Error_Desc" = "Your Internet connection may have been lost. Please ensure that you are connected to the Internet.";
+
+"ExposureNotificationSetting_EU_Empty_Error_Button_Title" = "Open Device Settings";
+
+/* Home Navigation Bar */
+"Home_LeftBarButton_description" = "EXO logo";
+
+"Home_RightBarButton_description" = "Πληροφορίες";
+
+/* Home Active card */
+"Home_Activate_Card_On_Title" = "Ενεργή καταγραφή έκθεσης";
+
+"Home_Activate_Card_Off_Title" = "Η καταγραφή έκθεσης σταμάτησε";
+
+"Home_Activate_Card_Bluetooth_Off_Title" = "Το Bluetooth είναι απενεργοποιημένο";
+
+/* Home common card */
+"Home_Risk_Date_Item_Title" = "Ενημερώθηκε: %@";
+
+"Home_Risk_No_Date_Title" = "Άγνωστο";
+
+"Home_Risk_Period_Disabled_Button_Title" = "Ενημερώνεται μόνο κάθε %@\U00A0hours";
+
+"Home_Risk_Last_Contact_Item_Title" = "Πιο πρόσφατα στο %@";
+
+"Home_Risk_Last_Activate_Item_Title" = "Τελευταίος έλεγχος έκθεσης: %@";
+
+"Home_Risk_Last_Activate_Item_Unknown_Title" = "Άγνωστος κίνδυνος";
+
+"Home_Risk_Last_Activate_Item_Low_Title" = "Χαμηλός κίνδυνος";
+
+"Home_Risk_Last_Activate_Item_High_Title" = "Αυξημένος κίνδυνος";
+
+"Home_RiskCard_Update_Button" = "Ενημέρωση";
+
+/* Home Inactive card */
+"Home_Risk_Inactive_NoCalculation_Possible_Title" = "Η καταγραφή έκθεσης σταμάτησε";
+
+"Home_Risk_Inactive_Outdated_Results_Title" = "Δεν είναι δυνατή η καταγραφή έκθεσης";
+
+"Home_Risk_Inactive_NoCalculation_Possible_Body" = "Ενεργοποιήστε την καταγραφή έκθεσης για να αξιολογήσετε την κατάσταση κινδύνου σας σήμερα.";
+
+"Home_Risk_Inactive_Outdated_Results_Body" = "Δεν ήταν δυνατή η ενημέρωση της καταγραφής έκθεσης για περισσότερο από 24 ώρες.";
+
+"Home_Risk_Inactive_NoCalculation_Possible_Button" = "Ενεργοποίηση καταγραφής έκθεσης";
+
+"Home_Risk_Inactive_Outdated_Results_Button" = "Ενεργοποίηση καταγραφής έκθεσης";
+
+/* Home Low card */
+"Home_Risk_Low_Title" = "Χαμηλό ρίσκο";
+
+/* Home High card */
+"Home_Risk_High_Title" = "Υψηλό ρίσκο";
+
+/* Home Status Check */
+"Home_Risk_Status_Downloading_Title" = "Γίνεται λήψη δεδομένων ...";
+
+"Home_Risk_Status_Detecting_Title" = "Ο έλεγχος εκτελείται…";
+
+"Home_Risk_Status_Downloading_Body" = "Αυτό μπορεί να διαρκέσει αρκετά λεπτά. Σας ευχαριστούμε για την υπομονή σας.";
+
+"Home_Risk_Status_Detecting_Body" = "Τα δεδομένα έκθεσής σας ελέγχονται. Αυτό μπορεί να διαρκέσει αρκετά λεπτά. Σας ευχαριστούμε για την υπομονή σας.";
+
+/* Home exposure detection failed card */
+"Home_Risk_Failed_Title" = "Ο έλεγχος έκθεσης απέτυχε";
+
+"Home_Risk_Failed_Body" = "Ο συγχρονισμός τυχαίων αναγνωριστικών με το διακομιστή απέτυχε. Μπορείτε να επανεκκινήσετε το συγχρονισμό με μη αυτόματο τρόπο.";
+
+"Home_Risk_Restart_Button_Title" = "Επανεκκίνηση";
+
+/* Home Thank you card */
+"Home_Thank_You_Card_Title" = "Ευχαριστούμε!";
+
+"Home_Thank_You_Card_Body" = "Χάρη στην υποστήριξή σας, άλλα άτομα μπορούν πλέον να προειδοποιηθούν και να ανταποκριθούν κατάλληλα.";
+
+"Home_Thank_You_Card_Note_Title" = "Παρακαλώ σημειώστε:";
+
+"Home_Thank_You_Card_Phone_Item_Title" = "Για πληροφορίες σχετικά με τον COVID-19 καλέστε στη γραμμή 24ης λειτουργίας του ΕΟΔΥ 1135";
+
+"Home_Thank_You_Card_Home_Item_Title" = "Είστε μεταδοτικός(η). Απομονώστε τον εαυτό σας από άλλα άτομα.";
+
+"Home_Thank_You_Card_Further_Info_Item_Title" = "Λοιπές πληροφορίες:";
+
+"Home_Thank_You_Card_14Days_Item_Title" = "Η περίοδος καραντίνας σας είναι συνήθως 14 ημέρες. Παρατηρήστε τα συμπτώματά σας και παρακολουθήστε πώς αναπτύσσονται.";
+
+"Home_Thank_You_Card_Contacts_Item_Title" = "Θα σας ζητηθεί από την αρχή δημόσιας υγείας σας να δημιουργήσετε μια λίστα με άτομα με τα οποία είχατε επαφή. Αυτό θα πρέπει να περιλαμβάνει όλα τα άτομα με τα οποία έχετε στενή επαφή (λιγότερο από 2 μέτρα, πρόσωπο με πρόσωπο) συνομιλία) για πάνω από 15 λεπτά τις δύο ημέρες πριν εμφανίσετε συμπτώματα. ";
+
+"Home_Thank_You_Card_App_Item_Title" = "Λάβετε υπόψη ιδιαίτερα τα άτομα που δεν θα ειδοποιηθούν απευθείας από την εφαρμογή, επειδή δεν διαθέτουν smartphone ή δεν έχουν εγκαταστήσει την εφαρμογή.";
+
+"Home_Thank_You_Card_NoSymptoms_Item_Title" = "Ακόμα και όταν δεν έχετε πλέον συμπτώματα και αισθάνεστε καλά ξανά, θα μπορούσατε να είστε λοιμώδης.";
+
+/* Home Finding positive */
+"Home_Finding_Positive_Card_Title" = "Θετική διάγνωση";
+
+"Home_Finding_Positive_Card_Status_Title" = "SARS-CoV-2 θετικό";
+
+"Home_Finding_Positive_Card_Status_Subtitle" = "Έχετε διαγνωστεί με τον ιό SARS-CoV-2.";
+
+"Home_Finding_Positive_Card_Note_Title" = "Σημείωση:";
+
+"Home_Finding_Positive_Card_Phone_Item_Title" = "Η αρχή δημόσιας υγείας θα επικοινωνήσει μαζί σας εντός των επόμενων ημερών μέσω τηλεφώνου ή επιστολής.";
+
+"Home_Finding_Positive_Card_Home_Item_Title" = "Είστε μολυσματικοί. Απομονώστε τον εαυτό σας από άλλα άτομα.";
+
+"Home_Finding_Positive_Card_Share_Item_Title" = "Μοιραστείτε τα τυχαία αναγνωριστικά σας, ώστε να μπορούν να προειδοποιούνται οι άλλοι.";
+
+"Home_Finding_Positive_Card_Button" = "Προειδοποίηση για άλλους";
+
+/* Home Submit card */
+"Home_SubmitCard_Title" = "Έχετε διαγνωστεί θετικά;";
+
+"Home_SubmitCard_Body" = "Βοηθήστε να σπάσει η αλυσίδα  μόλυνσης ενημερώνοντας τους άλλους";
+
+"Home_SubmitCard_Button" = "Επόμενα βήματα";
+
+/* Home Diary card */
+"Home_DiaryCard_Title" = "Ημερολόγιο Επαφών";
+
+"Home_DiaryCard_Body" = "Έχετε την δυνατότητα δημιουργίας λίστας ατόμων με τα οποία ήρθατε σε επαφή.";
+
+"Home_DiaryCard_Button" = "Διαχείριση ημερολογίου";
+
+"Home_InfoCard_ShareTitle" = "Μοιραστείτε την εφαρμογή ΕΧΟ";
+
+"Home_InfoCard_ShareBody" = "Όσο περισσότερα άτομα χρησιμοποιούν την εφαρμογή, τόσο πιο γρήγορα μπορούμε να σπάσουμε τις αλυσίδες λοίμωξης. Προσκαλέστε την οικογένεια και τους φίλους σας να πραγματοποιήσουν λήψη της εφαρμογής.";
+
+"Home_InfoCard_AboutTitle" = "Συχνές ερωτήσεις COVID-19";
+
+"Home_InfoCard_AboutBody" = "Εδώ μπορείτε να βρείτε απαντήσεις σε συνήθεις ερωτήσεις σχετικά με την εφαρμογή ΕΧΟ. Θα προωθηθείτε σε έναν εξωτερικό ιστότοπο της ελληνικής κυβέρνησης.";
+
+"Home_SettingsCard_Title" = "Ρυθμίσεις";
+
+"Home_AppInformationCard_Title" = "Πληροφορίες εφαρμογής";
+
+"Home_AppInformationCard_Version" = "Έκδοση";
+
+
+/* Home Result Card */
+"Home_resultCard_ResultAvailableTitle" = "Το αποτέλεσμα της εξέτασης σας είναι διαθέσιμο";
+
+"Home_resultCard_ResultUnvailableTitle" = "Το αποτέλεσμα δεν είναι ακόμη διαθέσιμο";
+
+"Home_resultCard_ShowResultButton" = "Εμφάνιση του τέστ";
+
+"Home_resultCard_RetrieveResultButton" = "Ανάκτηση αποτελέσματος τεστ";
+
+"Home_resultCard_LoadingBody" = "Γίνεται λήψη τρεχόντων δεδομένων. \nΑυτό μπορεί να διαρκέσει αρκετά λεπτά.";
+
+"Home_resultCard_LoadingTitle" = "Ενημέρωση σε εξέλιξη ...";
+
+"Home_resultCard_NegativeTitle" = "Αρνητική διάγνωση";
+
+"Home_resultCard_NegativeDesc" = "Έχετε διαγνωστεί αρνητικά για SARS-CoV-2.";
+
+"Home_resultCard_PendingDesc" = "Η αξιολόγηση του τεστ σας δεν έχει ακόμη ολοκληρωθεί.";
+
+"Home_resultCard_InvalidTitle" = "Μη έγκυρο τεστ";
+
+"Home_resultCard_InvalidDesc" = "Δεν είναι δυνατή η αξιολόγηση του τεστ σας.";
+
+"Home_resultCard_AvailableSubtitle" = "Τώρα μπορείτε να ανακτήσετε το αποτέλεσμα του τεστ σας.";
+
+"Home_resultCard_AvailableDesc" = "Εάν έχετε διαγνωστεί θετικά για COVID-19, μπορείτε να προειδοποιήσετε άλλους.";
+
+"Home_resultCard_LoadingErrorTitle" = "Δεν είναι δυνατή η φόρτωση του αποτελέσματος του τεστ σας.";
+
+/* Home Alert Risk Lowered */
+"Home_Alert_RiskStatusLowered_Title" = "Αλλαγή της κατάστασης κινδύνου σας";
+
+"Home_Alert_RiskStatusLowered_Message" = "Η τελευταία έκθεση που είχε ως αποτέλεσμα τον αυξημένο κίνδυνο ήταν πριν από 14 ημέρες. Επομένως, ο κίνδυνος μόλυνσης έχει καταταχθεί ξανά ως χαμηλός. \n\nΑυτό πρέπει να κάνετε: \n1. Εάν το κάνετε δεν έχετε συμπτώματα COVID-19, συνεχίστε να ακολουθείτε τους ισχύοντες κανόνες σχετικά με την απόσταση και την υγιεινή. \n2. Εάν έχετε συμπτώματα COVID-19, σας συνιστούμε να επισκεφθείτε το γιατρό σας και να δοκιμάσετε.";
+
+"Home_Alert_RiskStatusLowered_PrimaryButtonTitle" = "OK";
+
+/* App Information - About */
+"App_Information_About_Navigation" = "Σχετικά με την εφαρμογή";
+
+"App_Information_About_ImageDescription" = "";
+
+"App_Information_About_Title" = "Ας καταπολεμήσουμε μαζί τον κοραναϊό";
+
+"App_Information_About_Description" = "Tο ΕΧΟ είναι η επίσημη εφαρμογή της Ελληνικής Κυβέρνησης η οποία δημιουργήθηκε για την ανίχνευση επαφών με βάση την τεχνολογία Bluetooth του τηλεφώνου σας. Η εφαρμογή στοχεύει να υποστηρίξει τις προσπάθειες της Ελληνικής Κυβέρνησης για περιορισμό της εξάπλωσης του COVID-19 στην Ελληνική κοινότητα.";
+
+"App_Information_About_Text" = "
+Η εφαρμογή θα είναι σε καθαρά εθελοντική βάση, θα μπορεί να εντοπίσει πιθανή επαφή του χρήστη με επιβεβαιωμένο κρούσμα COVID-19 μετά από αξιολόγηση ημερομηνίας, χρονικού διαστήματος και εγγύτητας της επαφής του χρήστη με επιβεβαιωμένο κρούσμα.Σημειώνεται ωστόσο πως αυτή η εφαρμογή σε καμιά δεν αντικαθιστά την ενεργητική ιχνηλάτηση που διεξάγεται από το Υπουργείο Υγείας με τη συμβατική μέθοδο.Χρησιμοποιήστε αυτήν την εφαρμογή ώστε να συμβάλετε σημαντικά στην καταπολέμηση του κορωνοϊού. Προστατέψτε τον εαυτό σας, την οικογένειά σας, την κοινότητά σας και τους ευάλωτους πολίτες. Ενθαρρύνετε όλους όσους γνωρίζετε να κάνουν λήψη και χρήση της εφαρμογής ΕΧΟ όπου είναι δυνατόν. Η βασική μας φιλοσοφία είναι ότι μπορούμε να καταπολεμήσουμε τον κορωνοϊό συνεργαζόμενοι, ενδυναμώνοντας την Ελληνική κοινωνία με εργαλεία και τεχνολογίες που μπορούν να χρησιμοποιηθούν αποτελεσματικά με την προστασία όμως της ιδιωτικής σας ζωής. ";
+
+"App_Information_About_LinkText" = "Πληροφορίες εφαρμογής σε απλοποιημένη γλώσσα και νοηματική γλώσσα";
+
+/* App Information - FAQ */
+"App_Information_FAQ_Navigation" = "Συχνές ερωτήσεις COVID-19";
+
+/* App Information - Contact */
+"App_Information_Contact_Navigation" = "Επικοινωνία";
+
+"App_Information_Contact_ImageDescription" = "Ένας άντρας φοράει ακουστικά ενώ πραγματοποιεί τηλεφωνική κλήση.";
+
+"App_Information_Contact_Title" = "Πως μπορούμε να σας βοηθήσουμε;";
+
+"App_Information_Contact_Description" = "Εάν έχετε οποιεσδήποτε ερωτήσεις σχετικά με την υγεία σας, επικοινωνήστε με τον γιατρό σας ή τον ΕΟΔΥ";
+
+"App_Information_Contact_Description2" = "Για τεχνικές ερωτήσεις σχετικά με την εφαρμογή, επικοινωνήστε με την τηλεφωνική μας γραμμή.";
+
+"App_Information_Contact_Hotline_Title" = "Τηλεφωνικό Κέντρο ΕΟΔΥ";
+
+"App_Information_Contact_Hotline_Title2" = " Τηλεφωνικό Κέντρο ΕΔΥΤΕ";
+
+"App_Information_Contact_Hotline_Text" = "1135";
+
+"App_Information_Contact_Hotline_Number" = "1135";
+
+"App_Information_Contact_Hotline_Text2" = "+30 210 5212000";
+
+"App_Information_Contact_Hotline_Number2" = "+30 210 5212000";
+
+"App_Information_Contact_Hotline_Description" = "Η εξυπηρέτηση πελατών μας είναι εδώ για να σας βοηθήσει.";
+
+"App_Information_Contact_Hotline_Terms" = "";
+
+/* App Information - Imprint */
+"App_Information_Imprint_Navigation" = "Υπεύθυνος Φορέας";
+
+"App_Information_Imprint_ImageDescription" = "Ένα χέρι κρατά ένα smartphone που εμφανίζει ένα μεγάλο σώμα κειμένου στην οθόνη. Δίπλα στο κείμενο υπάρχει ένα σύμβολο ενότητας που αντιπροσωπεύει το αποτύπωμα.";
+
+"App_Information_Imprint_Section1_Title" = "Δημοσιεύθηκε από";
+
+"App_Information_Imprint_Section1_Text" = "";
+
+"App_Information_Imprint_Section2_Title" = "Εθνικός Οργανισμός Δημόσιας Υγείας";
+
+"App_Information_Imprint_Section2_Text" = "Αγράφων 3-5 \n15123 Αθήνα";
+
+"App_Information_Imprint_Section3_Title" = "Επικοινωνία";
+
+"App_Information_Imprint_Section3_Text" = "E-mail: info@eody.gov.gr";
+
+"App_Information_Imprint_Section4_Title" = "";
+
+"App_Information_Imprint_Section4_Text" = "";
+
+"App_Information_Contact_Form_Title" = "Φόρμα επικοινωνίας";
+
+/* App Information - Legal */
+"App_Information_Legal_Navigation" = "Νομικές ειδοποιήσεις";
+
+/* App Information - Privacy */
+"App_Information_Privacy_Navigation" = "Πολιτική Απορρήτου";
+
+"App_Information_Legal_ImageDescription" = "Ένα χέρι κρατά ένα smartphone που εμφανίζει ένα μεγάλο σώμα κειμένου στην οθόνη. Δίπλα στο κείμενο υπάρχει μια κλίμακα ισορροπίας που συμβολίζει τις νόμιμες ειδοποιήσεις.";
+
+"App_Information_Privacy_Title" = "Απόρρητο δεδομένων";
+
+"App_Information_Privacy_Description" = "Θα παραμείνετε ανώνυμοι. \nΤα δεδομένα σας είναι πλήρως κρυπτογραφημένα και μεταδίδονται με ψευδώνυμο.";
+
+/* App Information - Terms */
+"App_Information_Terms_Navigation" = "Πως δουλεύει η εφαρμογή";
+
+"App_Information_Terms_ImageDescription" = "Ένα χέρι κρατά ένα smartphone που εμφανίζει ένα μεγάλο σώμα κειμένου στην οθόνη. Δίπλα στο κείμενο υπάρχει ένα σημάδι επιλογής που συμβολίζει ότι οι όροι χρήσης έχουν γίνει αποδεκτοί.";
+
+"App_Information_Terms_Title" = "Πως δουλεύει η εφαρμογή";
+
+/* Invite Friends */
+"InviteFriends_NavTitle" = "Κοινοποίηση";
+
+"InviteFriends_Subtitle" = "Κοινοποίηση της εφαρμογής ΕΧΟ";
+
+"InviteFriends_Title" = "Ας πολεμήσουμε μαζί τον κορανοϊό";
+
+"InviteFriends_Description" = "Όσο περισσότερα άτομα χρησιμοποιούν την εφαρμογή, τόσο πιο γρήγορα μπορούμε να σπάσουμε τις αλυσίδες μόλυνσης. Προσκαλέστε την οικογένεια και τους φίλους σας να πραγματοποιήσουν λήψη της εφαρμογής.";
+
+"InviteFriends_Button" = "Αποστολή συνδέσμου λήψης";
+
+"InviteFriends_ShareTitle" = "Καταπολέμηση του κορανοϊού μαζί. Συμμετέχω, εσύ;";
+
+"InviteFriends_Illustration_Label" = "Ένας άντρας μοιράζεται την εφαρμογή Exo με τέσσερα άλλα άτομα.";
+
+/* Reset View */
+"Reset_NavTitle" = "Επαναφορά";
+
+"Reset_Header1" = "Είστε βέβαιοι ότι θέλετε να επαναφέρετε την εφαρμογή;";
+
+"Reset_Descrition1" = "Δεν θα ειδοποιείτε πλέον για τα ανοίγματα και δεν θα μπορείτε πλέον να προειδοποιείτε άλλους χρήστες.";
+
+"Reset_Button" = "Επαναφορά εφαρμογής";
+
+"Reset_Discard" = "Ακύρωση";
+
+"Reset_InfoTitle" = "Διαγραφή καταγραφής έκθεσης";
+
+"Reset_InfoDescription" = "Το αρχείο καταγραφής έκθεσης πρέπει να διαγραφεί ξεχωριστά στις ρυθμίσεις της συσκευής σας.";
+
+"Reset_Subtitle" = "Επαναφορά εφαρμογής";
+
+"Reset_ImageDescription" = "Ένα χέρι κρατά ένα smartphone που εμφανίζει ένα σύμβολο που δείχνει ότι γίνεται επαναφορά της εφαρμογής.";
+
+"Reset_ConfirmDialog_Title" = "Επαναφορά εφαρμογής";
+
+"Reset_ConfirmDialog_Description" = "Δεν θα ειδοποιείτε πλέον για τις εκθέσεις σας και δεν θα μπορείτε πλέον να προειδοποιείτε άλλους χρήστες. Δεν είναι δυνατή η αναίρεση αυτής της διαδικασίας.";
+
+"Reset_ConfirmDialog_Cancel" = "Ακύρωση";
+
+"Reset_ConfirmDialog_Confirm" = "Επαναφορά";
+
+/* Local Notifications */
+"local_notifications_ignore" = "Παράβλεψη";
+
+"local_notifications_detectexposure_title" = "ΕΧΟ";
+
+"local_notifications_detectexposure_body" = "Έχετε νέα μηνύματα από την εφαρμογή ΕΧΟ.";
+
+"local_notifications_testresults_title" = "ΕΧΟ";
+
+"local_notifications_testresults_body" = "Έχετε νέα μηνύματα από την εφαρμογή ΕΧΟ.";
+
+/* Risk Legend */
+"RiskLegend_Title" = "Επισκόπηση";
+
+"RiskLegend_Subtitle" = "Σημαντικές λειτουργίες και έννοιες";
+
+"RiskLegend_Legend1_Title" = "Καταγραφή έκθεσης";
+
+"RiskLegend_Legend1_Text" = "Η καταγραφή έκθεσης είναι μία από τις τρεις κεντρικές λειτουργίες της εφαρμογής. Όταν την ενεργοποιείτε, καταγράφονται συναντήσεις με συσκευές ατόμων. Δεν χρειάζεται να κάνετε τίποτα άλλο.";
+
+"RiskLegend_Legend2_Title" = "Κίνδυνος μόλυνσης";
+
+"RiskLegend_Legend2_Text" = "Αίτηση κατά την διάρκεια των απαιτήσεων 14 ημερών με κάθε χρόνο διαγνώσεις με COVID-19, η εφαρμογή υπολογές με τα πρόσθετα στοιχεία που θα μπορούσαν να χρησιμοποιηθούν. Αυτό το πράγμα με την εφαρμογή τηλεφωνίας τηλεφωνίας και την εμφάνιση της έκθεσης.";
+
+"RiskLegend_Legend2_RiskLevels" = "Μπορεί να εμφανιστεί η ακόλουθη κατάσταση κινδύνου:";
+
+"RiskLegend_Legend2_High" = "Αυξημένος κίνδυνος";
+
+"RiskLegend_Legend2_Low" = "Χαμηλός κίνδυνος";
+
+"RiskLegend_Legend3_Title" = "Ειδοποίηση άλλων χρηστών";
+
+"RiskLegend_Legend3_Text" = "Ένα άλλο κεντρικό χαρακτηριστικό είναι η καταγραφή της εξέτασης σας και η ανάκτηση του αποτελέσματος. Εάν διαγνωστεί με COVID-19, μπορείτε να ειδοποιήσετε άλλους και να σπάσετε την αλυσίδα της λοίμωξης.";
+
+"RiskLegend_Definitions_Title" = "Ορισμός όρων";
+
+"RiskLegend_Store_Title" = "Αρχείο καταγραφής έκθεσης";
+
+"RiskLegend_Store_Text" = "Λίστα των ληφθέντων και προσωρινών τυχαίων αναγνωριστικών που αποθηκεύτηκαν προσωρινά στο χώρο αποθήκευσης του λειτουργικού συστήματος. Αυτή η λίστα διαβάζεται όταν ελέγχεται η έκθεση. Όλα τα τυχαία αναγνωριστικά διαγράφονται αυτόματα μετά από 14 ημέρες.";
+
+"RiskLegend_Check_Title" = "Έλεγχος έκθεσης";
+
+"RiskLegend_Check_Text" = "Τα δεδομένα καταγραφής έκθεσης ανακτώνται και συγχρονίζονται με αναφερόμενες λοιμώξεις άλλων χρηστών. Ο κίνδυνος ελέγχεται αυτόματα αρκετές φορές την ημέρα.";
+
+"RiskLegend_Contact_Title" = "Κίνδυνος έκθεσης";
+
+"RiskLegend_Contact_Text" = "Έκθεση σε ένα μολυσμένο άτομο που έχει κοινοποιήσει τα θετικά αποτελέσματα των δοκιμών του με άλλους μέσω της εφαρμογής. Μια έκθεση πρέπει να πληροί ορισμένα κριτήρια σχετικά με τη διάρκεια, την απόσταση και την υποψία μολυσματικότητας του άλλου ατόμου για να χαρακτηριστεί ως υψηλό- έκθεση σε κίνδυνο. ";
+
+"RiskLegend_Notification_Title" = "Ειδοποίηση έκθεσης";
+
+"RiskLegend_Notification_Text" = "Η προβολή των ανοιγμάτων στην εφαρμογή ΕΧΟ.";
+
+"RiskLegend_Random_Title" = "Τυχαίο αναγνωριστικό";
+
+"RiskLegend_Random_Text" = "Τα τυχαία αναγνωριστικά είναι συνδυασμοί ψηφίων και γραμμάτων που δημιουργούνται τυχαία. Ανταλλάσσονται μεταξύ συσκευών σε κοντινή απόσταση. Τα τυχαία αναγνωριστικά δεν μπορούν να εντοπιστούν σε ένα συγκεκριμένο άτομο και διαγράφονται αυτόματα μετά από 14 ημέρες. Τα άτομα που έχουν διαγνωστεί με COVID-19 μπορούν να επιλέξουν να μοιραστούν τα τυχαία αναγνωριστικά τους έως και τις τελευταίες 14 ημέρες με άλλους χρήστες εφαρμογών. ";
+
+"RiskLegend_Image1_AccLabel" = "Μια συσκευή εμφανίζει διάφορα αριθμημένο περιεχόμενο.";
+
+/* Update Message */
+"Update_Message_Title" = "Διαθέσιμη ενημέρωση";
+
+"Update_Message_Text" = "Υπάρχει διαθέσιμη ενημέρωση για την εφαρμογή Exo.";
+
+"Update_Message_Text_Force" = "Λάβετε υπόψη ότι μπορείτε να χρησιμοποιήσετε ξανά την εφαρμογή ΕΧΟ μόνο αφού εγκαταστήσετε την πιο πρόσφατη ενημέρωση.";
+
+"Update_Message_Action_Update" = "Ενημέρωση";
+
+"Update_Message_Action_Later" = "Αργότερα";
+
+/* ENATanInput */
+"ENATanInput_Empty" = "Κενό";
+
+"ENATanInput_InvalidCharacter" = "Μη έγκυρος χαρακτήρας \n\n%@";
+
+"ENATanInput_CharacterIndex" = "Χαρακτήρας %1$u of %2$u";
+
+/* Active Tracing Interval Formatting:\n The following two entries are used together. If tracing was not active (almost) 14 days\n during the last 14 days then `Active_Tracing_Interval_Partially_Active` is used – otherwise\n `Active_Tracing_Interval_Partially_Active` will be used. */
+"Active_Tracing_Interval_Partially_Active" = "Η καταγραφή εκθέσεων ήταν ενεργή για  %1$u απο τις τελευταίες 14 μέρες.";
+
+"Active_Tracing_Interval_Permanently_Active" = "Καταγραφή έκθεσης, μόνιμα ανοιχτή.";
+
+/* Delta Onboarding */
+"DeltaOnboarding_AccessibilityImageLabel" = "Διακρατική καταγραφή έκθεσης";
+
+"DeltaOnboarding_Headline" = "Διακρατική καταγραφή έκθεσης";
+
+"DeltaOnboarding_Description" = "Οι δυνατότητες της εφαρμογής ΕΧΟ έχουν βελτιωθεί. Πολλές χώρες έχουν ενωθεί για την ενεργοποίηση διεθνών προειδοποιήσεων, βάσει ενός διακομιστή ανταλλαγής που λειτουργεί από κοινού. Η έκθεση σε χρήστες επίσημων εφαρμογών coronavirus σε άλλες συμμετέχουσες χώρες μπορεί τώρα να λαμβάνεται υπόψη κατά τον υπολογισμό του κινδύνου έκθεσής σας. \n\nΓια να γίνει αυτό, η εφαρμογή κατεβάζει λίστες, οι οποίες ενημερώνονται καθημερινά, για τα τυχαία αναγνωριστικά όλων των χρηστών που έχουν κοινοποιήσει τα αποτελέσματα των δοκιμών τους για να προειδοποιούν άλλους μέσω της δικής τους εφαρμογής. Στη συνέχεια συγκρίνεται με τα τυχαία αναγνωριστικά που καταγράφονται από το iPhone σας. \n\nΟι λήψεις των λιστών είναι συνήθως δωρεάν για εσάς. Συγκεκριμένα, αυτό σημαίνει ότι οι πάροχοι δικτύου κινητής τηλεφωνίας δεν σας χρεώνουν για τα δεδομένα που χρησιμοποιεί η εφαρμογή σε αυτό το πλαίσιο , ούτε εφαρμόζουν χρεώσεις περιαγωγής για αυτό σε άλλες χώρες της ΕΕ. Επικοινωνήστε με τον πάροχο του δικτύου κινητής τηλεφωνίας σας για περισσότερες πληροφορίες. ";
+
+"DeltaOnboarding_ParticipatingCountries" = "Συμμετέχουν οι ακόλουθες χώρες:";
+
+"DeltaOnboarding_ParticipatingCountriesList_Unavailable" = "Μπορείτε να δείτε τις συμμετέχουσες χώρες στις λεπτομέρειες καταγραφής έκθεσης.";
+
+"DeltaOnboarding_ParticipatingCountriesList_Unavailable_Title" = "Συμμετέχουσες χώρες";
+
+"DeltaOnboarding_PrimaryButton_Continue" = "Επόμενο";
+
+"DeltaOnboarding_Terms_Description1" = "Οι όροι χρήσης έχουν επίσης ενημερωθεί, ώστε να αντικατοπτρίζουν τις λειτουργικές βελτιώσεις στην εφαρμογή.";
+
+"DeltaOnboarding_Terms_Button" = "Προβολή όρων χρήσης";
+
+"DeltaOnboarding_Terms_Description2" = "Οι όροι χρήσης και η ειδοποίηση απορρήτου μπορούν επίσης να βρεθούν στο μενού στην ενότητα 'Πληροφορίες εφαρμογής' και στην περιγραφή της εφαρμογής στο κατάστημα εφαρμογών σας. Οι αλλαγές δεν θα επηρεάσουν τον τρόπο χρήσης της εφαρμογής. Εάν συνεχίσετε να χρησιμοποιείτε την εφαρμογή ή να την ανοίξετε ξανά, θα υποθέσουμε ότι συμφωνείτε με τους ενημερωμένους όρους χρήσης. ";
+
+/* Warn other notifications */
+"WarnOthersNotification_Title" = "Μπορείτε να βοηθήσετε!";
+
+"WarnOthersNotification_Description" = "Μοιραστείτε το αποτέλεσμα της εξέτασης σας και προειδοποιήστε τους άλλους.";
+
+/* Automatic sharing Consent */
+"AutomaticSharingConsent_Title" = "Η συγκατάθεσή σας";
+
+"AutomaticSharingConsent_SwitchTitle" = "Προειδοποίηση για άλλους";
+
+"AutomaticSharingConsent_SwitchTitleDesc" = "Έχετε δώσει την ακόλουθη συγκατάθεση:";
+
+"AutomaticSharingConsent_DataProcessingDetailInfo" = "Περισσότερες πληροφορίες μπορείτε να βρείτε στο μενού στην ενότητα 'Πολιτική Απορρήτου'";
+
+/* Thank you screen */
+"Thank_You_Title" = "Ευχαριστούμε";
+
+"Thank_You_SubTitle" = "Σας ευχαριστούμε που βοηθήσατε να σταματήσει η εξάπλωση του COVID-19.";
+
+"Thank_You_Description1" = "Οι συνάνθρωποι σας θα ειδοποιηθούν.";
+
+"Thank_You_Description2" = "Τώρα μπορείτε να βοηθήσετε στη βελτίωση της ακρίβειας των προειδοποιήσεων. Για να το κάνετε αυτό, στο επόμενο βήμα, πείτε μας πότε εμφανίσατε για πρώτη φορά τα συμπτώματα. Μπορείτε να ακυρώσετε αυτό το βήμα ανά πάσα στιγμή.";
+
+"Thank_You_Continue_Button" = "Εισαγωγή συμπτωμάτων";
+
+"Thank_You_Cancel_Button" = "Έξοδος";
+
+"Thank_You_AccImageDescription" = "Αρκετά άτομα βλέπουν τα smartphone τους.";
+
+/* Test result screen (positive test result) */
+"TestResultPositive_NoConsent_Title" = "Παρακαλώ βοηθήστε όλους μας!";
+
+"TestResultPositive_NoConsent_Info1" = "Μοιραστείτε το αποτέλεσμα της εξέτασης σας και βοηθήστε στην προστασία άλλων από μόλυνση.";
+
+"TestResultPositive_NoConsent_Info2" = "Η ταυτότητά σας θα παραμείνει μυστική. Άλλοι χρήστες δεν θα μάθουν ποιος έχει μοιραστεί ένα αποτέλεσμα εξέτασης.";
+
+"TestResultPositive_NoConsent_Info3" = "Φροντίστε να ακολουθήσετε τις οδηγίες της αρχής δημόσιας υγείας σας και να μείνετε σπίτι, ώστε να μην μολύνετε άλλους.";
+
+"TestResultPositive_NoConsent_PrimaryButton" = "Προειδοποιήστε τους άλλους";
+
+"TestResultPositive_NoConsent_SecondaryButton" = "Ακύρωση";
+
+"TestResultPositive_NoConsent_AlertNotWarnOthers_Title" = "Δεν θέλετε να στείλετε μια προειδοποίηση;";
+
+"TestResultPositive_NoConsent_AlertNotWarnOthers_Description" = "Πρέπει να κοινοποιήσετε το αποτέλεσμα της εξέτασης σας εάν θέλετε να προειδοποιήσετε άλλους.";
+
+"TestResultPositive_NoConsent_AlertNotWarnOthers_ButtonOne" = "Μην προειδοποιείτε άλλους";
+
+"TestResultPositive_NoConsent_AlertNotWarnOthers_ButtonTwo" = "Προειδοποίηση άλλων";
+
+"TestResultPositive_WithConsent_Title" = "Σας ευχαριστούμε που βοηθήσατε να σταματήσετε την εξάπλωση του COVID-19.";
+
+"TestResultPositive_WithConsent_Info1" = "Οι άλλοι θα ειδοποιηθούν τώρα.";
+
+"TestResultPositive_WithConsent_Info2" = "Τώρα μπορείτε να βοηθήσετε στη βελτίωση της ακρίβειας των προειδοποιήσεων. Για να το κάνετε αυτό, στο επόμενο βήμα, πείτε μας πότε εμφανίσατε για πρώτη φορά τα συμπτώματα. Μπορείτε να ακυρώσετε αυτό το βήμα ανά πάσα στιγμή.";
+
+"TestResultPositive_WithConsent_PrimaryButton" = "Εισαγωγή συμπτωμάτων";
+
+"TestResultPositive_WithConsent_SecondaryButton" = "Έξοδος";
+
+/* Overview */
+"ContactDiary_Overview_Button_Title_Menu" = "Μενού";
+
+"ContactDiary_Overview_Title" = "Ημερολογίο Επαφών";
+
+"ContactDiary_Overview_Description" = "Επιλέξτε την Ημερομηνία, και στην συνέχεια μπορείτε να καταγράψετε τα άτομα και τις σχετικές τοποθεσίες τους.";
+
+/* ActionSheet */
+"ContactDiary_Overview_ActionSheet_InfoActionTitle" = "Πληροφορίες";
+
+"ContactDiary_Overview_ActionSheet_ExportActionTitle" = "Εξαγωγή καταχωρίσεων";
+
+"ContactDiary_Overview_ActionSheet_EditPersonTitle" = "Επεξεργασία ατόμων";
+
+"ContactDiary_Overview_ActionSheet_EditLocationTitle" = "Επεξεργασία μερών";
+
+/* Day */
+"ContactDiary_Day_ContactPersonsSegment" = "Άτομα";
+
+"ContactDiary_Day_AddContactPerson" = "Προσθήκη ατόμου";
+
+"ContactDiary_Day_ContactPersonsEmptyTitle" = "Δεν έχουν οριστεί ακόμη άτομα";
+
+"ContactDiary_Day_ContactPersonsEmptyDescription" = "Δημιουργήστε ένα άτομο και προσθέστε το στο ημερολόγιο επαφών σας.";
+
+"ContactDiary_Day_ContactPersonsEmptyImageDescription" = "Μια σιλουέτα μιας γυναίκας που περπατά σε ένα λιβάδι.";
+
+"ContactDiary_Day_LocationsSegment" = "Τοποθεσίες";
+
+"ContactDiary_Day_AddLocation" = "Προσθήκη τοποθεσίας";
+
+"ContactDiary_Day_LocationsEmptyTitle" = "Δεν έχουν καθοριστεί ακόμη τοποθεσίες";
+
+"ContactDiary_Day_LocationsEmptyDescription" = "Δημιουργήστε ένα μέρος και προσθέστε το στο ημερολόγιο επαφών σας.";
+
+"ContactDiary_Day_LocationsEmptyImageDescription" = "Ένα κτίριο επισημαίνεται με μια σημαία τοποθεσίας.";
+
+/* Edit Entries */
+"ContactDiary_EditEntries_ContactPersons_Title" = "Άτομα";
+
+"ContactDiary_EditEntries_ContactPersons_DeleteAllButtonTitle" = "Κατάργηση όλων";
+
+"ContactDiary_EditEntries_ContactPersons_AlertTitle" = "Θέλετε πραγματικά να καταργήσετε όλα τα άτομα;";
+
+"ContactDiary_EditEntries_ContactPersons_AlertMessage" = "Εάν καταργήσετε ένα άτομο, όλες οι εγγραφές για αυτό το άτομο θα καταργηθούν από το ημερολόγιό σας.";
+
+"ContactDiary_EditEntries_ContactPersons_AlertConfirmButtonTitle" = "Ναι";
+
+"ContactDiary_EditEntries_ContactPersons_AlertCancelButtonTitle" = "Όχι";
+
+"ContactDiary_EditEntries_ContactPerson_AlertTitle" = "Θέλετε πραγματικά να καταργήσετε αυτό το άτομο;";
+
+"ContactDiary_EditEntries_ContactPerson_AlertMessage" = "Εάν καταργήσετε ένα άτομο, όλες οι εγγραφές για αυτό το άτομο θα καταργηθούν από το ημερολόγιό σας.";
+
+"ContactDiary_EditEntries_ContactPerson_AlertConfirmButtonTitle" = "Ναι";
+
+"ContactDiary_EditEntries_ContactPerson_AlertCancelButtonTitle" = "Όχι";
+
+"ContactDiary_EditEntries_Locations_Title" = "Μέρη";
+
+"ContactDiary_EditEntries_Locations_DeleteAllButtonTitle" = "Κατάργηση όλων";
+
+"ContactDiary_EditEntries_Locations_AlertTitle" = "Θέλετε πραγματικά να καταργήσετε όλα τα μέρη;";
+
+"ContactDiary_EditEntries_Locations_AlertMessage" = "Εάν καταργήσετε ένα μέρος, όλες οι εγγραφές για αυτό το μέρος θα καταργηθούν από το ημερολόγιό σας.";
+
+"ContactDiary_EditEntries_Locations_AlertConfirmButtonTitle" = "Ναι";
+
+"ContactDiary_EditEntries_Locations_AlertCancelButtonTitle" = "Όχι";
+
+"ContactDiary_EditEntries_Location_AlertTitle" = "Θέλετε πραγματικά να καταργήσετε αυτό το μέρος;";
+
+"ContactDiary_EditEntries_Location_AlertMessage" = "Εάν καταργήσετε ένα μέρος, όλες οι εγγραφές για αυτό το μέρος θα καταργηθούν από το ημερολόγιό σας.";
+
+"ContactDiary_EditEntries_Location_AlertConfirmButtonTitle" = "Ναι";
+
+"ContactDiary_EditEntries_Location_AlertCancelButtonTitle" = "Όχι";
+
+/* Information */
+"ContactDiary_Information_Title" = "Ημερολόγιο επαφών";
+
+"ContactDiary_Information_ImageDescription" = "Αρκετά άτομα είναι έξω, βλέπουν τα smartphone τους.";
+
+"ContactDiary_Information_DescriptionTitle" = "Παρακολουθήστε τις επαφές σας.";
+
+"ContactDiary_Information_DescriptionSubHeadline" = "Δημιουργήστε μια επισκόπηση των επαφών σας τις τελευταίες 14 ημέρες, ώστε να έχετε στη διάθεσή σας μια πλήρη λίστα γρήγορα αν χρειαστεί.";
+
+"ContactDiary_Information_Item_Person_Title" = "Εισάγετε τα άτομα που έχετε γνωρίσει.";
+
+"ContactDiary_Information_Item_Location_Title" = "Εισάγετε τα μέρη όπου έχετε συναντήσει άλλους.";
+
+"ContactDiary_Information_Item_Lock_Title" = "Είστε ο μόνος που έχει πρόσβαση στις καταχωρήσεις ημερολογίου σας. Οι καταχωρίσεις σας θα αποθηκευτούν μόνο στο smartphone σας.";
+
+"ContactDiary_Information_Item_DeletedAutomatically_Title" = "Μπορείτε να καταργήσετε καταχωρήσεις για άτομα και μέρη από το ημερολόγιό σας ανά πάσα στιγμή. Οι καταχωρίσεις περιοδικού θα διαγραφούν αυτόματα μετά από 16 ημέρες.";
+
+"ContactDiary_Information_Item_ExportTextFormat_Title" = "Μπορείτε να εξαγάγετε το ημερολόγιο επαφών σας σε μορφή απλού κειμένου και, στη συνέχεια, να εκτυπώσετε τις καταχωρίσεις, να τις επεξεργαστείτε ή να τις παρέχετε στο γραφείο δημόσιας υγείας σας, όπως απαιτείται.";
+
+"ContactDiary_Information_Dataprivacy_Title" = "Για περισσότερες πληροφορίες, ανατρέξτε στην πολιτική απορρήτου.";
+
+"ContactDiary_Information_PrimaryButton_Title" = "Διαχείριση ημερολογίου";
+
+/*ΠροσθήκηEditEntry */
+"ContactDiary_AddEditEntry_PrimaryButton_Title" = "Αποθήκευση";
+
+/* - Τοποθεσία */
+"ContactDiary_AddEditEntry_LocationTitle" = "Τόπος";
+
+"ContactDiary_AddEditEntry_LocationPlaceholder" = "Τόπος";
+
+/* Άτομο */
+"ContactDiary_AddEditEntry_PersonTitle" = "Πρόσωπο";
+
+"ContactDiary_AddEditEntry_PersonPlaceholder" = "Πρόσωπο";
+
+/*Τάση στις κάρτες */
+"Statistics_Card_Trend_Increasing" = "Τάση: προς τα πάνω";
+
+"Statistics_Card_Trend_Decreasing" = "Τάση: Κάτω";
+
+"Statistics_Card_Trend_Stable" = "Τάση: Σταθερή";
+
+"Statistics_Card_TrendSemantic_Negative" = "Αρνητικό";
+
+"Statistics_Card_TrendSemantic_Positive" = "Θετικό";
+
+"Statistics_Card_TrendSemantic_Neutral" = "Ουδέτερο";
+
+/*Μορφοποίηση αριθμών */
+"Statistics_Card_Million" = " %@ Million";
+
+/* Κάρτα λοιμώξεων */
+"Statistics_Card_Infections_Title" = "Επιβεβαιωμένες νέες μολύνσεις";
+
+"Statistics_Card_Infections_Today" = "Σήμερα";
+
+"Statistics_Card_Infections_Yesterday" = "Χθες";
+
+"Statistics_Card_Infections_Date" = " %@";
+
+"Statistics_Card_Infections_SecondaryLabelTitle" = "Μέσος όρος 7 ημερών";
+
+"Statistics_Card_Infections_TertiaryLabelTitle" = "Σύνολο";
+
+/*Κάρτα περιστατικών */
+"Statistics_Card_Incidence_Title" = "Επίπτωση 7 ημερών";
+
+"Statistics_Card_Incidence_Today" = "Μέχρι σήμερα";
+
+"Statistics_Card_Incidence_Yesterday" = "Μέχρι χθες";
+
+"Statistics_Card_Incidence_Date" = "Έως %@";
+
+"Statistics_Card_Incidence_SecondaryLabelTitle" = "επιβεβαιωμένες νέες μολύνσεις ανά 100.000 κατοίκους";
+
+/* - Key Submissions Card */
+"Statistics_Card_KeySubmissions_Title" = "Προειδοποιήσεις από χρήστες εφαρμογών";
+
+"Statistics_Card_KeySubmissions_Today" = "Σήμερα";
+
+"Statistics_Card_KeySubmissions_Yesterday" = "Χθες";
+
+"Statistics_Card_KeySubmissions_Date" = "%@";
+
+"Statistics_Card_KeySubmissions_SecondaryLabelTitle" = "Μέσος όρος 7 ημερών";
+
+"Statistics_Card_KeySubmissions_TertiaryLabelTitle" = "Σύνολο";
+
+"Statistics_Card_KeySubmissions_Footnote" = "μέσω της εφαρμογής ΕΧΟ";
+
+/* - Reproduction Number Card */
+"Statistics_Card_ReproductionNumber_Title" = "Τιμή R 7 απαιτών";
+
+"Statistics_Card_ReproductionNumber_Today" = "Προς το χρόνο";
+
+"Statistics_Card_ReproductionNumber_Yesterday" = "Χρύ";
+
+"Statistics_Card_ReproductionNumber_Date" = "Έως% @";
+
+"Statistics_Card_ReproductionNumber_SecondaryLabelTitle" = "μέσος όρος διαφορετική χρήση από κάθε φοράυσμένο χρόνο";
+
+/* Λάθος */
+"Statistics_LoadingError" = "Δεν υπάρχει καμία αίτηση η φόρτωση των αντικειμένων. Κλήση εφαρμογή και δοκιμή εμφάνιση.";
+
+/* Οθόνη πληροφοριών */
+"Statistics_Info_Title" = "Βασικά στοιχεία";
+
+"Statistics_Info_Subtitle" = "Επεξήγηση εθνικών στατιστικών";
+
+"Statistics_Info_Infections_Title" = "Επιβεβαιωμένες νέες μολύνσεις";
+
+"Statistics_Info_Infections_Text" = "Αριθμός ατόμων που έχουν διαγνωστεί με COVID-19 και έχουν αναφερθεί στον ΕΟΔΥ";
+
+"Statistics_Info_KeySubmissions_Title" = "Προειδοποιήσεις από χρήστες εφαρμογών";
+
+"Statistics_Info_KeySubmissions_Text" = "Αριθμός χρηστών εφαρμογών που έχουν διαγνωστεί με COVID-19 και έχουν προειδοποιήσει άλλους μέσω της εφαρμογής";
+
+"Statistics_Info_Incidence_Title" = "Επίπτωση 7 ημερών";
+
+"Statistics_Info_Incidence_Text" = "Συνολικός αριθμός επιβεβαιωμένων νέων λοιμώξεων τις τελευταίες 7 ημέρες (κατά ημερομηνία αναφοράς) ανά 100.000 κατοίκους";
+
+"Statistics_Info_ReproductionNumber_Title" = "Τιμή R 7 ημερών";
+
+"Statistics_Info_ReproductionNumber_Text" = "Το σχήμα αναπαραγωγής, R, υποδεικνύει πόσα άτομα έχει μολύνει περαιτέρω ένα μέσο άτομο. Η τρέχουσα τιμή λαμβάνει υπόψη τα δεδομένα έως τις τελευταίες 5 ημέρες.";
+
+"Statistics_Info_FAQLink_Text" = "Για περισσότερες πληροφορίες, ανατρέξτε στο";
+
+"Statistics_Info_FAQLink_Title" = "Συχνές ερωτήσεις για τα στατιστικά στοιχεία.";
+
+"Statistics_Info_Definitions_Title" = "Θρύλος";
+
+"Statistics_Info_Period_Title" = "Χρονική περίοδος";
+
+"Statistics_Info_Yesterday_Title" = "Χθες / Μέχρι χθες";
+
+"Statistics_Info_Yesterday_Text" = "Αριθμός για την προηγούμενη ημέρα / έως την προηγούμενη ημέρα. Εάν δεν υπάρχουν διαθέσιμα στοιχεία για την προηγούμενη ημέρα, εμφανίζεται η τελευταία ημερομηνία για την οποία υπάρχουν διαθέσιμα στοιχεία.";
+
+"Statistics_Info_Mean_Title" = "Μέσος όρος 7 ημερών";
+
+"Statistics_Info_Mean_Text" = "Μέση τιμή από τις τελευταίες 7 ημέρες";
+
+"Statistics_Info_Total_Title" = "Σύνολο";
+
+"Statistics_Info_Total_Text" = "Συνολικός αριθμός από την αρχή του έτους ή την έναρξη της εφαρμογής (15 Ιουνίου 2020)";
+
+"Statistics_Info_Trend_Title" = "Τάση";
+
+"Statistics_Info_Trend_Text" = "Η κατεύθυνση του βέλους δείχνει αν η τάση αυξάνεται, μειώνεται ή παραμένει σταθερή - δηλαδή, δείχνει απόκλιση μικρότερη από 1% σε σύγκριση με την προηγούμενη ημέρα ή 5% σε σύγκριση με την προηγούμενη εβδομάδα. Το χρώμα δείχνει αυτό τάση ως θετική (πράσινη), αρνητική (κόκκινη) ή ουδέτερη (γκρι). Η τάση συγκρίνει την τιμή από την προηγούμενη ημέρα με την τιμή πριν από δύο ημέρες ή, για τις τάσεις 7 ημερών, τη μέση τιμή από τις τελευταίες 7 ημέρες με τη μέση τιμή από τις 7 ημέρες πριν από αυτήν. ";
+
+"Statistics_Info_Trends_Title" = "Μπορούν να εμφανιστούν οι ακόλουθες τάσεις:";
+
+"Statistics_Info_Trends_Increasing" = "Τάση: προς τα πάνω";
+
+"Statistics_Info_Trends_Decreasing" = "Τάση: Κάτω";
+
+"Statistics_Info_Trends_Stable" = "Τάση: Σταθερή";
+
+"Statistics_Info_Trends_Footnote" = "Η εκτίμηση της τάσης για προειδοποιήσεις από χρήστες εφαρμογών αλλάζει ανάλογα με τα τρέχοντα επίπεδα μόλυνσης, γι 'αυτό αυτή η τάση εμφανίζεται πάντα ως ουδέτερη.";
+
+"Statistics_Info_Image_AccLabel" = "Αφηρημένη εικόνα ενός smartphone με τέσσερις θέσεις κράτησης θέσης για πληροφορίες";
+

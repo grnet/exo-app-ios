@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Home_Risk_Low_Number_Contacts_Item_Title</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@VARIABLE@</string>
+		<key>VARIABLE</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>zero</key>
+			<string>Εκθέσεις με χαμηλό ρίσκο σήμερα</string>
+			<key>one</key>
+			<string>Εκθέσεις με χαμηλό ρίσκο την τελευταία 1 ημέρα</string>
+			<key>few</key>
+			<string>Εκθέσεις με χαμηλό ρίσκο τις τελευταίες %u ημέρες</string>
+			<key>many</key>
+			<string>Εκθέσεις με χαμηλό ρίσκο τις τελευταίες %u ημέρες</string>
+			<key>two</key>
+			<string>Εκθέσεις με χαμηλό ρίσκο τις τελευταίες %u ημέρες</string>
+			<key>other</key>
+			<string>Εκθέσεις με χαμηλό ρίσκο τις τελευταίες %u ημέρες</string>
+		</dict>
+	</dict>
+	<key>Home_Risk_High_Number_Contacts_Item_Title</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@VARIABLE@</string>
+		<key>VARIABLE</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>zero</key>
+			<string>Έκθεσεις  με αυξημένο κίνδυνο σήμερα</string>
+			<key>one</key>
+			<string>Έκθεσεις  με αυξημένο κίνδυνο την τελευταία 1 ημέρα</string>
+			<key>few</key>
+			<string>Έκθεσεις  με αυξημένο κίνδυνο τις τελευταίες %u ημέρες</string>
+			<key>many</key>
+			<string>Έκθεσεις  με αυξημένο κίνδυνο τις τελευταίες %u ημέρες</string>
+			<key>two</key>
+			<string>Έκθεσεις  με αυξημένο κίνδυνο τις τελευταίες %u ημέρες</string>
+			<key>other</key>
+			<string>Έκθεσεις  με αυξημένο κίνδυνο τις τελευταίες %u ημέρες</string>
+		</dict>
+	</dict>
+	<key>Home_Risk_Status_Counter_Label</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@minutes@%#</string>
+		<key>minutes</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>zero</key>
+			<string>Update in %02u:%2$#@seconds@ minutes</string>
+			<key>one</key>
+			<string>Update in %02u:%2$#@seconds@ minute</string>
+			<key>few</key>
+			<string>Update in %02u:%2$#@seconds@ minutes</string>
+			<key>many</key>
+			<string>Update in %02u:%2$#@seconds@ minutes</string>
+			<key>two</key>
+			<string>Update in %02u:%2$#@seconds@ minutes</string>
+			<key>other</key>
+			<string>Update in %02u:%2$#@seconds@ minutes</string>
+		</dict>
+		<key>seconds</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>one</key>
+			<string>%02u</string>
+			<key>zero</key>
+			<string>%02u</string>
+			<key>few</key>
+			<string>%02u</string>
+			<key>many</key>
+			<string>%02u</string>
+			<key>two</key>
+			<string>%02u</string>
+			<key>other</key>
+			<string>%02u</string>
+		</dict>
+	</dict>
+	<key>ENSetting_Tracing_History</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@VARIABLE@</string>
+		<key>VARIABLE</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>u</string>
+			<key>zero</key>
+			<string>Η καταγραφή έκθεσης ήταν ενεργή για %u ημέρες. Ένας έλεγχος έκθεσης μπορεί να είναι αξιόπιστος μόνο εάν η καταγραφή έκθεσης είναι μόνιμα ενεργοποιημένη.</string>
+			<key>one</key>
+			<string>Η καταγραφή έκθεσης ήταν ενεργή για %u ημέρα. Ένας έλεγχος έκθεσης μπορεί να είναι αξιόπιστος μόνο εάν η καταγραφή έκθεσης είναι μόνιμα ενεργοποιημένη.</string>
+			<key>few</key>
+			<string>Η καταγραφή έκθεσης ήταν ενεργή για %u ημέρες. Ένας έλεγχος έκθεσης μπορεί να είναι αξιόπιστος μόνο εάν η καταγραφή έκθεσης είναι μόνιμα ενεργοποιημένη.</string>
+			<key>many</key>
+			<string>Η καταγραφή έκθεσης ήταν ενεργή για %u ημέρες. Ένας έλεγχος έκθεσης μπορεί να είναι αξιόπιστος μόνο εάν η καταγραφή έκθεσης είναι μόνιμα ενεργοποιημένη.</string>
+			<key>two</key>
+			<string> Η καταγραφή έκθεσης ήταν ενεργή για %u ημέρες. Ένας έλεγχος έκθεσης μπορεί να είναι αξιόπιστος μόνο εάν η καταγραφή έκθεσης είναι μόνιμα ενεργοποιημένη.</string>
+			<key>other</key>
+			<string>Η καταγραφή έκθεσης ήταν ενεργή για %u ημέρες. Ένας έλεγχος έκθεσης μπορεί να είναι αξιόπιστος μόνο εάν η καταγραφή έκθεσης είναι μόνιμα ενεργοποιημένη.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

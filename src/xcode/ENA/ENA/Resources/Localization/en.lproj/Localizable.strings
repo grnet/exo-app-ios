@@ -1,0 +1,1578 @@
+/* General */
+"Alert_TitleGeneral" = "An error occurred.";
+
+"Alert_ActionOk" = "OK";
+
+"Alert_ActionYes" = "Yes";
+
+"Alert_ActionNo" = "No";
+
+"Alert_ActionRetry" = "Repeat";
+
+"Alert_ActionCancel" = "Cancel";
+
+"Alert_ActionRemove" = "Remove";
+
+"Alert_BluetoothOff_Title" = "Turn on Bluetooth";
+
+"Alert_BluetoothOff_Description" = "Activate Bluetooth in your system settings to use this app.";
+
+"Alert_CancelAction_Later" = "Later";
+
+"Alert_DefaultAction_OpenSettings" = "Open Settings";
+
+"General_BackButtonTitle" = "Back";
+
+"Common_ENError5_Description" = "Error 5: Something went wrong. Your level of risk cannot be determined. We are working on a solution of the problem.";
+
+"Common_ENError11_Description" = "Error 11: Something went wrong. Your level of risk cannot be determined. Please restart your device and try again tomorrow.";
+
+"Common_ENError13_Description" = "Error 13: Your exposure logging for today has already been carried out. Please try again in 24 hours.";
+
+"Common_Alert_Action_moreInfo" = "Find out more";
+
+"Common_BackgroundFetch_AlertMessage" = "You have deactivated background app refresh for the Exo-app. Please activate background app refresh to use automatic exposure logging. If you do not activate background app refresh, you can only start exposure logging manually in the app.\n\nYou can activate background app refresh for the app in your device settings.";
+
+"Common_BackgroundFetch_SettingsTitle" = "Open Device Settings";
+
+"Common_BackgroundFetch_OKTitle" = "Start Exposure Logging Manually";
+
+"Common_BackgroundFetch_AlertTitle" = "Background app refresh deactivated";
+
+"Common_Deadman_AlertTitle" = "Exposure Check";
+
+"Common_Deadman_AlertBody" = "Please remember to open the Exo-app regularly to check your risk status.";
+
+"Common_Tess_Relay_Description" = "";
+
+/* Accessibility */
+"AccessibilityLabel_Close" = "Close";
+
+"AccessibilityLabel_PhoneNumber" = "Phone number";
+
+/* Exposure Detection */
+"ExposureDetection_Off" = "Exposure logging stopped";
+
+"ExposureDetection_Unknown" = "Unknown Risk";
+
+"ExposureDetection_Low" = "Low Risk";
+
+"ExposureDetection_Low_Green_Color" = "Green";
+
+"ExposureDetection_High" = "Increased Risk";
+
+"ExposureDetection_High_Red_Color" = "Red";
+
+"ExposureDetection_LastExposure" = "Most recently on %@";
+
+"ExposureDetection_Refreshed" = "Updated: %@";
+
+"ExposureDetection_Refreshed_Never" = "Unknown";
+
+"ExposureDetection_RefreshingIn" = "Update in %02d:%02d\U00A0minutes";
+
+"ExposureDetection_RefreshIn" = "Update in %@";
+
+"ExposureDetection_LastRiskLevel" = "Last exposure check: %@";
+
+"ExposureDetection_OffText" = "Activate exposure logging to evaluate your risk status today.";
+
+"ExposureDetection_OutdatedText" = "Your risk calculation logging has not been updated for more than 48 hours. Please update the calculation.";
+
+"ExposureDetection_UnknownText" = "Since you have not activated exposure logging for long enough, we could not calculate your risk of infection.";
+
+"ExposureDetection_LoadingText" = "Current data is being downloaded and checked. This can take several minutes.";
+
+"ExposureDetection_Behavior_Title" = "Guidelines";
+
+"ExposureDetection_Behavior_Subtitle" = "This is what you should do:";
+
+"ExposureDetection_Guide_Hands" = "Wash your hands regularly, with soap, for 20 seconds.";
+
+"ExposureDetection_Guide_Mask" = "Wear a face mask when you encounter other people.";
+
+"ExposureDetection_Guide_Distance" = "Keep at least 1.5 meters distance from other people.";
+
+"ExposureDetection_Guide_Sneeze" = "Sneeze or cough into your elbow or a tissue.";
+
+"ExposureDetection_Guide_Home" = "If possible, please go home and stay at home.";
+
+"ExposureDetection_Guide_Hotline1" = "If you have questions about symptoms, testing availability, or self-isolation, please contact one of the following:";
+
+"ExposureDetection_Guide_Hotline2" = "Your general practitioner";
+
+"ExposureDetection_Guide_Hotline3" = "General medical emergency service on telephone number 116117";
+
+"ExposureDetection_Guide_Hotline4" = "Your public health authority";
+
+"ExposureDetection_Explanation_Title" = "Risk of Infection";
+
+"ExposureDetection_Explanation_Subtitle" = "This is how your risk is calculated.";
+
+"ExposureDetection_Explanation_Text_Off" = "Your risk of infection is calculated from the exposure logging data (duration and proximity) locally on your device. Your risk of infection cannot be seen by, or passed on to, anyone else.";
+
+"ExposureDetection_Explanation_Text_Outdated" = "Your exposure check has not been updated for more than 48 hours. Please update the calculation.";
+
+"ExposureDetection_Explanation_Text_Unknown" = "Since you have not activated exposure logging for long enough, we cannot calculate your risk of infection.\n\nYour risk of infection is calculated from the exposure logging data (duration and proximity) locally on your smartphone. Your risk of infection cannot be seen by, or passed on to anyone else.";
+
+"ExposureDetection_Explanation_Text_Low_No_Encounter" = "You have a low risk of infection because no exposure to people later diagnosed with COVID-19 was logged, or because your encounters were only for a short time and at a greater distance.";
+
+"ExposureDetection_Explanation_Text_Low_With_Encounter" = "The risk of infection is calculated locally on your smartphone, using exposure logging data. The calculation also takes into account distance and duration of any exposure to persons diagnosed with COVID-19, as well as their potential infectiousness. Your risk of infection cannot be seen by or passed on to anyone else.";
+
+"ExposureDetection_Explanation_Text_High_DateOfLastExposure" = "You have an increased risk of infection because you were last exposed on %@ over a longer period of time and at close proximity to at least one person diagnosed with COVID-19.";
+
+"ExposureDetection_Explanation_Text_High" = "Therefore, your risk of infection has been ranked as increased.\nYour risk of infection is calculated from the exposure logging data (duration and proximity) locally on your device. Your risk of infection cannot be seen by, or passed on to, anyone else.\nWhen you get home, please also avoid close contact with members of your family or household.";
+
+"ExposureDetection_Explanation_FAQ_Link_Text" = "For further information, please see our FAQ page.";
+
+"ExposureDetection_LowRiskExposure_Title" = "Exposures with low risk";
+
+"ExposureDetection_LowRiskExposure_Subtitle" = "Why your risk of infection is low";
+
+"ExposureDetection_LowRiskExposure_Body" = "You encountered a person who was later diagnosed with COVID-19. Nevertheless, based on your exposure logging data, your risk of infection is low. The risk is low if your encounter was brief or occurred at a distance. You do not need to worry and there is no specific need for action. We recommend that you adhere to the prevailing rules regarding distancing and hygiene.";
+
+"ExposureDetection_Button_Enable" = "Activate Exposure Logging";
+
+"ExposureDetection_Button_Refresh" = "Update";
+
+"ExposureDetection_Button_Title_Restart" = "Restart";
+
+"ExposureDetection_Risk_Status_Downloading_Title" = "Data is being downloaded…";
+
+"ExposureDetection_Risk_Status_Detecting_Title" = "Check is running …";
+
+"ExposureDetection_Risk_Status_Downloading_Body" = "This may take several minutes. Thank you for your patience.";
+
+"ExposureDetection_Risk_Status_Detecting_Body" = "Your exposure data is being checked. This may take several minutes. Thank you for your patience.";
+
+"ExposureDetection_Risk_Failed_Title" = "Exposure check failed";
+
+"ExposureDetection_Risk_Failed_Body" = "The synchronization of random IDs with the server failed. You can restart the synchronization manually.";
+
+"ExposureDetection_Risk_Restart_Button_Title" = "Restart";
+
+/* Exposure detection wrong device time */
+"ExposureDetection_WrongTime_Notification_Title" = "Exposure Check Not Possible";
+
+"ExposureDetection_WrongTime_Notification_Body" = "The time set on your device does not match the current time. As a result, your risk cannot be checked right now. Please set the correct time in your device settings.";
+
+"ExposureDetection_WrongTime_Notification_Popover_Title" = "Exposure Check Not Possible";
+
+"ExposureDetection_WrongTime_Notification_Popover_Body" = "The time set on your device does not match the current time. As a result, your risk cannot be checked right now. Please set the correct time in your device settings.";
+
+/* Active Tracing Section */
+"ExposureDetection_ActiveTracingSection_Title" = "Period logged";
+
+"ExposureDetection_ActiveTracingSection_Subtitle" = "This period is included in the calculation.";
+
+/* There are two paragraphs in this section. The first one just contains text… */
+"ExposureDetection_ActiveTracingSection_Text_Paragraph0" = "Your risk of infection can be calculated only for periods during which exposure logging was active. The logging feature should therefore remain active permanently.";
+
+/* … the second paragraph contains two columns. On the left there is our active\n tracing indicator. On the right column there is just text that explains what\n the indicator shows.\n\n Parameters:\n - first: total number of relevant days (usually 14).\n - second: the actual number of days with active tracing. */
+"ExposureDetection_ActiveTracingSection_Text_Paragraph1" = "Exposure logging covers the past %1$u days. During this time, the logging feature on your device was active for %2$u days. The app automatically deletes older logs, as these are no longer relevant for infection prevention.";
+
+/* Exposure Detection Errors */
+"ExposureDetectionError_Alert_Message" = "An error occurred during exposure logging.";
+
+"ExposureDetectionError_Alert_FullDiskSpace_Message" = "There is not enough free memory available for the current data.\nPlease free up memory on your smartphone to enable your risk status to be updated.";
+
+/* How Risk Detection Works Alert.\n First introduced due to EXPOSUREAPP-1738.\n The alert only displays a single OK-button. We re-use the localized string\n `Alert_ActionOk` for that. */
+"How_Risk_Detection_Works_Alert_Title" = "Information about exposure logging functionality";
+
+"How_Risk_Detection_Works_Alert_Message" = "Your risk of infection can be calculated only for periods during which exposure logging was active. The logging feature should therefore remain active permanently.\nExposure logging covers the past %1$u days.\nThe app automatically deletes older logs, as these are no longer relevant for infection prevention.\n\nFor further information, please see our FAQ page.";
+
+/* Settings */
+"Settings_Notification_StatusActive" = "On";
+
+"Settings_Notification_StatusInactive" = "Off";
+
+"Settings_BackgroundAppRefresh_StatusActive" = "On";
+
+"Settings_BackgroundAppRefresh_StatusInactive" = "Off";
+
+"Settings_StatusEnable" = "Activate";
+
+"Settings_StatusDisable" = "Deactivate";
+
+"Settings_KontaktProtokollStatusActive" = "Active";
+
+"Settings_KontaktProtokollStatusInactive" = "Stopped";
+
+"Settings_Tracing_Label" = "Exposure Logging";
+
+"Settings_Notification_Label" = "Notifications";
+
+"Settings_BackgroundAppRefresh_Label" = "Background App Refresh";
+
+"Settings_Reset_Label" = "Reset App";
+
+"Settings_Tracing_Description" = "Allow COVID-19 random IDs to be generated and shared.";
+
+"Settings_Notification_Description" = "Allow automatic notifications of your COVID-19 risk status.";
+
+"Settings_BackgroundAppRefresh_Description" = "Allow automatic updates of your risk status.";
+
+"Settings_Reset_Description" = "Delete all your data in the app.";
+
+"Settings_NavTitle" = "Settings";
+
+/* Noticiation Settings */
+"NotificationSettings_On_Title" = "Do you want to activate notifications of your COVID-19 risk status?";
+
+"NotificationSettings_On_SectionTitle" = "Setting";
+
+"NotificationSettings_On_RiskChanges" = "Your risk of infection changed";
+
+"NotificationSettings_On_TestsStatus" = "Status of your COVID-19 test";
+
+"NotificationSettings_Off_SectionTitle" = "Setting";
+
+"NotificationSettings_Off_EnableNotifications" = "Notifications";
+
+"NotificationSettings_Off_StatusInactive" = "Off";
+
+"NotificationSettings_Off_InfoTitle" = "Activate Notifications";
+
+"NotificationSettings_Off_InfoDescription" = "To activate notifications, you must allow notifications for the Exo-app in your device settings.";
+
+"NotificationSettings_Off_OpenSettings" = "Open Settings";
+
+"NotificationSettings_NavTitle" = "Notifications";
+
+"NotificationSettings_onImageDescription" = "A woman receives a notification from her Exo-app.";
+
+"NotificationSettings_offImageDescription" = "A woman cannot receive notifications from her Exo-app.";
+
+/* Background App Referesh Settings */
+"BackgroundAppRefreshSettings_Title" = "Background App Refresh";
+
+"BackgroundAppRefreshSettings_Image_Description_On" = "A person holds a smartphone in which background app refresh is activated.";
+
+"BackgroundAppRefreshSettings_Image_Description_Off" = "A person holds a smartphone in which background app refresh is deactivated.";
+
+"BackgroundAppRefreshSettings_Subtitle" = "Update Risk Status in the Background";
+
+"BackgroundAppRefreshSettings_Description" = "Once background app refresh is activated, the Exo-app determines your risk status automatically.\nNo additional costs will be incurred for data transfer over the mobile network.\nIf background app refresh is deactivated, you will have to open the app manually each day to update your risk status.";
+
+"BackgroundAppRefreshSettings_Status_Header" = "Setting";
+
+"BackgroundAppRefreshSettings_Status_Title" = "Background App Refresh";
+
+"BackgroundAppRefreshSettings_Status_On" = "On";
+
+"BackgroundAppRefreshSettings_Status_Off" = "Off";
+
+"BackgroundAppRefreshSettings_InfoBox_Title" = "Activate Background App Refresh";
+
+"BackgroundAppRefreshSettings_InfoBox_Description" = "You have to activate background app refresh in both the general settings of your iPhone and in the settings of the Exo-app.";
+
+"BackgroundAppRefreshSettings_InfoBox_LowPowerMode_Description" = "Please note that low power mode must be deactivated for you to activate background app refresh.";
+
+"BackgroundAppRefreshSettings_InfoBox_LowPowerModeInstruction_Title" = "Deactivate Low Power Mode";
+
+"BackgroundAppRefreshSettings_InfoBox_LowPowerModeInstruction_Step1" = "Open Settings";
+
+"BackgroundAppRefreshSettings_InfoBox_LowPowerModeInstruction_Step2" = "Open Battery";
+
+"BackgroundAppRefreshSettings_InfoBox_LowPowerModeInstruction_Step3" = "Deactivate Low Power Mode";
+
+"BackgroundAppRefreshSettings_InfoBox_SystemBackgroundRefreshInstruction_Title" = "Activate Background App Refresh in General";
+
+"BackgroundAppRefreshSettings_InfoBox_SystemBackgroundRefreshInstruction_Step1" = "Open Settings";
+
+"BackgroundAppRefreshSettings_InfoBox_SystemBackgroundRefreshInstruction_Step2" = "Open General";
+
+"BackgroundAppRefreshSettings_InfoBox_SystemBackgroundRefreshInstruction_Step3" = "Open Background App Refresh";
+
+"BackgroundAppRefreshSettings_InfoBox_SystemBackgroundRefreshInstruction_Step4" = "Select either Wi-Fi or Wi-Fi & Cellular Data";
+
+"BackgroundAppRefreshSettings_InfoBox_AppBackgroundRefreshInstruction_Title" = "Activate Background App Refresh for the Exo-app";
+
+"BackgroundAppRefreshSettings_InfoBox_AppBackgroundRefreshInstruction_Step1" = "Open Settings";
+
+"BackgroundAppRefreshSettings_InfoBox_AppBackgroundRefreshInstruction_Step2" = "Open the settings for the Exo-app";
+
+"BackgroundAppRefreshSettings_InfoBox_AppBackgroundRefreshInstruction_Step3" = "Activate Background App Refresh";
+
+"BackgroundAppRefreshSettings_OpenSettingsButton_Title" = "Open Settings";
+
+"BackgroundAppRefreshSettings_ShareButton_Title" = "Share Instructions";
+
+/* Onboarding */
+"Onboarding_LetsGo_actionText" = "Let’s get started";
+
+"Onboarding_Continue_actionText" = "Next";
+
+"Onboarding_EnableLogging_actionText" = "Activate Exposure Logging";
+
+"Onboarding_Continue_actionTextHint" = "You can skip this screen";
+
+"Onboarding_doNotAllow_actionText" = "Do Not Allow";
+
+"Onboarding_DoNotActivate_actionText" = "Do Not Activate";
+
+"Onboarding_DeactivateExposureConfirmation_title" = "This means the Exo-app cannot send or receive notifications about your COVID-19 risk status.";
+
+"Onboarding_DeactivateExposureConfirmation_message" = "You can deactivate this feature at any time.";
+
+"OnboardingInfo_togetherAgainstCoronaPage_imageDescription" = "A group of persons use their devices around town.";
+
+"OnboardingInfo_togetherAgainstCoronaPage_title" = "Together, we can slow the spread of COVID-19";
+
+"OnboardingInfo_togetherAgainstCoronaPage_boldText" = "More protection for you and for us all. By using the Exo-app we can break chains of infection much quicker.";
+
+"OnboardingInfo_togetherAgainstCoronaPage_normalText" = "EXO-App is the official application of the Greek Government in order to detect contacts based on your phone's Bluetooth technology. The application aims to support the efforts of the Greek Government to limit the spread of COVID-19 in the Greek community.\n\nThe use of the application will be on a purely voluntary basis, it will be able to detect possible contact of the user with a confirmed case of COVID-19 after evaluation of the date, time interval and proximity of the user's contact with a confirmed case.\n\nWe ask you to participate in this national effort, and urge you to use this app to significantly contribute to the fight against COVID-19. By encouraging the people around you to download and use the EXO-app, you can protect yourself, your family, your community and our vulnerable citizens. We are committed to the fight against Covid-19, and believe that we can achieve our results most effectively if we all collaborate. By using the best tools and technologies, designed to measure accurately but also to keep everyone's privacy secure, we can immediately strengthen our society's efforts and keep everyone safe.";
+
+"OnboardingInfo_togetherAgainstCoronaPage_linkText" = "App Information in Simplified Language and Sign Language";
+
+"OnboardingInfo_privacyPage_imageDescription" = "A woman uses the Exo-app on her smartphone. An icon showing a padlock on the background of a shield symbolizes encrypted data.";
+
+"OnboardingInfo_privacyPage_title" = "Data Privacy";
+
+"OnboardingInfo_privacyPage_boldText" = "";
+
+"OnboardingInfo_privacyPage_normalText" = "You will remain anonymous.\nYour data is fully encrypted and transmitted under a pseudonym.\n\nResponsible body: GDPR, article 4, para. 7:\n\nRobert Koch-Institute\nNordufer 20\n13353 Berlin\nPlease read our data privacy regulations.\n\nData privacy information:";
+
+"OnboardingInfo_enableLoggingOfContactsPage_imageDescription" = "Three persons have activated exposure logging on their devices, which will log their encounters with each other.";
+
+"OnboardingInfo_enableLoggingOfContactsPage_title" = "How You Make Exposure Logging Possible";
+
+"OnboardingInfo_enableLoggingOfContactsPage_boldText" = "To identify any possible exposure, you need to enable exposure logging.";
+
+"OnboardingInfo_enableLoggingOfContactsPage_normalText" = "How does it work?\n\nIf smartphones with the app installed are turned on, have bluetooth enabled, and are near each other for a period of time, an encounter is registered on your device\n\nIs my data secure?\n\nIn the event of an encounter, your data, and information remain anonymous. The app doesn't store any personal data. Only random IDs are exchanged. These are deleted after 14 days.
+
+The App doesn;t protect you from COVID-19 infection
+";
+
+"OnboardingInfo_enableLoggingOfContactsPage_consentUnderagesTitle" = "Age Limit: 16 and Up";
+
+"OnboardingInfo_enableLoggingOfContactsPage_consentUnderagesText" = "The use of this app is intended for persons who are at least 16 years of age and who reside in Greece.";
+
+"OnboardingInfo_enableLoggingOfContactsPage_stateHeader" = "Status";
+
+"OnboardingInfo_enableLoggingOfContactsPage_stateTitle" = "Exposure Logging";
+
+"OnboardingInfo_enableLoggingOfContactsPage_stateActive" = "Active";
+
+"OnboardingInfo_enableLoggingOfContactsPage_stateStopped" = "Stopped";
+
+"OnboardingInfo_howDoesDataExchangeWorkPage_imageDescription" = "An encrypted positive test diagnosis is transmitted to the system, which will now warn other users.";
+
+"OnboardingInfo_howDoesDataExchangeWorkPage_title" = "If you are diagnosed with COVID-19 …";
+
+"OnboardingInfo_howDoesDataExchangeWorkPage_boldText" = "If the user is tested positive for SARS-CoV-2, he/she has the option to enter a code in the app to send this information to the apps of other users that he/she came in contact with.";
+
+"OnboardingInfo_howDoesDataExchangeWorkPage_normalText" = "At the end, the user will help people that he/she has encountered, even during his/her trip in another European country, to be informed if they came in contact with the user. At the same time, the user can also receive notifications on the app with instructions on what to do next. In either case, the privacy of the user is fully preserved as no personal data is exchanged or revealed, nor names, locations, profiles, etc.";
+
+"OnboardingInfo_alwaysStayInformedPage_imageDescription" = "A woman receives a notification from her Exo-app.";
+
+"OnboardingInfo_alwaysStayInformedPage_title" = "Receive Warnings and Identify Risks";
+
+"OnboardingInfo_alwaysStayInformedPage_boldText" = "The app can notify you automatically about your risk status and warn you about new infections of people you have been exposed to. Allow the app now to notify you.";
+
+"OnboardingInfo_alwaysStayInformedPage_normalText" = "You can then self-isolate to protect others and find out where you can get tested.";
+
+/* Onboarding EU Keys */
+"onboardingInfo_enableLoggingOfContactsPage_euTitle" = "Transnational Exposure Logging";
+
+"onboardingInfo_enableLoggingOfContactsPage_euDescription" = "Several countries have teamed up to enable transnational warnings. In other words, your potential exposure to users of the official coronavirus apps in all participating countries can now be taken into account.\n\nWhen a user submits their positive test result (more specifically: their random IDs) to warn others through the exchange server jointly operated by the participating countries, all users of the official coronavirus apps in all these countries can be warned of their potential exposure.\n\nThe daily downloads of lists of random IDs from users who have shared positive test results are usually free of charge for you. Specifically, this means that mobile network operators do not charge you for the data used by the app in this context, nor do they apply roaming charges for this in other EU countries. Please contact your mobile network operator for more information.";
+
+"onboardingInfo_enableLoggingOfContactsPage_participatingCountriesTitle" = "The following countries currently participate:";
+
+"onboardingInfo_enableLoggingOfContactsPage_emptyEuTitle" = "Participating Countries";
+
+"onboardingInfo_enableLoggingOfContactsPage_emptyEuDescription" = "You can view the participating countries in the exposure logging details.";
+
+/* Exposure Submission */
+"ExposureSubmission_Hotline_Number" = "+30 215 215 7865";
+
+"ExposureSubmission_DataPrivacyTitle" = "Consent";
+
+"ExposureSubmission_Continue_actionText" = "Next";
+
+"ExposureSubmission_ConfirmDismissPopUpTitle" = "Do you want to cancel?";
+
+"ExposureSubmission_ConfirmDismissPopUpText" = "Your entries will not be saved.";
+
+"ExposureSubmission_DataPrivacyDescription" = "By tapping “Accept”, you consent to the app querying the status of your coronavirus test and displaying it in the app. This feature is available to you if you have received a QR code and have consented to your test result being transmitted to the app’s server system. As soon as the testing lab has stored your test result on the server, you will be able to see the result in the app. If you have enabled notifications, you will also receive a notification outside the app telling you that your test result has been received. However, for privacy reasons, the test result itself will only be displayed in the app. You can withdraw this consent at any time by deleting your test registration in the app. Withdrawing your consent will not affect the lawfulness of processing before its withdrawal. Further information can be found in the menu under “Data Privacy”.";
+
+"ExposureSubmissionDataPrivacy_AcceptTitle" = "Allow";
+
+"ExposureSubmissionDataPrivacy_DontAcceptTitle" = "Do Not Allow";
+
+"ExposureSubmission_Submit" = "Enter CODE";
+
+"ExposureSubmissionTanEntry_Title" = "Enter CODE";
+
+"ExposureSubmissionTanEntry_EntryField" = "CODE Entry Field";
+
+"ExposureSubmissionTanEntry_Info" = "Please enter the CODE you were given:";
+
+"ExposureSubmissionTanEntry_Description" = "Please enter the 10-digit CODE that you were given.";
+
+"ExposureSubmissionTanEntry_Submit" = "Next";
+
+"ExposureSubmissionTanEntry_InvalidCharacterError" = "Your entry contains invalid characters. Please check your entry.";
+
+"ExposureSubmissionTanEntry_InvalidError" = "Invalid CODE. Please check your entry.";
+
+"ExposureSubmission_NavTitle" = "Send Diagnosis Key";
+
+"ExposureSubmissionConfirmation_Title" = "Positive Diagnosis";
+
+"ExposureSubmission_GeneralErrorTitle" = "Error";
+
+/* Exposure Submission Dispatch */
+"ExposureSubmission_DispatchTitle" = "Retrieve Test Result";
+
+"ExposureSubmissionIntroduction_AccImageDescription" = "A device transmits an encrypted positive test diagnosis to the system.";
+
+"ExposureSubmission_DispatchDescription" = "If you have been informed by the Greek Ministry of Health that you are COVID-19 positive and have been received by SMS a verification code, then you can enter the code to the following screen.\n\nIf you did not receive a code, then you cannot proceed.";
+
+"ExposureSubmission_DispatchSectionHeadline" = "Do you have your verification code?";
+
+"ExposureSubmission_DispatchSectionHeadline2" = "Did you test positive for coronavirus?";
+
+"ExposureSubmissionDispatch_QRCodeButtonTitle" = "Test with QR Code";
+
+"ExposureSubmissionDispatch_QRCodeButtonDescription" = "Register your test by scanning the QR code of your test document.";
+
+"ExposureSubmissionDispatch_TANButtonTitle" = "Enter CODE";
+
+"ExposureSubmissionDispatch_TANButtonDescription" = "Do you have a CODE? Tap here to enter your CODE so you can warn others.";
+
+"ExposureSubmissionDispatch_HotlineButtonTitle" = "No TAN yet?";
+
+"ExposureSubmissionDispatch_HotlineButtonDescription" = "Call us and get a TAN.";
+
+/* Exposure Submission Hotline */
+"ExposureSubmissionHotline_Title" = "Request TAN";
+
+"ExposureSubmissionHotline_Description" = "Please keep your test result (if available) and your phone number ready to request a TAN.";
+
+"ExposureSubmissionHotline_SectionTitle" = "How this works:";
+
+"ExposureSubmissionHotline_SectionDescription1" = "Call the hotline and request a TAN:";
+
+"ExposureSubmissionHotline_iconAccessibilityLabel1" = "Step 1 of 2";
+
+"ExposureSubmissionHotline_iconAccessibilityLabel2" = "Step 2 of 2";
+
+"ExposureSubmission_PhoneNumber" = "+30 215 215 7865";
+
+"ExposureSubmission_PhoneDetailDescription" = "Languages:\nGreece, English\n\nBusiness hours:\nMonday to Sunday: 24 hours\n\nThe call is free of charge.\n\nIf you have any health-related questions, please contact your general practitioner or the medical emergency service hotline; telephone: 116 117.";
+
+"ExposureSubmission_SectionDescription2" = "Register the test by entering the TAN in the app.";
+
+"ExposureSubmission_CallButtonTitle" = "Call";
+
+"ExposureSubmission_TANInputButtonTitle" = "Enter TAN";
+
+"ExposureSubmissionHotline_imageDescription" = "Hotline communicates a TAN.";
+
+/* Exposure Submission QR Code Info */
+"ExposureSubmissionQRInfo_title" = "Your Consent";
+
+"ExposureSubmissionQRInfo_imageDescription" = "A person is holding a smartphone. A QR code on a test symbolizes the code to be scanned.";
+
+"ExposureSubmissionQRInfo_title_description" = "Your consent is needed before you can retrieve your test result and warn others.";
+
+"ExposureSubmissionQRInfo_header_section_1" = "Retrieve Test Result";
+
+"ExposureSubmissionQRInfo_body_section_1" = "In the next step, scan the QR code on your test and retrieve your test result.";
+
+"ExposureSubmissionQRInfo_instruction1" = "Please only scan your own test.";
+
+"ExposureSubmissionQRInfo_instruction2" = "Your test can only be scanned once. The app cannot manage multiple tests at the same time.";
+
+"ExposureSubmissionQRInfo_instruction3" = "The app can%@ manage multiple tests at the same time.";
+
+"ExposureSubmissionQRInfo_instruction3_highlightedPhrase" = "not";
+
+"ExposureSubmissionQRInfo_header_section_2" = "Please help others you have encountered by warning them!";
+
+"ExposureSubmissionQRInfo_body_section_2" = "If you have been diagnosed with coronavirus, you can warn others through the app. The warning feature works in several countries. The following countries are currently participating:";
+
+"ExposureSubmissionQRInfo_acknowledgement_3" = "Your consent is voluntary.";
+
+"ExposureSubmissionQRInfo_acknowledgement_4" = "You can retrieve your test result even if you do not choose to share it. But if you share your test result, you will help to protect others against infection.";
+
+"ExposureSubmissionQRInfo_acknowledgement_5" = "Your identity will remain secret. Other users will not find out who has shared a test result.";
+
+"ExposureSubmissionQRInfo_acknowledgement_6" = "You must be at least 16 years old to grant your consent.";
+
+"ExposureSubmissionQRInfo_primaryButtonTitle" = "Accept";
+
+"ExposureSubmissionQRInfo_QRCodeExpired_Alert_Title" = "QR code no longer valid";
+
+"ExposureSubmissionQRInfo_QRCodeExpired_Alert_Text" = "Your test is more than 21 days old and can no longer be registered in the app. If you are tested again in future, please make sure to scan the QR code as soon as you get it.";
+
+/* Exposure Submission QR Code Scanner */
+"ExposureSubmissionQRScanner_title" = "QR Code Scan";
+
+"ExposureSubmissionQRScanner_instruction" = "Position the frame over the QR code of your document.";
+
+"ExposureSubmissionQRScanner_otherError" = "An unknown error occurred.";
+
+"ExposureSubmissionQRScanner_cameraPermissionDenied" = "Allow the app to use the camera to scan the QR code.";
+
+"ExposureSubmissionQRScanner_CameraFlash" = "Camera flash";
+
+"ExposureSubmissionQRScanner_CameraFlash_On" = "Turned On";
+
+"ExposureSubmissionQRScanner_CameraFlash_Off" = "Turned Off";
+
+"ExposureSubmissionQRScanner_CameraFlash_Enable" = "Turn on camera flash";
+
+"ExposureSubmissionQRScanner_CameraFlash_Disable" = "Turn off camera flash";
+
+/* Exposure Submission Success */
+"ExposureSubmissionSuccess_Title" = "Thank you";
+
+"ExposureSubmissionSuccess_AccImageDescription" = "Everyone in the group is cheering because someone has shared their test result.";
+
+"ExposureSubmissionSuccess_Button" = "That’s it!";
+
+"ExposureSubmissionSuccess_Description" = "Thanks to your support, other people can now be warned and respond appropriately.";
+
+"ExposureSubmissionSuccess_subTitle" = "Other information:";
+
+"ExposureSubmissionSuccess_listTitle" = "Please note:";
+
+"ExposureSubmissionSuccess_listItem1" = "The public health authority will contact you within the next few days.";
+
+"ExposureSubmissionSuccess_listItem2" = "You are infectious. Isolate yourself from other people.";
+
+"ExposureSubmissionSuccess_listItem2_1" = "Your quarantine period is usually 14 days. Please observe your symptoms and monitor how they develop.";
+
+"ExposureSubmissionSuccess_listItem2_2" = "You will be asked by the public health authority to create a list of people you have had contact with. This should include all people with whom you have had close contact with (less than 2 meters, face-to-face conversation) for over 15 minutes in the two days before you developed symptoms. You can use your contact journal for this: simply export the entries and then print them out or send them via e-mail.";
+
+"ExposureSubmissionSuccess_listItem2_3" = "Please particularly consider people who will not be notified directly by the app since they don’t own a smartphone, or haven’t installed the app.";
+
+"ExposureSubmissionSuccess_listItem2_4" = "Even when you no longer have any symptoms and you feel well again, you could still be infectious.";
+
+/* Exposure Submission Testresult available */
+"ExposureSubmissionTestresultAvailable_Title" = "Your test result is available";
+
+"ExposureSubmissionTestresultAvailable_AccImageDescription" = "A woman holds her smartphone in her hand. It is sending a signal to another smartphone.";
+
+"ExposureSubmissionTestresultAvailable_Consent_granted" = "Consent\n“Warn others” granted";
+
+"ExposureSubmissionTestresultAvailable_Consent_not_given" = "Consent\n“Warn others” not granted";
+
+"ExposureSubmissionTestresultAvailable_ListItem1WithConsent" = "Thank you for agreeing to share your test result and helping to warn others as a result.";
+
+"ExposureSubmissionTestresultAvailable_ListItem2WithConsent" = "In the next step, please share your test result by tapping “Share”.";
+
+"ExposureSubmissionTestresultAvailable_ListItem1WithoutConsent" = "You have chosen not to share your test result. Others will not be warned.";
+
+"ExposureSubmissionTestresultAvailable_ListItem2WithoutConsent" = "In the next step, you have the opportunity to change your mind and share your test result after all, to help stop the spread of coronavirus and protect others.";
+
+"ExposureSubmissionTestresultAvailable_primaryButtonTitle" = "Next";
+
+"ExposureSubmissionTestresultAvailable_CloseAlertTitle" = "Important:\nYou are about to cancel this process. You have not warned others yet. Please complete the process and help to protect others.";
+
+"ExposureSubmissionTestresultAvailable_CloseAlertMessage" = "Do you really want to cancel the process?";
+
+"ExposureSubmissionTestresultAvailable_NoConsentCloseAlertTitle" = "Do you want to cancel?";
+
+"ExposureSubmissionTestresultAvailable_NoConsentCloseAlertMessage" = "Your entries will not be saved.";
+
+"ExposureSubmissionTestresultAvailable_CloseAlertButtonCancel" = "Cancel";
+
+"ExposureSubmissionTestresultAvailable_CloseAlertButtonContinue" = "Continue";
+
+/* Exposure Submission Result */
+"ExposureSubmissionResult_Title" = "Your Test Result";
+
+"ExposureSubmissionResult_CardSubTitle" = "Your Diagnosis";
+
+"ExposureSubmissionResult_CardTitle" = "SARS-CoV-2";
+
+"ExposureSubmissionResult_CardPositive" = "Positive";
+
+"ExposureSubmissionResult_CardNegative" = "Negative";
+
+"ExposureSubmissionResult_CardInvalid" = "Evaluation not possible";
+
+"ExposureSubmissionResult_CardPending" = "Your result is not yet available";
+
+"ExposureSubmissionResult_Procedure" = "How this works:";
+
+"ExposureSubmissionResult_testAdded" = "Your test has been added.";
+
+"ExposureSubmissionResult_warnOthers" = "Warn Others";
+
+"ExposureSubmissionResult_warnOthersDesc" = "Share your random IDs and warn others.\nHelp determine the risk of infection for others more accurately by also indicating when you first noticed any coronavirus symptoms.";
+
+"ExposureSubmissionResult_testNegative" = "Negative Diagnosis";
+
+"ExposureSubmissionResult_testNegativeDesc" = "The laboratory result indicates no verification that you have coronavirus SARS-CoV-2.";
+
+"ExposureSubmissionResult_testNegative_furtherInfos_title" = "Other information:";
+
+"ExposureSubmissionResult_testNegative_furtherInfos_listItem1" = "Still feeling unwell? If you feel very poorly and/or your symptoms have worsened, please contact your general practitioner.";
+
+"ExposureSubmissionResult_testNegative_furtherInfos_listItem2" = "Remain at home until you feel well again. If you were to get infected with coronavirus (SARS-CoV-2) whilst weakened from another infection, this could lead to a serious illness.";
+
+"ExposureSubmissionResult_testNegative_furtherInfos_listItem3" = "Do not go to work if you feel unwell to ensure you do not put other people at risk.";
+
+"ExposureSubmissionResult_furtherInfos_hint_testAgain" = "If your symptoms worsen, you might need another SARS-CoV-2 test.";
+
+"ExposureSubmissionResult_testInvalid" = "Test has errors";
+
+"ExposureSubmissionResult_testInvalidDesc" = "There was a problem evaluating your test. Please contact the test center or laboratory involved to find out how to proceed.";
+
+"ExposureSubmissionResult_testExpired" = "Test has errors";
+
+"ExposureSubmissionResult_testExpiredDesc" = "There was a problem evaluating your test. Your QR code has already expired.";
+
+"ExposureSubmissionResult_testPending" = "Your test result is not available yet.";
+
+"ExposureSubmissionResult_testPendingDesc" = "As soon as your test result becomes available, it will be displayed in the app.\n\nYou will also receive your test result outside of the app. The public health authorities will notify you, should your test be positive.\n\nIf you are notified of a positive test result outside the app, please remove the test currently registered in the app. Call the number shown under “Request TAN” to get a TAN. You can then use this TAN to register your result in the app and warn others.";
+
+"ExposureSubmissionResult_WarnOthersConsentGiven" = "Consent “Warn others” granted";
+
+"ExposureSubmissionResult_WarnOthersConsentNotGiven" = "Consent “Warn others” not granted";
+
+"ExposureSubmissionResult_testRemove" = "Delete test";
+
+"ExposureSubmissionResult_testRemoveDesc" = "Please delete the test from the Exo-app, so that you can save a new test code here if necessary.";
+
+"ExposureSubmissionResult_primaryButtonTitle" = "Enter Symptoms";
+
+"ExposureSubmissionResult_secondaryButtonTitle" = "Don’t Enter Symptoms";
+
+"ExposureSubmissionResult_deleteButton" = "Delete test";
+
+"ExposureSubmissionResult_refreshButton" = "Update";
+
+/* ExposureSubmissionSymptoms */
+"ExposureSubmissionSymptoms_Title" = "Symptoms";
+
+"ExposureSubmissionSymptoms_Introduction" = "You can indicate whether and when you noticed any coronavirus symptoms, to allow the app to calculate more accurately the risk of infection to other app users. This step is voluntary. If you do not want to provide information about your symptoms, select “No answer”.";
+
+"ExposureSubmissionSymptoms_Description" = "Have you experienced one or more of the following symptoms in the last few days?";
+
+"ExposureSubmissionSymptoms_Symptom0" = "Increased temperature or fever";
+
+"ExposureSubmissionSymptoms_Symptom1" = "Shortness of breath";
+
+"ExposureSubmissionSymptoms_Symptom2" = "Loss of sense of smell/taste";
+
+"ExposureSubmissionSymptoms_Symptom3" = "Cough";
+
+"ExposureSubmissionSymptoms_Symptom4" = "Runny nose";
+
+"ExposureSubmissionSymptoms_Symptom5" = "Sore throat";
+
+"ExposureSubmissionSymptoms_Symptom6" = "Headache and aching limbs";
+
+"ExposureSubmissionSymptoms_Symptom7" = "General weakness and exhaustion";
+
+"ExposureSubmissionSymptoms_AnswerOptionYes" = "Yes";
+
+"ExposureSubmissionSymptoms_AnswerOptionNo" = "No";
+
+"ExposureSubmissionSymptoms_AnswerOptionPreferNotToSay" = "No answer";
+
+"ExposureSubmissionSymptoms_ContinueButton" = "Next";
+
+/* ExposureSubmissionSymptomsOnset */
+"ExposureSubmissionSymptomsOnset_Title" = "Onset of Symptoms";
+
+"ExposureSubmissionSymptomsOnset_Subtitle" = "When did you first notice the symptoms?";
+
+"ExposureSubmissionSymptomsOnset_Description" = "Please specify the date as accurately as possible.";
+
+"ExposureSubmissionSymptomsOnset_DatePickerTitle" = "Date";
+
+"ExposureSubmissionSymptomsOnset_AnswerOptionLastSevenDays" = "In the last 7 days";
+
+"ExposureSubmissionSymptomsOnset_AnswerOptionOneToTwoWeeksAgo" = "1-2 weeks ago";
+
+"ExposureSubmissionSymptomsOnset_AnswerOptionMoreThanTwoWeeksAgo" = "More than 2 weeks ago";
+
+"ExposureSubmissionSymptomsOnset_AnswerOptionPreferNotToSay" = "No answer";
+
+"ExposureSubmissionSymptomsOnset_ContinueButton" = "That’s it!";
+
+/* ExposureSubmissionSymptoms - Cancel alert */
+"ExposureSubmissionSymptoms_CancelAlertTitle" = "Do you want to cancel entering your symptoms?";
+
+"ExposureSubmissionSymptoms_CancelAlertMessage" = "If you provide information about your symptoms, you can warn others more exactly.";
+
+"ExposureSubmissionSymptoms_CancelAlertButtonCancel" = "Yes";
+
+"ExposureSubmissionSymptoms_CancelAlertButtonContinue" = "No";
+
+/* ExposureSubmissionWarnOthers */
+"ExposureSubmissionWarnOthers_title" = "Warn Others";
+
+"ExposureSubmissionWarnOthers_AccImageDescription" = "A device transmits an encrypted positive test diagnosis to the system.";
+
+"ExposureSubmissionWarnOthers_sectionTitle" = "You can help!";
+
+"ExposureSubmissionWarnOthers_description" = "Because you tested positive for coronavirus, you can now warn others through the app.";
+
+"ExposureSubmissionWarnOthers_supportedCountriesTitle" = "The warning feature works in several countries. The following countries are currently participating:";
+
+"ExposureSubmissionWarnOthers_continueButton" = "Accept";
+
+/* Exposure Submission Result */
+"ExposureSubmissionResult_RemoveAlert_Title" = "The test can only be scanned once.";
+
+"ExposureSubmissionResult_RemoveAlert_Text" = "If you remove the test, you can no longer retrieve your test result. You will receive your test result from the test center or laboratory regardless of the validity of the QR code. If you are diagnosed with COVID-19, the public health authority will be notified through the legally prescribed channel and will contact you.";
+
+"ExposureSubmissionResult_RegistrationDateUnknown" = "Registration date unknown";
+
+"ExposureSubmissionResult_RegistrationDate" = "Test added on";
+
+/* Exposure Submission */
+"ExposureSubmissionError_ErrorPrefix" = "A technical error occurred while sending your data. Please contact the technical hotline. You will find the phone number under App Information.";
+
+"ExposureSubmissionError_NoKeys" = "No diagnosis key is available. Please try again tomorrow.";
+
+"ExposureSubmissionError_InvalidTan" = "The generated TAN is invalid for submission. Please contact the technical hotline via App Information -> Technical Hotline.";
+
+"ExposureSubmissionError_EnNotEnabled" = "Exposure logging is not active.";
+
+"ExposureSubmissionError_NoRegistrationToken" = "No registration token could be found on the smartphone.";
+
+"ExposureSubmissionError_InvalidResponse" = "The response cannot be processed.";
+
+"ExposureSubmissionError_NoResponse" = "The response has no content.";
+
+"ExposureSubmissionError_QRAlreadyUsed" = "The QR code is invalid or has been registered on another smartphone already. You will receive your test result from the test center or laboratory regardless of the validity of the QR code. If you are diagnosed with COVID-19, the public health authority will be notified through the legally prescribed channel and will contact you.";
+
+"ExposureSubmissionError_QRAlreadyUsed_Title" = "QR code is invalid";
+
+"ExposureSubmissionError_TeleTanAlreadyUsed" = "The TAN is invalid or has already been used. For further information, call the number listed under \"Request TAN\".";
+
+"ExposureSubmissionError_QRNotExist_Title" = "QR code has expired";
+
+"ExposureSubmissionError_QRNotExist" = "Please remove the test from the app.\nYou can then add a new test to the app.";
+
+"ExposureSubmissionError_RegTokenNotExist" = "A TAN for submission cannot be generated. Please contact the technical hotline via App Information -> Technical Hotline.";
+
+"ExposureSubmissionError_other" = "A connection error occurred. Error code for technical support:";
+
+"ExposureSubmissionError_otherend" = "Please try again.";
+
+"ExposureSubmissionError_httpError" = "The connection cannot be established.";
+
+"ExposureSubmissionError_declined" = "Please release your random IDs to warn other people.";
+
+"ExposureSubmissionError_unknown" = "Unknown error";
+
+"ExposureSubmissionError_defaultError" = "Error during key transmission";
+
+"ExposureSubmissionError_noAppConfiguration" = "Your Internet connection was lost. Please check the connection and then reopen the app.";
+
+/* Tracing Enable/Disable Settings */
+"ExposureNotificationSetting_TracingSettingTitle" = "Exposure Logging";
+
+"ExposureNotificationSetting_EnableTracing" = "Exposure Logging";
+
+"ExposureNotificationSetting_Tracing_Limited" = "Restricted";
+
+"ExposureNotificationSetting_Tracing_Deactivated" = "Deactivated";
+
+"ExposureNotificationSetting_ActionCell_Header" = "Setting";
+
+"ExposureNotificationSetting_DescriptionTitle_Inactive" = "Activate Exposure Logging";
+
+"ExposureNotificationSetting_DescriptionTitle" = "How exposure logging works";
+
+"ExposureNotificationSetting_DescriptionText1" = "The App’s core functionality is exposure logging. This serves to track possible contacts with other users of the App who are infected with the coronavirus, to evaluate the risk that you yourself have been infected, and – based on the risk identified – to provide you with health advice and recommendations for what to do next.";
+
+"ExposureNotificationSetting_DescriptionText2" = "If you enable the exposure logging feature, then several times a day while the App runs in the background, the App will retrieve a list from the App’s server system of random IDs from users who have tested positive and shared their own random IDs. The App shares these random IDs with your smartphone’s exposure logging functionality, which then compares them with the random IDs stored in your smartphone’s exposure log. If your smartphone’s exposure logging functionality detects a match, it transfers the contact data (date, duration, signal strength) to the App, but not the random ID of the contact in question.\n\nIn the event of a contact, the App analyses the contact data provided by the exposure logging functionality in order to determine your individual risk of infection. The evaluation algorithm which determines how the contact data is interpreted (for example, how the duration of a contact influences the risk of infection) is based on current scientific findings and the guidelines provided by the Department of Epidemiology, MoH, Government of Greece.\n\nTo account for new findings as and when they arise, we may update the evaluation algorithm by adjusting its settings. The settings for the evaluation algorithm are sent to the App together with the list of random IDs of infected users. The identification of your risk of infection is only carried out locally on your smartphone, meaning that the data is processed offline. Once identified, the risk of infection is also only stored in the App and is not passed on to any other recipients (MoH). The legal basis for the processing of your access data, contact data and, if applicable, health data (if the App determines that you may have been infected) described above is your consent which you gave when enabling the exposure logging feature. We note that health data involves the user’s pseudonymised infected/diagnosis keys, user’s COVID-19 test date and the symptoms’ starting date.";
+
+"ExposureNotificationSetting_DescriptionText3" = "You can use the toggle switch to disable exposure logging at any time.";
+
+"ExposureNotificationSetting_DescriptionText4" = "The app never collects personal data such as your name, address or location, nor is this information passed on to other users. It is not possible to use random IDs to draw conclusions about individual persons.";
+
+"ExposureNotificationSetting_Activate_Bluetooth" = "Turn on Bluetooth";
+
+"ExposureNotificationSetting_Bluetooth_Description" = "Bluetooth must be turned on for exposure logging in order to log encounters. Please turn on Bluetooth in your device settings.";
+
+"ExposureNotificationSetting_Activate_Internet" = "Open Internet connection";
+
+"ExposureNotificationSetting_Internet_Description" = "Exposure logging requires an Internet connection to calculate exposures. Please turn on WIFI or mobile data in your device settings.";
+
+"ExposureNotificationSetting_Detail_Action_Button" = "Open Device Settings";
+
+"ExposureNotificationSetting_Activate_OSENSetting" = "Enable Exposure Notifications";
+
+"ExposureNotificationSetting_Activate_OSENSetting_Description" = "Exposure logging requires exposure notifications to be activated in the system settings, so that encounters can be logged. Select \"Open Device Settings\" -> \"Exposure Notifications\" -> \"Share Exposure Information\". Then define the app as active app for exposure notifications by selecting \"Specify as Active Region\".";
+
+"ExposureNotificationSetting_Activate_OSENSetting_Pre13.7" = "Activate COVID-19 Exposure Notifications";
+
+"ExposureNotificationSetting_Activate_OSENSetting_Description_Pre13.7" = "Exposure logging requires COVID-19 Exposure Notifications to be activated in the system settings, so that encounters can be logged. Select \"Open Device Settings\" and activate \"COVID-19 Exposure Notifications\" in the settings.";
+
+"ExposureNotificationSetting_SetActiveApp_OSENSetting" = "Specify Active Region";
+
+"ExposureNotificationSetting_SetActiveApp_OSENSetting_Description_Pre13.7" = "Exposure logging requires the Exo-app to be defined as active app in the system settings, so that encounters can be logged. Select \"Open Device Settings\" -> \"Settings for COVID-19 Exposure Logging\" and then select the Exo-app as active app.";
+
+"ExposureNotificationSetting_SetActiveApp_OSENSetting_Description" = "Exposure logging requires the Exo-app to be defined as active app in the system settings, so that encounters can be logged. Select \"Open Device Settings\" -> \"Exposure Notifications\" -> \"Specify as Active Region\".";
+
+"ExposureNotificationSetting_ParentalControls_OSENSetting" = "Enable COVID-19 Exposure Logging and Notifications";
+
+"ExposureNotificationSetting_ParentalControls_OSENSetting_Description" = "For exposure logging, COVID-19 exposure logging and notifications must be activated in the system settings so that encounters can be logged. Please enable “COVID-19 Exposure Logging and Notifications” in your system settings.";
+
+"ExposureNotificationSetting_AuthorizationRequired_OSENSetting" = "Authorization required";
+
+"ExposureNotificationSetting_AuthorizationRequired_OSENSetting_Description" = "Please confirm use of COVID-19 exposure logging.";
+
+"ExposureNotificationSetting_AuthorizationRequired_ActionTitle" = "Authorization";
+
+"ExposureNotificationSetting_AccLabel_Enabled" = "Three persons have activated exposure logging on their smartphones, which will log their encounters with each other.";
+
+"ExposureNotificationSetting_AccLabel_Disabled" = "A person has deactivated exposure logging on their smartphone, so an encounter with two other persons is not logged.";
+
+"ExposureNotificationSetting_AccLabel_BluetoothOff" = "A person has turned off Bluetooth on their smartphone, so an encounter with two other persons is not logged.";
+
+"ExposureNotificationSetting_AccLabel_InternetOff" = "A person has turned off the Internet connection on their smartphone, so it is not possible to identify their last encounters.";
+
+"ExposureNotificationSetting_Activate_Action" = "Accept";
+
+"ExposureNotificationSetting_Dismiss_Action" = "Cancel";
+
+"ExposureNotificationSetting_GeneralError_Title" = "Error";
+
+"ExposureNotificationSetting_GeneralError_LearnMore_Action" = "Find out more";
+
+"ExposureNotificationSetting_AuthenticationError" = "An error occurred while activating the exposure logging feature. Please check whether you have activated the COVID-19 exposure log in your settings.";
+
+"ExposureNotificationSetting_exposureNotification_Required" = "An error occurred while activating the exposure logging feature. Please check whether the COVID-19 exposure notification feature in your settings is activated for the app.";
+
+"ExposureNotificationSetting_exposureNotification_unavailable" = "An error occurred while activating the exposure logging feature. Please check whether this app is selected as the active app for COVID-19 exposure logging in your settings. For more information, visit our FAQ page.";
+
+"ExposureNotificationSetting_unknownError" = "An unknown error occurred. For more information, visit our FAQ page.";
+
+"ExposureNotificationSetting_apiMisuse" = "An internal error occurred while activating the exposure logging feature. For more information, visit our FAQ page and try again later.";
+
+/* EU Settings */
+"ExposureNotificationSetting_EU_Title" = "Transnational Exposure Logging";
+
+"ExposureNotificationSetting_EU_Desc_1" = "Several countries are working together to enable transnational alerts via a joint exchange server. For example, contacts with users of an official coronavirus app from other participating countries can also be taken into account for exposure logging.";
+
+"ExposureNotificationSetting_EU_Desc_2" = "To do this, the app downloads lists, which are updated daily, of the random IDs of all users who have shared their test results to warn others via their own app. This list is then compared with the random IDs recorded by your iPhone. \n\nThe downloads of the lists are usually free of charge for you. Specifically, this means that mobile network operators do not charge you for the data used by the app in this context, nor do they apply roaming charges for this in other EU countries. Please contact your mobile network operator for more information.";
+
+"ExposureNotificationSetting_EU_Desc_3" = "The following countries currently participate in transnational exposure logging:";
+
+"ExposureNotificationSetting_EU_Desc_4" = "The app’s privacy notice (including information about the data processing carried out for the transnational exposure logging feature) can be found in the menu under “App Information” > “Data Privacy”.";
+
+/* EU Tracing Risk decription */
+"ExposureNotificationSetting_euTracingRiskDeterminationTitle" = "Transnational Exposure Logging";
+
+"ExposureNotificationSetting_euTracingAllCountriesTitle" = "Participating Countries";
+
+"ExposureNotificationSetting_EU_Empty_Error_Title" = "Countries cannot be displayed now.";
+
+"ExposureNotificationSetting_EU_Empty_Error_Desc" = "Your Internet connection may have been lost. Please ensure that you are connected to the Internet.";
+
+"ExposureNotificationSetting_EU_Empty_Error_Button_Title" = "Open Device Settings";
+
+/* Home Navigation Bar */
+"Home_LeftBarButton_description" = "Exo-app logo";
+
+"Home_RightBarButton_description" = "Information";
+
+/* Home Active card */
+"Home_Activate_Card_On_Title" = "Exposure Logging Active";
+
+"Home_Activate_Card_Off_Title" = "Exposure logging stopped";
+
+"Home_Activate_Card_Bluetooth_Off_Title" = "Bluetooth turned off";
+
+/* Home common card */
+"Home_Risk_Date_Item_Title" = "Updated: %@";
+
+"Home_Risk_No_Date_Title" = "Unknown";
+
+"Home_Risk_Period_Disabled_Button_Title" = "Updated only every %@\U00A0hours";
+
+"Home_Risk_Last_Contact_Item_Title" = "Most recently on %@";
+
+"Home_Risk_Last_Activate_Item_Title" = "Last exposure check: %@";
+
+"Home_Risk_Last_Activate_Item_Unknown_Title" = "Unknown Risk";
+
+"Home_Risk_Last_Activate_Item_Low_Title" = "Low Risk";
+
+"Home_Risk_Last_Activate_Item_High_Title" = "Increased Risk";
+
+"Home_RiskCard_Update_Button" = "Update";
+
+/* Home Inactive card */
+"Home_Risk_Inactive_NoCalculation_Possible_Title" = "Exposure logging stopped";
+
+"Home_Risk_Inactive_Outdated_Results_Title" = "Exposure logging is not possible";
+
+"Home_Risk_Inactive_NoCalculation_Possible_Body" = "Activate exposure logging to evaluate your risk status today.";
+
+"Home_Risk_Inactive_Outdated_Results_Body" = "Your exposure logging could not be updated for more than 24 hours.";
+
+"Home_Risk_Inactive_NoCalculation_Possible_Button" = "Activate Exposure Logging";
+
+"Home_Risk_Inactive_Outdated_Results_Button" = "Activate Exposure Logging";
+
+/* Home Low card */
+"Home_Risk_Low_Title" = "Low Risk";
+
+/* Home High card */
+"Home_Risk_High_Title" = "Increased Risk";
+
+/* Home Status Check */
+"Home_Risk_Status_Downloading_Title" = "Data is being downloaded…";
+
+"Home_Risk_Status_Detecting_Title" = "Check is running …";
+
+"Home_Risk_Status_Downloading_Body" = "This may take several minutes. Thank you for your patience.";
+
+"Home_Risk_Status_Detecting_Body" = "Your exposure data is being checked. This may take several minutes. Thank you for your patience.";
+
+/* Home exposure detection failed card */
+"Home_Risk_Failed_Title" = "Exposure check failed";
+
+"Home_Risk_Failed_Body" = "The synchronization of random IDs with the server failed. You can restart the synchronization manually.";
+
+"Home_Risk_Restart_Button_Title" = "Restart";
+
+/* Home Thank you card */
+"Home_Thank_You_Card_Title" = "Thank you!";
+
+"Home_Thank_You_Card_Body" = "Thanks to your support, other people can now be warned and respond appropriately.";
+
+"Home_Thank_You_Card_Note_Title" = "Please note:";
+
+"Home_Thank_You_Card_Phone_Item_Title" = "The public health authority will contact you within the next few days.";
+
+"Home_Thank_You_Card_Home_Item_Title" = "You are infectious. Isolate yourself from other people.";
+
+"Home_Thank_You_Card_Further_Info_Item_Title" = "Other information:";
+
+"Home_Thank_You_Card_14Days_Item_Title" = "Your quarantine period is usually 14 days. Please observe your symptoms and monitor how they develop.";
+
+"Home_Thank_You_Card_Contacts_Item_Title" = "You will be asked by your public health authority to create a list of people you have had contact with. This should include all people with whom you have had close contact with (less than 2 meters, face-to-face conversation) for over 15 minutes in the two days before you developed symptoms.";
+
+"Home_Thank_You_Card_App_Item_Title" = "Please particularly consider people who will not be notified directly by the app since they don’t own a smartphone, or haven’t installed the app.";
+
+"Home_Thank_You_Card_NoSymptoms_Item_Title" = "Even when you no longer have any symptoms and you feel well again, you could still be infectious.";
+
+/* Home Finding positive */
+"Home_Finding_Positive_Card_Title" = "Positive Diagnosis";
+
+"Home_Finding_Positive_Card_Status_Title" = "SARS-CoV-2 positive";
+
+"Home_Finding_Positive_Card_Status_Subtitle" = "You have been diagnosed with the SARS-CoV-2 virus.";
+
+"Home_Finding_Positive_Card_Note_Title" = "Please note:";
+
+"Home_Finding_Positive_Card_Phone_Item_Title" = "The public health authority will contact you within the next few days by telephone or by letter.";
+
+"Home_Finding_Positive_Card_Home_Item_Title" = "You are infectious. Isolate yourself from other people.";
+
+"Home_Finding_Positive_Card_Share_Item_Title" = "Share your random IDs so that others can be warned.";
+
+"Home_Finding_Positive_Card_Button" = "Warn Others";
+
+/* Home Submit card */
+"Home_SubmitCard_Title" = "Have you been tested?";
+
+"Home_SubmitCard_Body" = "Help protect yourself and others.";
+
+"Home_SubmitCard_Button" = "Next Steps";
+
+/* Home Diary card */
+"Home_DiaryCard_Title" = "Contact Journal";
+
+"Home_DiaryCard_Body" = "Keep track of where you have been and whom you met.";
+
+"Home_DiaryCard_Button" = "Manage Journal";
+
+"Home_InfoCard_ShareTitle" = "Share the Exo-app";
+
+"Home_InfoCard_ShareBody" = "The more people who use the app, the faster we can break chains of infection. Please invite your family and friends to download the app.";
+
+"Home_InfoCard_AboutTitle" = "COVID-19 FAQ";
+
+"Home_InfoCard_AboutBody" = "Here you can find answers to frequently asked questions about the Exo-app. You will be forwarded to an external Greek government website.";
+
+"Home_SettingsCard_Title" = "Settings";
+
+"Home_AppInformationCard_Title" = "App Information";
+
+"Home_AppInformationCard_Version" = "Version";
+
+/* Home Result Card */
+"Home_resultCard_ResultAvailableTitle" = "Your Test Result Is Available";
+
+"Home_resultCard_ResultUnvailableTitle" = "Your result is not yet available";
+
+"Home_resultCard_ShowResultButton" = "Display Test";
+
+"Home_resultCard_RetrieveResultButton" = "Retrieve Test Result";
+
+"Home_resultCard_LoadingBody" = "Current data is being downloaded.\nThis can take several minutes.";
+
+"Home_resultCard_LoadingTitle" = "Update in progress …";
+
+"Home_resultCard_NegativeTitle" = "Negative Diagnosis";
+
+"Home_resultCard_NegativeDesc" = "You have been diagnosed negative for SARS-CoV-2.";
+
+"Home_resultCard_PendingDesc" = "The evaluation of your test is not yet done.";
+
+"Home_resultCard_InvalidTitle" = "Invalid test";
+
+"Home_resultCard_InvalidDesc" = "Your test cannot be evaluated.";
+
+"Home_resultCard_AvailableSubtitle" = "You can now retrieve your test result.";
+
+"Home_resultCard_AvailableDesc" = "If you have tested positive for coronavirus, you can warn others.";
+
+"Home_resultCard_LoadingErrorTitle" = "Your test result cannot be loaded.";
+
+/* Home Alert Risk Lowered */
+"Home_Alert_RiskStatusLowered_Title" = "Change of Your Risk Status";
+
+"Home_Alert_RiskStatusLowered_Message" = "The last exposure that resulted in your increased risk was more than 14 days ago. Therefore, your risk of infection has been ranked as low again.\n\nThis is what you should do:\n1. If you do not have any COVID-19 symptoms, continue to follow the prevailing rules regarding distancing and hygiene.\n2. If you have COVID-19 symptoms, we recommend that you visit your doctor and get tested.";
+
+"Home_Alert_RiskStatusLowered_PrimaryButtonTitle" = "OK";
+
+/* App Information - About */
+"App_Information_About_Navigation" = "About the App";
+
+"App_Information_About_ImageDescription" = "";
+
+"App_Information_About_Title" = "Let’s fight coronavirus together";
+
+"App_Information_About_Description" = "EXO is the official application of the Greek Government which was created for the detection of contacts based on the Bluetooth technology of your phone. The application aims to support the efforts of the Greek Government to limit the spread of COVID-19 in the Greek community.
+The application will be on a purely voluntary basis, it will be able to detect possible contact of the user with a confirmed case of COVID-19 after evaluating the date, time and proximity of the user's contact with a confirmed case.
+
+It is noted, however, that this application in no way replaces the active tracking carried out by the Ministry of Health with the conventional method.
+
+Use this application to make a significant contribution to the fight against coronavirus. Protect yourself, your family, your community and your vulnerable citizens. Encourage everyone you know to download and use the EXO application where possible. Our basic philosophy is that we can fight the coronavirus by collaborating, empowering Greek society with tools and technologies that can be used effectively but with the protection of your privacy.";
+
+"App_Information_About_Text" = "People who use the app help to trace and break chains of infection. The app saves encounters with other people locally on your device. You are notified if you have encountered people who were later diagnosed with COVID-19. Your identity and privacy are always protected.";
+
+"App_Information_About_LinkText" = "App Information in Simplified Language and Sign Language";
+
+/* App Information - FAQ */
+"App_Information_FAQ_Navigation" = "COVID-19 FAQ";
+
+/* App Information - Contact */
+"App_Information_Contact_Navigation" = "Contact";
+
+"App_Information_Contact_ImageDescription" = "A man wears a headset while making a phone call.";
+
+"App_Information_Contact_Title" = "How can we help you?";
+
+"App_Information_Contact_Description" = "If you have any questions about your health, contact your personal doctor or NPHO.";
+
+"App_Information_Contact_Description2" = "For technical questions about the Exo-app, please contact our hotline.";
+
+"App_Information_Contact_Hotline_Title" = "NPHO Hotilne";
+
+"App_Information_Contact_Hotline_Title2" = "EDYTE Hotilne";
+
+"App_Information_Contact_Hotline_Text" = "1135";
+
+"App_Information_Contact_Hotline_Number" = "1135";
+
+"App_Information_Contact_Hotline_Text2" = "+30 215 215 7865";
+
+"App_Information_Contact_Hotline_Number2" = "+30 215 215 7865";
+
+"App_Information_Contact_Hotline_Description" = "Our customer service is here to help.";
+
+"App_Information_Contact_Hotline_Terms" = "";
+
+/* App Information - Imprint */
+"App_Information_Imprint_Navigation" = "Imprint";
+
+"App_Information_Imprint_ImageDescription" = "A hand holds a smartphone displaying a large body of text on the screen. Next to the text is a section symbol representing the imprint.";
+
+"App_Information_Imprint_Section1_Title" = "Published by";
+
+"App_Information_Imprint_Section1_Text" = "";
+
+"App_Information_Imprint_Section2_Title" = "National Public Health Organization";
+
+"App_Information_Imprint_Section2_Text" = "Agrafon 3-5\n15123 Athens";
+
+"App_Information_Imprint_Section3_Title" = "Contact";
+
+"App_Information_Imprint_Section3_Text" = "E-mail: info@eody.gov.gr";
+
+"App_Information_Imprint_Section4_Title" = "";
+
+"App_Information_Imprint_Section4_Text" = "";
+
+"App_Information_Contact_Form_Title" = "Contact Form";
+
+/* App Information - Legal */
+"App_Information_Legal_Navigation" = "Legal Notices";
+
+/* App Information - Privacy */
+"App_Information_Privacy_Navigation" = "Data Privacy";
+
+"App_Information_Legal_ImageDescription" = "A hand holds a smartphone displaying a large body of text on the screen. Next to the text is a balance scale that symbolizes legal notices.";
+
+"App_Information_Privacy_Title" = "Data Privacy";
+
+"App_Information_Privacy_Description" = "You will remain anonymous.\nYour data is fully encrypted and transmitted under a pseudonym.";
+
+/* App Information - Terms */
+"App_Information_Terms_Navigation" = "How the app works";
+
+"App_Information_Terms_ImageDescription" = "A hand holds a smartphone displaying a large body of text on the screen. Next to the text is a tick mark symbolizing that the terms of use have been accepted.";
+
+"App_Information_Terms_Title" = "How the app works";
+
+/* Invite Friends */
+"InviteFriends_NavTitle" = "Share";
+
+"InviteFriends_Subtitle" = "Share the Exo-app";
+
+"InviteFriends_Title" = "Let’s fight coronavirus together";
+
+"InviteFriends_Description" = "The more people who use the app, the faster we can break chains of infection. Please invite your family and friends to download the app.";
+
+"InviteFriends_Button" = "Send Download Link";
+
+"InviteFriends_ShareTitle" = "Fighting coronavirus together. I’m in on this, you too?";
+
+"InviteFriends_Illustration_Label" = "A man shares the Exo-app with four other persons.";
+
+/* Reset View */
+"Reset_NavTitle" = "Reset";
+
+"Reset_Header1" = "Are you sure you want to reset the app?";
+
+"Reset_Descrition1" = "You will no longer be notified of your exposures and you will no longer be able to warn other users.";
+
+"Reset_Button" = "Reset App";
+
+"Reset_Discard" = "Cancel";
+
+"Reset_InfoTitle" = "Delete Exposure Log";
+
+"Reset_InfoDescription" = "The exposure log must be deleted separately in your device settings.";
+
+"Reset_Subtitle" = "Reset App";
+
+"Reset_ImageDescription" = "A hand holds a smartphone displaying a symbol indicating that the app is being reset.";
+
+"Reset_ConfirmDialog_Title" = "Reset App";
+
+"Reset_ConfirmDialog_Description" = "You will no longer be notified of your exposures and you will no longer be able to warn other users. This procedure cannot be undone.";
+
+"Reset_ConfirmDialog_Cancel" = "Cancel";
+
+"Reset_ConfirmDialog_Confirm" = "Reset";
+
+/* Local Notifications */
+"local_notifications_ignore" = "Ignore";
+
+"local_notifications_detectexposure_title" = "Exo-app";
+
+"local_notifications_detectexposure_body" = "You have new messages from your Exo-app.";
+
+"local_notifications_testresults_title" = "Exo-app";
+
+"local_notifications_testresults_body" = "You have new messages from your Exo-app.";
+
+/* Risk Legend */
+"RiskLegend_Title" = "Overview";
+
+"RiskLegend_Subtitle" = "Important Functions and Concepts";
+
+"RiskLegend_Legend1_Title" = "Exposure Logging";
+
+"RiskLegend_Legend1_Text" = "Exposure logging is one of the three central features of the app. When you activate it, encounters with people’s devices are logged. You don’t have to do anything else.";
+
+"RiskLegend_Legend2_Title" = "Risk of Infection";
+
+"RiskLegend_Legend2_Text" = "If you have had contact within the last 14 days with a person who was diagnosed with COVID-19, the app calculates your personal risk of infection. It does this by measuring duration and proximity of the exposure.";
+
+"RiskLegend_Legend2_RiskLevels" = "The following risk status can be shown:";
+
+"RiskLegend_Legend2_High" = "Increased Risk";
+
+"RiskLegend_Legend2_Low" = "Low Risk";
+
+"RiskLegend_Legend3_Title" = "Notifying Other Users";
+
+"RiskLegend_Legend3_Text" = "Another central feature is registering your test and retrieving the result. If you are diagnosed with COVID-19, you can notify others and break the chain of infection.";
+
+"RiskLegend_Definitions_Title" = "Definition of Terms";
+
+"RiskLegend_Store_Title" = "Exposure Log";
+
+"RiskLegend_Store_Text" = "List of received and temporary random IDs saved temporarily in the operating system storage. This list is read when the exposures are checked. All random IDs are automatically deleted after 14 days.";
+
+"RiskLegend_Check_Title" = "Exposure Check";
+
+"RiskLegend_Check_Text" = "Exposure log data is retrieved and synchronized with reported infections of other users. Your risk is checked automatically several times per day.";
+
+"RiskLegend_Contact_Title" = "Exposure Risk";
+
+"RiskLegend_Contact_Text" = "Exposure to an infected person who has shared their positive test results with others through the app. An exposure must meet certain criteria with regard to duration, distance, and suspected infectiousness of the other person to be classified as a high-risk exposure.";
+
+"RiskLegend_Notification_Title" = "Exposure Notification";
+
+"RiskLegend_Notification_Text" = "The display of exposures in the Exo-app.";
+
+"RiskLegend_Random_Title" = "Random ID";
+
+"RiskLegend_Random_Text" = "Random IDs are combinations of digits and letters generated randomly. They are exchanged between devices in close proximity. Random IDs cannot be traced to a specific person and are automatically deleted after 14 days. Persons diagnosed with COVID-19 can opt to share their random IDs of up to the last 14 days with other app users.";
+
+"RiskLegend_Image1_AccLabel" = "A device shows various numbered content.";
+
+/* Update Message */
+"Update_Message_Title" = "Update available";
+
+"Update_Message_Text" = "There is an update available for the Exo-app.";
+
+"Update_Message_Text_Force" = "Please note, you can only use the Exo-app again once you have installed the latest update.";
+
+"Update_Message_Action_Update" = "Update";
+
+"Update_Message_Action_Later" = "Later";
+
+/* ENATanInput */
+"ENATanInput_Empty" = "Empty";
+
+"ENATanInput_InvalidCharacter" = "Invalid Character\n\n%@";
+
+"ENATanInput_CharacterIndex" = "Character %1$u of %2$u";
+
+/* Active Tracing Interval Formatting:\n The following two entries are used together. If tracing was not active (almost) 14 days\n during the last 14 days then `Active_Tracing_Interval_Partially_Active` is used – otherwise\n `Active_Tracing_Interval_Partially_Active` will be used. */
+"Active_Tracing_Interval_Partially_Active" = "Exposure logging was active for %1$u of the past 14 days.";
+
+"Active_Tracing_Interval_Permanently_Active" = "Exposure logging permanently active";
+
+/* Delta Onboarding */
+"DeltaOnboarding_AccessibilityImageLabel" = "Transnational Exposure Logging";
+
+"DeltaOnboarding_Headline" = "Transnational Exposure Logging";
+
+"DeltaOnboarding_Description" = "The features of the Exo-app have been enhanced. Many countries have joined up to enable international warnings, based on a jointly-operated exchange server. Exposure to users of official coronavirus apps in other participating countries can now be taken into account when calculating your exposure risk.\n\nTo do this, the app downloads lists, which are updated daily, of the random IDs of all users who have shared their test results to warn others via their own app. This list is then compared with the random IDs recorded by your iPhone.\n\nThe downloads of the lists are usually free of charge for you. Specifically, this means that mobile network operators do not charge you for the data used by the app in this context, nor do they apply roaming charges for this in other EU countries. Please contact your mobile network operator for more information.";
+
+"DeltaOnboarding_ParticipatingCountries" = "The following countries currently participate:";
+
+"DeltaOnboarding_ParticipatingCountriesList_Unavailable" = "You can view the participating countries in the exposure logging details.";
+
+"DeltaOnboarding_ParticipatingCountriesList_Unavailable_Title" = "Participating Countries";
+
+"DeltaOnboarding_PrimaryButton_Continue" = "Next";
+
+"DeltaOnboarding_Terms_Description1" = "The terms of use have also been updated, to reflect the functional enhancements in the app.";
+
+"DeltaOnboarding_Terms_Button" = "Display terms of use";
+
+"DeltaOnboarding_Terms_Description2" = "The terms of use and privacy notice can also be found in the menu under “App Information” and in the app description in your app store. The changes will not affect how you use the app. If you continue to use the app or reopen it, we will assume that you agree to the updated terms of use.";
+
+/* Warn other notifications */
+"WarnOthersNotification_Title" = "You can help!";
+
+"WarnOthersNotification_Description" = "Please share your test result and warn others.";
+
+/* Automatic sharing Consent */
+"AutomaticSharingConsent_Title" = "Your Consent";
+
+"AutomaticSharingConsent_SwitchTitle" = "Warn Others";
+
+"AutomaticSharingConsent_SwitchTitleDesc" = "You have granted the following consent:";
+
+"AutomaticSharingConsent_DataProcessingDetailInfo" = "Detailed Information on Data Processing and Your Consent";
+
+/* Thank you screen */
+"Thank_You_Title" = "Thank you";
+
+"Thank_You_SubTitle" = "Thank you for helping to stop the spread of coronavirus.";
+
+"Thank_You_Description1" = "Others will now be warned.";
+
+"Thank_You_Description2" = "You can now help to improve the accuracy of the warnings. To do so, in the next step, tell us when you first developed symptoms. You can cancel this step at any time.";
+
+"Thank_You_Continue_Button" = "Enter Symptoms";
+
+"Thank_You_Cancel_Button" = "Exit";
+
+"Thank_You_AccImageDescription" = "Several people are looking at their smartphones.";
+
+/* Test result screen (positive test result) */
+"TestResultPositive_NoConsent_Title" = "Please help all of us!";
+
+"TestResultPositive_NoConsent_Info1" = "Share your test result and help protect others against infection.";
+
+"TestResultPositive_NoConsent_Info2" = "Your identity will remain secret. Other users will not find out who has shared a test result.";
+
+"TestResultPositive_NoConsent_Info3" = "Please be sure to follow the instructions from your public health authority and stay home, so you don’t infect others.";
+
+"TestResultPositive_NoConsent_PrimaryButton" = "Warn Others";
+
+"TestResultPositive_NoConsent_SecondaryButton" = "Cancel";
+
+"TestResultPositive_NoConsent_AlertNotWarnOthers_Title" = "Don’t you want to send a warning?";
+
+"TestResultPositive_NoConsent_AlertNotWarnOthers_Description" = "You have to share your test result if you want to warn others.";
+
+"TestResultPositive_NoConsent_AlertNotWarnOthers_ButtonOne" = "Do not warn others";
+
+"TestResultPositive_NoConsent_AlertNotWarnOthers_ButtonTwo" = "Warn others";
+
+"TestResultPositive_WithConsent_Title" = "Thank you for helping to stop the spread of coronavirus.";
+
+"TestResultPositive_WithConsent_Info1" = "Others will now be warned.";
+
+"TestResultPositive_WithConsent_Info2" = "You can now help to improve the accuracy of the warnings. To do so, in the next step, tell us when you first developed symptoms. You can cancel this step at any time.";
+
+"TestResultPositive_WithConsent_PrimaryButton" = "Enter Symptoms";
+
+"TestResultPositive_WithConsent_SecondaryButton" = "Exit";
+
+/* Overview */
+"ContactDiary_Overview_Button_Title_Menu" = "Menu";
+
+"ContactDiary_Overview_Title" = "Contact Journal";
+
+"ContactDiary_Overview_Description" = "Write down the people you have met and places you have visited. ";
+
+/* ActionSheet */
+"ContactDiary_Overview_ActionSheet_InfoActionTitle" = "Information";
+
+"ContactDiary_Overview_ActionSheet_ExportActionTitle" = "Export Entries";
+
+"ContactDiary_Overview_ActionSheet_EditPersonTitle" = "Edit People";
+
+"ContactDiary_Overview_ActionSheet_EditLocationTitle" = "Edit Places";
+
+/* Day */
+"ContactDiary_Day_ContactPersonsSegment" = "People";
+
+"ContactDiary_Day_AddContactPerson" = "Add Person";
+
+"ContactDiary_Day_ContactPersonsEmptyTitle" = "No people defined yet";
+
+"ContactDiary_Day_ContactPersonsEmptyDescription" = "Create a person and add them to your contact journal.";
+
+"ContactDiary_Day_ContactPersonsEmptyImageDescription" = "A silhouette of a woman who is walking across a meadow.";
+
+"ContactDiary_Day_LocationsSegment" = "Places";
+
+"ContactDiary_Day_AddLocation" = "Add Place";
+
+"ContactDiary_Day_LocationsEmptyTitle" = "No places defined yet";
+
+"ContactDiary_Day_LocationsEmptyDescription" = "Create a place and add it to your contact journal.";
+
+"ContactDiary_Day_LocationsEmptyImageDescription" = "A building is marked with a location flag.";
+
+/* Edit Entries */
+"ContactDiary_EditEntries_ContactPersons_Title" = "People";
+
+"ContactDiary_EditEntries_ContactPersons_DeleteAllButtonTitle" = "Remove All";
+
+"ContactDiary_EditEntries_ContactPersons_AlertTitle" = "Do you really want to remove all people?";
+
+"ContactDiary_EditEntries_ContactPersons_AlertMessage" = "If you remove a person, all the entries for that person will be removed from your journal.";
+
+"ContactDiary_EditEntries_ContactPersons_AlertConfirmButtonTitle" = "Yes";
+
+"ContactDiary_EditEntries_ContactPersons_AlertCancelButtonTitle" = "No";
+
+"ContactDiary_EditEntries_ContactPerson_AlertTitle" = "Do you really want to remove this person?";
+
+"ContactDiary_EditEntries_ContactPerson_AlertMessage" = "If you remove a person, all the entries for that person will be removed from your journal.";
+
+"ContactDiary_EditEntries_ContactPerson_AlertConfirmButtonTitle" = "Yes";
+
+"ContactDiary_EditEntries_ContactPerson_AlertCancelButtonTitle" = "No";
+
+"ContactDiary_EditEntries_Locations_Title" = "Places";
+
+"ContactDiary_EditEntries_Locations_DeleteAllButtonTitle" = "Remove All";
+
+"ContactDiary_EditEntries_Locations_AlertTitle" = "Do you really want to remove all places?";
+
+"ContactDiary_EditEntries_Locations_AlertMessage" = "If you remove a place, all the entries for that place will be removed from your journal.";
+
+"ContactDiary_EditEntries_Locations_AlertConfirmButtonTitle" = "Yes";
+
+"ContactDiary_EditEntries_Locations_AlertCancelButtonTitle" = "No";
+
+"ContactDiary_EditEntries_Location_AlertTitle" = "Do you really want to remove this place?";
+
+"ContactDiary_EditEntries_Location_AlertMessage" = "If you remove a place, all the entries for that place will be removed from your journal.";
+
+"ContactDiary_EditEntries_Location_AlertConfirmButtonTitle" = "Yes";
+
+"ContactDiary_EditEntries_Location_AlertCancelButtonTitle" = "No";
+
+/* Information */
+"ContactDiary_Information_Title" = "Contact Journal";
+
+"ContactDiary_Information_ImageDescription" = "Several people are outside, looking at their smartphones.";
+
+"ContactDiary_Information_DescriptionTitle" = "Keep track of your contacts.";
+
+"ContactDiary_Information_DescriptionSubHeadline" = "Create an overview of your contacts in the last 14 days, so you’ll have a complete list at hand quickly if needed.";
+
+"ContactDiary_Information_Item_Person_Title" = "Enter the people you have met.";
+
+"ContactDiary_Information_Item_Location_Title" = "Enter the places where you’ve encountered others.";
+
+"ContactDiary_Information_Item_Lock_Title" = "You are the only one who can access your journal entries. Your entries will be saved only on your smartphone.";
+
+"ContactDiary_Information_Item_DeletedAutomatically_Title" = "You can remove entries for people and places from your journal at any time. Journal entries will be deleted automatically after 16 days.";
+
+"ContactDiary_Information_Item_ExportTextFormat_Title" = "You can export your contact journal in plain text format and then print out the entries, edit them, or provide them to your public health office as needed.";
+
+"ContactDiary_Information_Dataprivacy_Title" = "For more information, please refer to the privacy notice.";
+
+"ContactDiary_Information_PrimaryButton_Title" = "Manage Journal";
+
+/* AddEditEntry */
+"ContactDiary_AddEditEntry_PrimaryButton_Title" = "Save";
+
+/* - Location */
+"ContactDiary_AddEditEntry_LocationTitle" = "Place";
+
+"ContactDiary_AddEditEntry_LocationPlaceholder" = "Place";
+
+/* - Person */
+"ContactDiary_AddEditEntry_PersonTitle" = "Person";
+
+"ContactDiary_AddEditEntry_PersonPlaceholder" = "Person";
+
+/* - Trend on Cards */
+"Statistics_Card_Trend_Increasing" = "Trend: Upwards";
+
+"Statistics_Card_Trend_Decreasing" = "Trend: Downwards";
+
+"Statistics_Card_Trend_Stable" = "Trend: Steady";
+
+"Statistics_Card_TrendSemantic_Negative" = "Negative";
+
+"Statistics_Card_TrendSemantic_Positive" = "Positive";
+
+"Statistics_Card_TrendSemantic_Neutral" = "Neutral";
+
+/* - Number Formatting */
+"Statistics_Card_Million" = "%@ Million";
+
+/* - Infections Card */
+"Statistics_Card_Infections_Title" = "Confirmed New Infections";
+
+"Statistics_Card_Infections_Today" = "Today";
+
+"Statistics_Card_Infections_Yesterday" = "Yesterday";
+
+"Statistics_Card_Infections_Date" = "%@";
+
+"Statistics_Card_Infections_SecondaryLabelTitle" = "7-day average";
+
+"Statistics_Card_Infections_TertiaryLabelTitle" = "Total";
+
+/* - Incidence Card */
+"Statistics_Card_Incidence_Title" = "7-Day Incidence";
+
+"Statistics_Card_Incidence_Today" = "Up to today";
+
+"Statistics_Card_Incidence_Yesterday" = "Up to yesterday";
+
+"Statistics_Card_Incidence_Date" = "Up to %@";
+
+"Statistics_Card_Incidence_SecondaryLabelTitle" = "confirmed new infections per 100,000 residents";
+
+/* - Key Submissions Card */
+"Statistics_Card_KeySubmissions_Title" = "Warnings by App Users";
+
+"Statistics_Card_KeySubmissions_Today" = "Today";
+
+"Statistics_Card_KeySubmissions_Yesterday" = "Yesterday";
+
+"Statistics_Card_KeySubmissions_Date" = "%@";
+
+"Statistics_Card_KeySubmissions_SecondaryLabelTitle" = "7-day average";
+
+"Statistics_Card_KeySubmissions_TertiaryLabelTitle" = "Total";
+
+"Statistics_Card_KeySubmissions_Footnote" = "through the Exo-app";
+
+/* - Reproduction Number Card */
+"Statistics_Card_ReproductionNumber_Title" = "7-Day R Value";
+
+"Statistics_Card_ReproductionNumber_Today" = "Currently";
+
+"Statistics_Card_ReproductionNumber_Yesterday" = "Yesterday";
+
+"Statistics_Card_ReproductionNumber_Date" = "Up to %@";
+
+"Statistics_Card_ReproductionNumber_SecondaryLabelTitle" = "average infections by each infected person";
+
+/* Error */
+"Statistics_LoadingError" = "The statistics cannot be loaded. Please close the app and try again.";
+
+/* - Info Screen */
+"Statistics_Info_Title" = "Key Figures";
+
+"Statistics_Info_Subtitle" = "Explanation of nationwide statistics";
+
+"Statistics_Info_Infections_Title" = "Confirmed New Infections";
+
+"Statistics_Info_Infections_Text" = "Number of persons who have been diagnosed with coronavirus and reported to the RKI";
+
+"Statistics_Info_KeySubmissions_Title" = "Warnings by App Users";
+
+"Statistics_Info_KeySubmissions_Text" = "Number of app users who have been diagnosed with coronavirus and have warned others through the app";
+
+"Statistics_Info_Incidence_Title" = "7-Day Incidence";
+
+"Statistics_Info_Incidence_Text" = "Total number of confirmed new infections in the last 7 days (by reporting date) per 100,000 residents";
+
+"Statistics_Info_ReproductionNumber_Title" = "7-Day R Value";
+
+"Statistics_Info_ReproductionNumber_Text" = "The reproduction figure, R, indicates how many people an average infected person has infected further. The current value takes data up to the last 5 days into account.";
+
+"Statistics_Info_FAQLink_Text" = "For more information, refer to the";
+
+"Statistics_Info_FAQLink_Title" = "FAQ for the statistics.";
+
+"Statistics_Info_Definitions_Title" = "Legend";
+
+"Statistics_Info_Period_Title" = "Time Period";
+
+"Statistics_Info_Yesterday_Title" = "Yesterday/Up to yesterday";
+
+"Statistics_Info_Yesterday_Text" = "Number for the previous day/up to the previous day. If no figures are available yet for the previous day, the last date for which figures are available is displayed.";
+
+"Statistics_Info_Mean_Title" = "7-Day Average";
+
+"Statistics_Info_Mean_Text" = "Average value from the past 7 days";
+
+"Statistics_Info_Total_Title" = "Total";
+
+"Statistics_Info_Total_Text" = "Total number since the start of the year or launch of the app (June 15, 2020)";
+
+"Statistics_Info_Trend_Title" = "Trend";
+
+"Statistics_Info_Trend_Text" = "The arrow direction indicates whether the trend is increasing, decreasing, or remaining steady – that is, demonstrates a deviation of less than 1% compared to the previous day or 5% compared to the previous week. The color indicates this trend as positive (green), negative (red), or neutral (gray). The trend compares the value from the previous day with the value from two days ago or, for the 7-day trends, the average value from the last 7 days with the average value from the 7 days prior to that.";
+
+"Statistics_Info_Trends_Title" = "The following trends can be shown:";
+
+"Statistics_Info_Trends_Increasing" = "Trend: Upwards";
+
+"Statistics_Info_Trends_Decreasing" = "Trend: Downwards";
+
+"Statistics_Info_Trends_Stable" = "Trend: Steady";
+
+"Statistics_Info_Trends_Footnote" = "The assessment of the trend for warnings by app users changes depending on current infection levels, which is why this trend is always displayed as neutral.";
+
+"Statistics_Info_Image_AccLabel" = "Abstract picture of a smartphone with four placeholders for information";
+
